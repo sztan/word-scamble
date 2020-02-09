@@ -10,7 +10,7 @@ $tries=0;                       // used to index the array of possible solutions
 $maxTries=50;                   // the program makes several grid choices, and then picks one up among them
 mb_internal_encoding("UTF-8");  // you must ensure that the present file is encoded in UTF-8
 a:
-   $mots=["chat",
+   $motsVisibles=["chat",
           "chien",
           "poule",
           "coq",
@@ -26,7 +26,15 @@ a:
           "âne",
           "mûle",
           "chinchilla",
-   ];
+          "Cheyenne",
+          "Maëline",
+          "Iris",
+          "Jade",
+          "Salomé",
+          "Noémie",
+  ];
+   $motsCaches=["sapin"];
+   $mots=array_merge($motsCaches, $motsVisibles);
 
 $mots=array_map('htmlentities',$mots); // in order to convert multibytes characters into html entities
 /* then convert each word into an array, taking htmlentities into account */
@@ -64,8 +72,8 @@ $bilan[$tries]='';
 $motsPlaces[$tries]=[];
 
 // taille de la grille
-$xGrille=10;
-$yGrille=10;
+$xGrille=12;
+$yGrille=12;
 
 // autorisations des sens d'écritures :
 $HAUT=false;
@@ -381,11 +389,16 @@ echo '</table><br/><br/>'.$meilleursBilans[$indexGrilleChoisie].'</div><div styl
 
 
 foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key=>$value){
+   $mot="";
    foreach($value as $v) {
-       echo $v;
+       $mot.=$v;
    }
-   echo '</br>';
+   if(!in_array($mot, $motsCaches)) {
+      echo $mot;
+      echo '</br>';
+   }
 }
+echo "<b>Il y a " . count($motsCaches) . " mot(s) cache(s) dans la grille.</b>";
 echo '</div>';
 
 ?>
