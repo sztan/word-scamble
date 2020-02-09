@@ -33,10 +33,14 @@ a:
           "Salomé",
           "Noémie",
   ];
+
    $motsCaches=["sapin"];
+   // in order to convert multibytes characters into html entities :
+   $motsCaches = array_map('htmlentities',$motsCaches);
+   $motsVisibles = array_map('htmlentities',$motsVisibles);
+
    $mots=array_merge($motsCaches, $motsVisibles);
 
-$mots=array_map('htmlentities',$mots); // in order to convert multibytes characters into html entities
 /* then convert each word into an array, taking htmlentities into account */
 $mots=array_map('str_split',$mots);
 $tmpMots=$mots;
@@ -122,9 +126,16 @@ for ($i=1;$i<=$tot;$i++) {
 
    elseIf ($choisir==='aucune place trouvée') {
       $bilan[$tries].=' Le mot <strong>';
+      $myWord = '';
        foreach($mot as $letter) {
-          $bilan[$tries].= $letter;
+          $myWord .= $letter;
        }
+       if(!in_array($myWord, $motsCaches)) {
+         $bilan[$tries] .= $myWord;
+       } else {
+         $bilan[$tries] .= "***";
+       }
+
        $bilan[$tries].= '</strong> n\'a pas pu être placé dans la grille.<br/>';
    }
 
