@@ -6,49 +6,33 @@
    <body>
 <?php
 $bilan=array();
-$tries=0;                         // used to index the array of possible solutions
+$tries=0;                       // used to index the array of possible solutions
 $maxTries=50;                   // the program makes several grid choices, and then picks one up among them
-mb_internal_encoding("UTF-8");    // you must ensure that the present file is encoded in UTF-8
+mb_internal_encoding("UTF-8");  // you must ensure that the present file is encoded in UTF-8
 a:
-$mots=["Montluel",
-       "Stanislas",
-       "Agathe",
-       "Noémmie",
-       "Mélisse",
-       "Anatoline",
-       "Gwladys",
-       "Chanay",
-       "Marguerite",
-       "Aglaé",
-       "Fanny",
-       "Guillaume",
-       "Blanchette",
-       "Grisette",
-       "Gatto",
-       "Moustache",
-       "Chaussette",
-       "Camille",
-       "Hanaé",
-       "Sacha",
-       "Badis",
-       "Safia",
-       "Elisa",
-       "Nathalie",
-       "Mohamed-Amine",
-       "Maëline",
-       "Elodie",
-       "Resoul",
-       "Salomé",
-       "Mélissa"];
-//$mots=["Stan","Anat","Mel","Noe"];
+   $mots=["chat",
+          "chien",
+          "poule",
+          "coq",
+          "lapin",
+          "cochon",
+          "cheval",
+          "vache",
+          "oiseau",
+          "hamster",
+          "tortue",
+          "mouton",
+          "chèvre",
+          "âne",
+          "mûle",
+          "chinchilla",
+   ];
 
 $mots=array_map('htmlentities',$mots); // in order to convert multibytes characters into html entities
 /* then convert each word into an array, taking htmlentities into account */
 $mots=array_map('str_split',$mots);
 $tmpMots=$mots;
-/*echo '<pre>';
-var_dump($mots);
-echo '</pre>';*/
+
 foreach($tmpMots as $rank=>$mot) {
     $newMot=[];                //init
     $ongoingEntity=0;          // ...
@@ -77,21 +61,21 @@ foreach($tmpMots as $rank=>$mot) {
 
 shuffle($mots);
 $bilan[$tries]='';
-$motsPlaces[$tries]='';
+$motsPlaces[$tries]=[];
 
 // taille de la grille
-$xGrille=17;
-$yGrille=17;
+$xGrille=10;
+$yGrille=10;
 
 // autorisations des sens d'écritures :
-$HAUT=true;
+$HAUT=false;
 $HAUTDROITE=true;
 $DROITE=true;
 $BASDROITE=true;
 $BAS=true;
-$BASGAUCHE=true;
-$GAUCHE=true;
-$HAUTGAUCHE=true;
+$BASGAUCHE=false;
+$GAUCHE=false;
+$HAUTGAUCHE=false;
 
 // initialistion d(u contenu d)e la grille
 for ($x=1;$x<=$xGrille;$x++) {
@@ -99,7 +83,7 @@ for ($x=1;$x<=$xGrille;$x++) {
       $grille[$x][$y]='';
    }
 }
-$OneSuccess=0; //nb de mots placés avec succès
+$OneSuccess=0; //number of words successfully places on the grid
 /*  1 2 3 . . .
  * 1
  * 2
@@ -294,26 +278,16 @@ return $placesTrouvees;
 function testerCases($mot,$l,$xDep,$yDep,$xDir,$yDir) {
    global $grille;
    $z=0; // letters' tests count
-   /*echo '$mot: '.$mot.'<br/>';
-   echo '$l: '.$l.'<br/>';
-   echo '$xDep: '.$xDep.'<br/>';
-   echo '$yDep: '.$yDep.'<br/>';
-   echo '$xDir: '.$xDir.'<br/>';
-   echo '$yDir: '.$yDir.'<br/>';*/
 
    while ($z<$l) {
 
       $newX= $xDep+($z*$xDir);
       $newY= $yDep+($z*$yDir);
       $caseATester = $grille[$newX][$newY];
-      /*echo '$z: '.$z;
-      echo '$grille['.$newX.']['.$newY.']: '.$grille[$newX][$newY].'</br>';
-      if ($caseATester<>'') echo $mot.' '.$caseATester.' - '.$mot[$z].'<br/>';*/
+
       if($caseATester==''||$caseATester==$mot[$z]) {} // empty or same letter = ok continue
       else {
-         //echo 'bad : X:'.$newX.' Y:'.$newY.' $caseATester='.$caseATester.' $mot[$z]='.$mot[$z].'<br/>';
          return false;
-         //break;
       }
       $z++;
    }
@@ -338,6 +312,7 @@ function choisirPossibilite($mot) {
 function placerMot($l,$mot,array $all) {
    global $grille;
    $z=0;
+   $all = array_map('intval', $all);
    while ($z<$l) {
       $newX= $all[0]+($z*$all[2]);
       $newY= $all[1]+($z*$all[3]);
