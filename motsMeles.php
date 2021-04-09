@@ -3,6 +3,8 @@
 // tous les mots
 // - mots à mettre dans la liste d'aide
 // - mots additionnels cachés
+// taille de la grille
+// sens d'écriture autorisés
 
 // caractères spéciaux
 
@@ -10,6 +12,8 @@ $bilan = [];
 $tries = 0;                       // used to index the array of possible solutions
 $maxTries = 50;                   // the program makes several grid choices, and then picks one up among them
 mb_internal_encoding("UTF-8");  // you must ensure that the present file is encoded in UTF-8
+
+// }:O
 a:
 $motsVisibles = [
     "chat",
@@ -76,11 +80,11 @@ shuffle($mots);
 $bilan[$tries] = '';
 $motsPlaces[$tries] = [];
 
-// taille de la grille
-$xGrille = 12;
-$yGrille = 12;
+// grid size de la grille
+$xGrille = 20;
+$yGrille = 20;
 
-// autorisations des sens d'écriture :
+// setting writing directions :
 $HAUT = false;
 $HAUTDROITE = true;
 $DROITE = true;
@@ -91,7 +95,7 @@ $GAUCHE = false;
 $HAUTGAUCHE = false;
 
 $grille = [];
-// initialisation d(u contenu d)e la grille
+// grid initialization
 for ($x = 1; $x <= $xGrille; $x++) {
     $grille[$x] = [];
     for ($y = 1; $y <= $yGrille; $y++) {
