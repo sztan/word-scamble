@@ -1,10 +1,30 @@
 <?php
+session_start();
+$_SESSION['grid'] = uniqid('', true);
 // contrôle des données POST :
 // tous les mots
 // - mots à mettre dans la liste d'aide
 // - mots additionnels cachés
 // taille de la grille
 // sens d'écriture autorisés
+
+//remplacer les ; par des virgules
+$_POST['mots'] = str_replace(';',',', $_POST['mots']);
+//remplacer les 'new line' par des virgules
+$_POST['mots'] = preg_replace("/\n/m", ",", $_POST['mots']);
+//remplacer les whitespaces par des virgules
+$_POST['mots'] = preg_replace("/\s/m", ",", $_POST['mots']);
+// dé-x-blonner les ,
+$_POST['mots'] = preg_replace('/,+/', ',', $_POST['mots']);
+
+//remplacer les ; par des virgules
+$_POST['motsSecrets'] = str_replace(';',',', $_POST['motsSecrets']);
+//remplacer les 'new line' par des virgules
+$_POST['motsSecrets'] = preg_replace("/\n/m", ",", $_POST['motsSecrets']);
+//remplacer les whitespaces par des virgules
+$_POST['motsSecrets'] = preg_replace("/\s/m", ",", $_POST['motsSecrets']);
+// dé-x-blonner les ,
+$_POST['motsSecrets'] = preg_replace('/,+/', ',', $_POST['motsSecrets']);
 
 // caractères spéciaux
 
@@ -15,32 +35,33 @@ mb_internal_encoding("UTF-8");  // you must ensure that the present file is enco
 
 // }:O
 a:
-$motsVisibles = [
-    "chat",
-    "chien",
-    "poule",
-    "coq",
-    "lapin",
-    "cochon",
-    "cheval",
-    "vache",
-    "oiseau",
-    "hamster",
-    "tortue",
-    "mouton",
-    "chèvre",
-    "âne",
-    "mûle",
-    "chinchilla",
-    "Cheyenne",
-    "Maëline",
-    "Iris",
-    "Jade",
-    "Salomé",
-    "Noémie",
-];
+//$motsVisibles = [
+//    "chat",
+//    "chien",
+//    "poule",
+//    "coq",
+//    "lapin",
+//    "cochon",
+//    "cheval",
+//    "vache",
+//    "oiseau",
+//    "hamster",
+//    "tortue",
+//    "mouton",
+//    "chèvre",
+//    "âne",
+//    "mûle",
+//    "chinchilla",
+//    "Cheyenne",
+//    "Maëline",
+//    "Iris",
+//    "Jade",
+//    "Salomé",
+//    "Noémie",
+//];
+$motsVisibles = array_unique(array_filter(array_map('trim', explode(',', $_POST['mots']))));
+$motsCaches = array_unique(array_filter(array_map('trim', explode(',', $_POST['motsSecrets']))));
 
-$motsCaches = ["sapin"];
 // in order to convert multibyte characters into html entities :
 $motsCaches = array_map('htmlentities', $motsCaches);
 $motsVisibles = array_map('htmlentities', $motsVisibles);
@@ -81,18 +102,28 @@ $bilan[$tries] = '';
 $motsPlaces[$tries] = [];
 
 // grid size de la grille
-$xGrille = 20;
-$yGrille = 20;
+//$xGrille = 20;
+//$yGrille = 20;
+$xGrille = $_POST['tailleGrilleX'];
+$yGrille = $_POST['tailleGrilleY'];
 
 // setting writing directions :
-$HAUT = false;
-$HAUTDROITE = true;
-$DROITE = true;
-$BASDROITE = true;
-$BAS = true;
-$BASGAUCHE = false;
-$GAUCHE = false;
-$HAUTGAUCHE = false;
+//$HAUT = false;
+//$HAUTDROITE = true;
+//$DROITE = true;
+//$BASDROITE = true;
+//$BAS = true;
+//$BASGAUCHE = false;
+//$GAUCHE = false;
+//$HAUTGAUCHE = false;
+$HAUT = (bool)$_POST['HAUT'];
+$HAUTDROITE = (bool)$_POST['HAUTDROITE'];
+$DROITE = (bool)$_POST['DROITE'];
+$BASDROITE = (bool)$_POST['BASDROITE '];
+$BAS = (bool)$_POST['BAS'];
+$BASGAUCHE = (bool)$_POST['BASGAUCHE'];
+$GAUCHE = (bool)$_POST['GAUCHE'];
+$HAUTGAUCHE = (bool)$_POST['HAUTGAUCHE'];
 
 $grille = [];
 // grid initialization
@@ -347,7 +378,7 @@ function remplirReste($grille): array
     $stdChars = '';
     $specialChars = '';
     $stdChars = str_split('aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzABCDEFGHIJKLMNOPQRSTUVWXYZ');
-    $specialChars = ['&nbsp;', '&nbsp;', '&eacute;', '&egrave', '&euml', '&iuml', '&ccedil;', '&uuml;', '&ouml;', '&ugrave', '&agrave'];
+    $specialChars = ['&nbsp;', '&nbsp;', '&eacute;', '&egrave;', '&euml;', '&iuml;', '&ccedil;', '&uuml;', '&ouml;', '&ugrave;', '&agrave;'];
 
     foreach ($stdChars as $value) {
         $allChars[] = $value;
@@ -393,7 +424,7 @@ foreach ($success as $key => $value) {
 
 }
 
-$indexGrilleChoisie=null;
+$indexGrilleChoisie = null;
 try {
     $indexGrilleChoisie = random_int(0, count($meilleuresGrilles) - 1);
 } catch (Exception $e) {
@@ -406,17 +437,17 @@ try {
 
 ob_start();
 // dessin
-echo '<div style="position:relative;left:10%;float:left"><table style="border-collapse:collapse">';
+echo '<div style="position:relative; text-align:center"><table><tr><td><table style="border-collapse:collapse">';
 for ($y = 1; $y <= $yGrille; $y++) {
     echo '<tr style="border:1px solid black">';
     for ($x = 1; $x <= $xGrille; $x++) {
-        echo '<td style="text-align:center; border:1px solid black; height:26px; width:26px;">';
+        echo '<td style="vertical-align: middle; text-align:center; border:1px solid black; height:26px; width:26px;">';
         echo $meilleuresGrilles[$indexGrilleChoisie][$x][$y];
         echo '</td>';
     }
     echo '</tr>';
 }
-echo '</table><br/><br/>' . $meilleursBilans[$indexGrilleChoisie] . '</div><div style="position:relative;text-align:center;right:20%;float:right">';
+echo '</table><br/><br/>' . $meilleursBilans[$indexGrilleChoisie] . '</td><td style="padding-left:20px">';
 
 foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key => $value) {
     $mot = "";
@@ -425,13 +456,23 @@ foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key => $value) {
     }
     if (!in_array($mot, $motsCaches)) {
         echo $mot;
-        echo '</br>';
+        echo '<br>';
     }
 }
 echo "<b>Il y a " . count($motsCaches) . " mot(s) cache(s) dans la grille.</b>";
-echo '</div>';
-$retour = ob_get_contents();
-ob_end_clean();
-echo $retour;
+echo '</td></tr></table></div>';
+$retour = ob_get_clean();
 
-?>
+require __DIR__ . '/vendor/autoload.php';
+
+use Spipu\Html2Pdf\Html2Pdf;
+
+$html2pdf = new Html2Pdf('L');
+
+$html2pdf->writeHTML($retour);
+try {
+    $html2pdf->output(__DIR__ . "/${_POST['grid']}.pdf", "F");
+} catch (\Spipu\Html2Pdf\Exception\Html2PdfException $e) {
+    echo $e->getMessage();
+}
+echo $retour . "<br><div style=\"clear:both\"><a href=\"${_POST['grid']}.pdf\">grille à télécharger</a></div>";

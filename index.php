@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['grid'] = uniqid('', true);
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -16,8 +20,8 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <!-- Custom stylesheet -->
-    <!--    <link rel="stylesheet" href="index.css">-->
-
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -25,21 +29,83 @@
 
     <script>
         $(function () {
-            console.log("000000");
             $('form[name=generer]').on({
                 submit: function (event) {
+                    // activer le spinner
+                    $("div#spinner").show();
+                    var mots = $(this).find('#mots+textarea').val();
+                    var motsSecrets = $(this).find('#motsSecrets+textarea').val();
+                    var HAUT = $(this).find('input[name=HAUT]').val();
+                    var HAUTDROITE = $(this).find('input[name=HAUTDROITE]').val();
+                    var DROITE = $(this).find('input[name=DROITE]').val();
+                    var BASDROITE = $(this).find('input[name=BASDROITE]').val();
+                    var BAS = $(this).find('input[name=BAS]').val();
+                    var BASGAUCHE = $(this).find('input[name=BASGAUCHE]').val();
+                    var GAUCHE = $(this).find('input[name=GAUCHE]').val();
+                    var HAUTGAUCHE = $(this).find('input[name=HAUTGAUCHE]').val();
+                    var tailleGrilleX = $(this).find('textarea[name=tailleGrilleX]').val();
+                    var tailleGrilleY = $(this).find('textarea[name=tailleGrilleY]').val();
+
+                    var grid = "<?php echo $_SESSION['grid']; ?>";
                     event.preventDefault();
-                    const jqxhr = $.ajax("motsMeles.php")
-                                   .done(function (data) {
-                                       //alert("success");
-                                       $("div.conteneur").html(data);
-                                   })
+                    // récupération des valeurs du formulaire :
+
+                    const jqxhr = $.ajax({
+                        method: "POST",
+                        url   : "motsMeles.php",
+                        data  : {
+                            mots         : mots,
+                            motsSecrets  : motsSecrets,
+                            grid         : grid,
+                            HAUT         : HAUT,
+                            HAUTDROITE   : HAUTDROITE,
+                            DROITE       : DROITE,
+                            BASDROITE    : BASDROITE,
+                            BAS          : BAS,
+                            BASGAUCHE    : BASGAUCHE,
+                            GAUCHE       : GAUCHE,
+                            HAUTGAUCHE   : HAUTGAUCHE,
+                            tailleGrilleX: tailleGrilleX,
+                            tailleGrilleY: tailleGrilleY
+                        }
+                    }).done(function (data) {
+
+                        $("div.conteneur").html(data);
+                    })
                                    .fail(function () {
                                        alert("error");
                                    })
                                    .always(function () {
-                                       alert("complete");
+                                       // enlever le spinner
+                                       $("div#spinner").hide();
+                                       // montrer le success
+                                       $("div#success").show();
+                                      $("div#success").fadeOut();
                                    });
+                }
+            });
+
+            $("div#arrow_selector i").on({
+                click: function (event) { // rendre inactif
+                    if (!!$(this).attr("data-color-active") &&
+                        $(this).hasClass($(this).attr("data-color-active"))
+                    ) {
+                        $(this).removeClass($(this).attr("data-color-active"));
+                        $(this).addClass($(this).attr("data-color-inactive"));
+                        if (!!$(this).next('input[type=hidden]')) {
+                            $(this).next('input').val("0");
+                        }
+                    } else { // rendre actif
+                        if (!!$(this).attr("data-color-inactive") &&
+                            $(this).hasClass($(this).attr("data-color-inactive"))
+                        ) {
+                            $(this).removeClass($(this).attr("data-color-inactive"));
+                            $(this).addClass($(this).attr("data-color-active"));
+                            if (!!$(this).next('input[type=hidden]')) {
+                                $(this).next('input').val("1");
+                            }
+                        }
+                    }
                 }
             });
         });
@@ -47,10 +113,128 @@
     <title>Générateur de Mots Mêlés</title>
 </head>
 <body>
-<form name="generer" method="POST">
-    <input type="submit">
-</form>
-<div class="conteneur">
+<!--// contrôle des données POST :-->
+<!--// tous les mots-->
+<!--// - mots à mettre dans la liste d'aide-->
+<!--// - mots additionnels cachés-->
+<!--// taille de la grille-->
+<!--// sens d'écriture autorisés-->
+<!---->
+<!--// caractères spéciaux-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <p>WORD SCRAMBLE GENERATOR</p>
+    </div>
+</nav>
+<div class="container">
+    <div id="spinner" style="display:none">
+        <div class="spinner-grow text-warning" role="status">
+            <span class="sr-only"></span>
+        </div>
+    </div>
+    <div id="success" class="text-warning" style="display:none">
+        <i class="bi bi-check"></i>
+    </div>
+    <div>
+        <form name="generer" method="POST">
+
+            <!--taille de la grille-->
+            <div style="float:left; text-align:center; margin:10px">
+                <div>
+                    Taille de la grille
+                </div>
+                <div style="float:left">
+                    <label style="font-size:1.5em; display: block; text-align: center" for="tailleGrilleX">x</label>
+                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="1" rows="1"
+                              name="tailleGrilleX">12</textarea>
+                </div>
+                <div style="float:left">
+                    <label style="font-size:1.5em; display: block; text-align: center" for="tailleGrilleY">y</label>
+                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="1" rows="1"
+                              name="tailleGrilleY">12</textarea>
+                </div>
+            </div>
+
+            <!--sens d'écriture-->
+            <div style="float:left; text-align:center; position: relative; margin:10px;">
+                <div>Directions d'écriture autorisées</div>
+                <div id="arrow_selector">
+                    <div style="clear:both; float:left">
+                        <i data-color-inactive="bi-arrow-up-left-circle"
+                           data-color-active="bi-arrow-up-left-circle-fill"
+                           class="bi bi-arrow-up-left-circle"></i>
+                        <input type="hidden" name="HAUTGAUCHE" value="0">
+                    </div>
+                    <div style="float:left">
+                        &nbsp;<i data-color-inactive="bi-arrow-up-circle" data-color-active="bi-arrow-up-circle-fill"
+                                 class="bi bi-arrow-up-circle-fill"></i>
+                        <input type="hidden" name="HAUT" value="1">
+                    </div>
+                    <div style="float:left">
+                        &nbsp;<i data-color-inactive="bi-arrow-up-right-circle"
+                                 data-color-active="bi-arrow-up-right-circle-fill"
+                                 class="bi bi-arrow-up-right-circle"></i>
+                        <input type="hidden" name="HAUTDROITE" value="0">
+                    </div>
+
+                    <div style="clear:both; float:left">
+                        <i data-color-inactive="bi-arrow-left-circle" data-color-active="bi-arrow-left-circle-fill"
+                           class="bi bi-arrow-left-circle"></i>
+                        <input type="hidden" name="GAUCHE" value="0">
+                    </div>
+                    <div style="visibility:hidden; float:left">
+                        &nbsp;<i class="bi bi-circle"></i>
+                    </div>
+                    <div style="float:left">
+                        &nbsp;<i data-color-inactive="bi-arrow-right-circle"
+                                 data-color-active="bi-arrow-right-circle-fill"
+                                 class="bi bi-arrow-right-circle-fill"></i>
+                        <input type="hidden" name="DROITE" value="1">
+                    </div>
+
+                    <div style="clear:both; float:left">
+                        <i data-color-inactive="bi-arrow-down-left-circle"
+                           data-color-active="bi-arrow-down-left-circle-fill"
+                           class="bi bi-arrow-down-left-circle"></i>
+                        <input type="hidden" name="BASGAUCHE" value="0">
+                    </div>
+                    <div style="float:left">
+                        &nbsp;<i data-color-inactive="bi-arrow-down-circle"
+                                 data-color-active="bi-arrow-down-circle-fill"
+                                 class="bi bi-arrow-down-circle-fill"></i>
+                        <input type="hidden" name="BAS" value="1">
+                    </div>
+                    <div style="float:left">
+                        &nbsp;<i data-color-inactive="bi-arrow-down-right-circle"
+                                 data-color-active="bi-arrow-down-right-circle-fill"
+                                 class="bi bi-arrow-down-right-circle"></i>
+                        <input type="hidden" name="BASDROITE" value="0">
+                    </div>
+                </div>
+            </div>
+
+            <div style="clear:both">
+                <label for="tousLesMots">Mettre ici tous les mots à placer dans la grille, les mots seront placés dans
+                    la grille et - par défaut - listés à côté.</label><br>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="mots">TOUS LES MOTS</span>
+                    <textarea name="tousLesMots" class="form-control" placeholder="mot1,mot2,mot3,..." aria-label="mots"
+                              aria-describedby="mots" rows="3"></textarea>
+                </div>
+            </div>
+            <label for="motsSecrets">Mettre ici les mots qui - parmi les mots ci-dessus - NE DOIVENT PAS APPARAÎTRE dans
+                la liste à côté de la
+                grille (mots secrets)</label><br>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="motsSecrets">MOTS SECRETS</span>
+                <textarea name="motsSecrets" class="form-control" placeholder="mot1,mot2,mot3,..." aria-label="mots"
+                          aria-describedby="mots" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">SCRAMBLE</button>
+        </form>
+    </div>
+    <div class="conteneur">
+    </div>
 </div>
 </body>
 </html>

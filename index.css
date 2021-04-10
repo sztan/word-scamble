@@ -1,0 +1,68 @@
+nav {
+    font-family   : 'Train One', cursive;
+    font-size     : 2em;
+    margin-bottom : 10px;
+}
+
+nav div {
+    padding-top : 10px;
+}
+
+nav div p {
+    text-align : center;
+    width      : 100%;
+}
+
+span.input-group-text,
+textarea {
+    margin-top : 4px;
+}
+
+input[type=number] {
+    height : 30px;
+}
+
+#arrow_selector {
+    font-size : 2em;
+}
+
+i.bi:hover {
+    cursor : pointer;
+}
+
+div#arrow_selector {
+    margin   : 0 auto;
+    position : relative;
+    display  : inline-block
+}
+
+i[class$=-fill] {
+    color : #0d6efd;
+}
+
+#spinner {
+    background-color : transparent;
+    text-align       : center;
+    position         : absolute;
+    margin           : 0 auto;
+    top              : 40%;
+    width            : 80%;
+    height           : 80%;
+    z-index          : 9999;
+    zoom             : 400%;
+}
+
+#success {
+    background-color : transparent;
+    text-align       : center;
+    position         : absolute;
+    margin           : 0 auto;
+    top              : 40%;
+    width            : 80%;
+    height           : 80%;
+    z-index          : 9999;
+}
+
+#success i{
+    font-size:7em;
+}
