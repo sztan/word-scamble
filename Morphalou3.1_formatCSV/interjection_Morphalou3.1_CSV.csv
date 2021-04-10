@@ -1,0 +1,438 @@
+---------------------------------------------------------------------------
+Morphalou3.1 : Lexique morphologique ouvert du français – Ce fichier contient uniquement les Interjection
+422 lemmes et 422 formes fléchies de catégorie Interjection (sur un total de 159 271 lemmes et 976 570 formes fléchies, toutes catégories confondues)
+Le maintien et la mise à jour du lexique sont assurés par l'ATILF CNRS. (44 avenue de la Libération 54000 Nancy)
+Morphalou3 est distribué sous licence LGPL-LR.
+Version de 6/2016
+Morphalou3 est le résultat de la fusion de 5 lexiques :
+	- Morphalou2 (décembre 2013) : http://www.cnrtl.fr/lexiques/morphalou/
+	- DELA (décembre 2011) : http://infolingu.univ-mlv.fr/
+	- Dicollecte (4.3) : http://dicollecte.org/home.php?prj=fr
+	- Lefff (2.1) : http://www.labri.fr/perso/clement/lefff/
+	- LGLex et LGLexLefff (3.4) : http://infolingu.univ-mlv.fr/
+Ce travail a été réalisé par Marie TONNELIER dans le cadre du projet Ortolang. (ORTOLANG bénéficie d'une aide de l’Etat au titre du programme « Investissements d’avenir » ANR–11–EQPX–0032)
+---------------------------------------------------------------------------
+LEMME;;;;;;;;;FLEXION;;;;;;;;
+GRAPHIE;ID;CATÉGORIE;SOUS CATÉGORIE;LOCUTION;GENRE;AUTRES LEMMES LIÉS;PHONÉTIQUE;ORIGINES;GRAPHIE;ID;NOMBRE;MODE;GENRE;TEMPS;PERSONNE;PHONÉTIQUE;ORIGINES
+acré;1193;Interjection;;;-;;a k R e;morphalou2;acré;10728;-;-;-;-;-;a k R e;morphalou2
+adieu;1462;Interjection;;;-;;a d j 2;morphalou2 dela;adieu;12214;-;-;-;-;-;a d j 2;morphalou2 dela
+ah;2485;Interjection;;;-;;a;morphalou2 dela dicollecte lefff;ah;20630;-;-;-;-;-;a;morphalou2 dela dicollecte lefff
+aha;2486;Interjection;;;-;;a a;morphalou2;aha;20631;-;-;-;-;-;a a;morphalou2
+ahah;2487;Interjection;;;-;"variante du lemme #2486 ""aha""";a a;morphalou2;ahah;20634;-;-;-;-;-;a a;morphalou2
+ahi;2496;Interjection;;;-;;a i;morphalou2 dicollecte;ahi;20753;-;-;-;-;-;a i;morphalou2 dicollecte
+aho;2497;Interjection;;;-;;a o;morphalou2;aho;20755;-;-;-;-;-;a o;morphalou2
+ahou;2500;Interjection;;;-;;a u;morphalou2;ahou;20811;-;-;-;-;-;a u;morphalou2
+ahouahou;2501;Interjection;;;-;;a u a u;morphalou2;ahouahou;20812;-;-;-;-;-;a u a u;morphalou2
+ahuro;2508;Interjection;;;-;;a y R o;morphalou2;ahuro;20877;-;-;-;-;-;a y R o;morphalou2
+ahé;2509;Interjection;;;-;;a e;morphalou2;ahé;20878;-;-;-;-;-;a e;morphalou2
+allah;3086;Interjection;;;-;;a l a;morphalou2;allah;24071;-;-;-;-;-;a l a;morphalou2
+allo;3139;Interjection;;;-;;a l o;morphalou2 dela dicollecte lefff;allo;24402;-;-;-;-;-;a l o;morphalou2 dela dicollecte lefff
+alléluia;3250;Interjection;;;-;;a l e l u j a OU a l E/ l u j a ;morphalou2 dicollecte;alléluia;25410;-;-;-;-;-;a l e l u j a OU a l E/ l u j a ;morphalou2 dicollecte
+allô;3251;Interjection;;;-;"variante du lemme #3139 ""allo""";a l o;morphalou2 dela dicollecte;allô;25412;-;-;-;-;-;a l o;morphalou2 dela dicollecte
+amen;3609;Interjection;;;-;;a m E n;morphalou2 dela dicollecte;amen;27476;-;-;-;-;-;a m E n;morphalou2 dela dicollecte
+aïe;7791;Interjection;;;-;"variante du lemme #2496 ""ahi""";a j @;morphalou2 dela dicollecte lefff;aïe;54837;-;-;-;-;-;a j @;morphalou2 dela dicollecte lefff
+bah;7998;Interjection;;;-;;b a;morphalou2 dela dicollecte;bah;55933;-;-;-;-;-;b a;morphalou2 dela dicollecte
+bang;8311;Interjection;onomatopée;;-;;b a~ g;morphalou2 dela;bang;58113;-;-;-;-;-;b a~ g;morphalou2 dela
+barca;8472;Interjection;;;-;;b a R k a;morphalou2;barca;59433;-;-;-;-;-;b a R k a;morphalou2
+bernique;9072;Interjection;;;-;;b E R n i k @;morphalou2 dela dicollecte;bernique;63148;-;-;-;-;-;b E R n i k @;morphalou2 dela dicollecte
+beuh;9124;Interjection;onomatopée;;-;;b 2;morphalou2;beuh;63411;-;-;-;-;-;b 2;morphalou2
+bing;9444;Interjection;onomatopée;;-;;b i N N;morphalou2;bing;65294;-;-;-;-;-;b i N N;morphalou2
+bouffre;10426;Interjection;;;-;;b u f R @;morphalou2;bouffre;72446;-;-;-;-;-;b u f R @;morphalou2
+boufre;10428;Interjection;;;-;"variante du lemme #10426 ""bouffre""";b u f R @;morphalou2;boufre;72451;-;-;-;-;-;b u f R @;morphalou2
+boum;10578;Interjection;onomatopée;;-;;b u m;morphalou2 dela;boum;73777;-;-;-;-;-;b u m;morphalou2 dela
+broum;11385;Interjection;onomatopée;;-;;b R u m;morphalou2 dela dicollecte;broum;80710;-;-;-;-;-;b R u m;morphalou2 dela dicollecte
+brr;11410;Interjection;;;-;;b R;morphalou2;brr;80914;-;-;-;-;-;b R;morphalou2
+bé;11837;Interjection;;;-;;b e;morphalou2;bé;83990;-;-;-;-;-;b e;morphalou2
+bédieu;11890;Interjection;;;-;;b e d j 2 OU b E/ d j 2 ;morphalou2;bédieu;84313;-;-;-;-;-;b e d j 2 OU b E/ d j 2 ;morphalou2
+caramba;13192;Interjection;;;-;;k a R a~ b a;morphalou2;caramba;93518;-;-;-;-;-;k a R a~ b a;morphalou2
+chut;15268;Interjection;;;-;;S y t;morphalou2 dela dicollecte;chut;107786;-;-;-;-;-;S y t;morphalou2 dela dicollecte
+ciao;15357;Interjection;;;-;;t S a w;morphalou2 dela dicollecte lefff;ciao;108286;-;-;-;-;-;t S a w;morphalou2 dela dicollecte lefff
+clac;15653;Interjection;onomatopée;;-;;k l a k;morphalou2 dela dicollecte;clac;109888;-;-;-;-;-;k l a k;morphalou2 dela dicollecte
+clic;15816;Interjection;onomatopée;;-;;k l i k;morphalou2 dela dicollecte;clic;111344;-;-;-;-;-;k l i k;morphalou2 dela dicollecte
+corbleu;18192;Interjection;;;-;;k O R b l 2;morphalou2 dela;corbleu;130652;-;-;-;-;-;k O R b l 2;morphalou2 dela
+cordieu;18213;Interjection;;;-;"variante du lemme #18192 ""corbleu""";k O R d j 2;morphalou2;cordieu;130819;-;-;-;-;-;k O R d j 2;morphalou2
+cotcodac;18503;Interjection;onomatopée;;-;;k O t k O d a k OU k O/ t k O/ d a k ;morphalou2;cotcodac;132521;-;-;-;-;-;k O t k O d a k OU k O/ t k O/ d a k ;morphalou2
+couic;18612;Interjection;onomatopée;;-;;k w i k;morphalou2 dela dicollecte;couic;133646;-;-;-;-;-;k u i k;morphalou2 dela dicollecte
+crac;18895;Interjection;onomatopée;;-;;k R a k;morphalou2 dela dicollecte;crac;135805;-;-;-;-;-;k R a k;morphalou2 dela dicollecte
+cuic;19476;Interjection;onomatopée;;-;"variante du lemme #18612 ""couic""";k H i k;morphalou2;cuic;140784;-;-;-;-;-;k H i k;morphalou2
+da;19988;Interjection;;;-;;d a;morphalou2 dela;da;143679;-;-;-;-;-;d a;morphalou2 dela
+dia;20404;Interjection;;;-;;d j a;morphalou2 dela dicollecte;dia;146752;-;-;-;-;-;d j a;morphalou2 dela dicollecte
+diablezot;20410;Interjection;;;-;;d j a b l @ z o;morphalou2;diablezot;146762;-;-;-;-;-;d j a b l @ z o;morphalou2
+dondaine;21394;Interjection;onomatopée;;-;;d o~ d E n @;morphalou2;dondaine;154302;-;-;-;-;-;d o~ d E n @;morphalou2
+dondon;21396;Interjection;onomatopée;;-;;d o~ d o~;morphalou2;dondon;154305;-;-;-;-;-;d o~ d o~;morphalou2
+drelin;21625;Interjection;onomatopée;;-;;d R @ l e~;morphalou2 dela dicollecte;drelin;155855;-;-;-;-;-;d R @ l e~;morphalou2 dela dicollecte
+dring;21657;Interjection;onomatopée;;-;;d R i n g;morphalou2 dela dicollecte;dring;156024;-;-;-;-;-;d R i n g;morphalou2 dela dicollecte
+eh;24372;Interjection;;;-;;e OU E/ ;morphalou2 dela dicollecte;eh;198346;-;-;-;-;-;e OU E/ ;morphalou2 dela dicollecte
+euh;25984;Interjection;;;-;;2 OU 6 ;morphalou2 dela dicollecte lefff;euh;223084;-;-;-;-;-;2 OU 6 ;morphalou2 dela dicollecte lefff
+eurêka;26026;Interjection;;;-;;2 R E k a OU 6 R E/ k a ;morphalou2 dela dicollecte;eurêka;223281;-;-;-;-;-;2 R E k a OU 6 R E/ k a ;morphalou2 dela dicollecte
+faridondaine;26816;Interjection;onomatopée;;-;;f a R i d o~ d E n @;morphalou2;faridondaine;230377;-;-;-;-;-;f a R i d o~ d E n @;morphalou2
+fi;27167;Interjection;;;-;;f i;morphalou2 dela dicollecte;fi;232877;-;-;-;-;-;f i;morphalou2 dela dicollecte
+fichtre;27206;Interjection;;;-;;f i S t R @;morphalou2 dela dicollecte;fichtre;233163;-;-;-;-;-;f i S t R @;morphalou2 dela dicollecte
+fla;27437;Interjection;onomatopée;;-;;f l a;morphalou2 dicollecte;fla;234714;-;-;-;-;-;f l a;morphalou2 dicollecte
+flac;27443;Interjection;onomatopée;;-;;f l a k;morphalou2 dela dicollecte;flac;234729;-;-;-;-;-;f l a k;morphalou2 dela dicollecte
+floc;27606;Interjection;onomatopée;;-;;f l O k;morphalou2 dela dicollecte;floc;236173;-;-;-;-;-;f l O k;morphalou2 dela dicollecte
+fouchtra;28006;Interjection;;;-;;f u S t R a;morphalou2 dela dicollecte;fouchtra;239487;-;-;-;-;-;f u S t R a;morphalou2 dela dicollecte
+glouglou;29645;Interjection;onomatopée;;-;;g l u g l u;morphalou2;glouglou;251545;-;-;-;-;-;g l u g l u;morphalou2
+gy;30721;Interjection;;;-;;Z i;morphalou2;gy;260150;-;-;-;-;-;Z i;morphalou2
+ha;30954;Interjection;;;-;;a;morphalou2 dela;ha;261417;-;-;-;-;-;a;morphalou2 dela
+hahé;31013;Interjection;;;-;;a e;morphalou2;hahé;261846;-;-;-;-;-;a e;morphalou2
+han;31087;Interjection;;;-;;a~;morphalou2 dela dicollecte;han;262331;-;-;-;-;-;a~;morphalou2 dela dicollecte
+harlou;31151;Interjection;;;-;;a R l u;morphalou2;harlou;262964;-;-;-;-;-;a R l u;morphalou2
+haro;31173;Interjection;;;-;;a R o;morphalou2 dela;haro;263160;-;-;-;-;-;a R o;morphalou2 dela
+haïe;31239;Interjection;;;-;;a i;morphalou2 dicollecte;haïe;263750;-;-;-;-;-;a i;morphalou2 dicollecte
+hein;31263;Interjection;;;-;;e~;morphalou2 dela dicollecte lefff;hein;263856;-;-;-;-;-;e~;morphalou2 dela dicollecte lefff
+hello;31264;Interjection;;;-;;E l o OU E/ l o ;morphalou2 dela dicollecte;hello;263857;-;-;-;-;-;E l o OU E/ l o ;morphalou2 dela dicollecte
+hem;31286;Interjection;;;-;;E m;morphalou2 dela dicollecte;hem;263961;-;-;-;-;-;E m;morphalou2 dela dicollecte
+hep;31300;Interjection;;;-;;E p;morphalou2 dela dicollecte;hep;264042;-;-;-;-;-;E p;morphalou2 dela dicollecte
+hi;31398;Interjection;;;-;;i;morphalou2 dela dicollecte;hi;264636;-;-;-;-;-;i;morphalou2 dela dicollecte
+hip;31435;Interjection;;;-;;i p;morphalou2 dela;hip;264774;-;-;-;-;-;i p;morphalou2 dela
+ho;31546;Interjection;;;-;;o;morphalou2 dela dicollecte;ho;265289;-;-;-;-;-;o;morphalou2 dela dicollecte
+holà;31578;Interjection;;;-;;O l a OU O/ l a ;morphalou2 dela dicollecte;holà;265461;-;-;-;-;-;O l a OU O/ l a ;morphalou2 dela dicollecte
+hon;31642;Interjection;;;-;;o~;morphalou2;hon;265720;-;-;-;-;-;o~;morphalou2
+hop;31669;Interjection;;;-;;O p;morphalou2 dela dicollecte lefff;hop;265977;-;-;-;-;-;O p;morphalou2 dela dicollecte lefff
+hou;31740;Interjection;;;-;;u;morphalou2 dela dicollecte;hou;266361;-;-;-;-;-;u;morphalou2 dela dicollecte
+houp;31761;Interjection;;;-;"variante du lemme #31669 ""hop""";u p;morphalou2 dela dicollecte;houp;266556;-;-;-;-;-;u p;morphalou2 dela dicollecte
+hourra;31776;Interjection;;;-;;u R a;morphalou2 dela dicollecte;hourra;266682;-;-;-;-;-;u R a;morphalou2 dela dicollecte
+hue;31796;Interjection;;;-;;y;morphalou2 dela;hue;266918;-;-;-;-;-;y;morphalou2 dela
+hum;31824;Interjection;;;-;;9 m;morphalou2 dela dicollecte;hum;267080;-;-;-;-;-;9 m;morphalou2 dela dicollecte
+hurrah;31892;Interjection;;;-;"variante du lemme #31776 ""hourra""";u R a;morphalou2 dela dicollecte;hurrah;267546;-;-;-;-;-;u R a;morphalou2 dela dicollecte
+hélas;32264;Interjection;;;-;;e l a s OU E/ l a s ;morphalou2 dela dicollecte;hélas;269369;-;-;-;-;-;e l a s OU E/ l a s ;morphalou2 dela dicollecte
+jarnidieu;35393;Interjection;;;-;;Z a R n i d j 2;morphalou2 dicollecte;jarnidieu;289477;-;-;-;-;-;Z a R n i d j 2;morphalou2 dicollecte
+kss;36063;Interjection;;;-;;k s;morphalou2 dicollecte;kss;293219;-;-;-;-;-;k s;morphalou2 dicollecte
+lanlaire;36384;Interjection;onomatopée;;-;;l a~ l E R @;morphalou2 dela;lanlaire;294861;-;-;-;-;-;l a~ l E R @;morphalou2 dela
+lanturelu;36399;Interjection;;;-;;l a~ t y R @ l y;morphalou2;lanturelu;295037;-;-;-;-;-;l a~ t y R @ l y;morphalou2
+lanturlu;36400;Interjection;;;-;"variante du lemme #36399 ""lanturelu""";l a~ t y R l y;morphalou2;lanturlu;295040;-;-;-;-;-;l a~ t y R l y;morphalou2
+macarelle;37978;Interjection;;;-;;m a k a R E l @;morphalou2;macarelle;304096;-;-;-;-;-;m a k a R E l @;morphalou2
+malepeste;38362;Interjection;;;-;;m a l @ p E s t @;morphalou2;malepeste;306147;-;-;-;-;-;m a l @ p E s t @;morphalou2
+maugrebleu;39310;Interjection;;;-;;m o g R @ b l 2 OU m O/ g R @ b l 2 ;morphalou2;maugrebleu;312590;-;-;-;-;-;m o g R @ b l 2 OU m O/ g R @ b l 2 ;morphalou2
+mektoub;39426;Interjection;;;-;;m E k t u b;morphalou2;mektoub;313257;-;-;-;-;-;m E k t u b;morphalou2
+merci;39564;Interjection;;;-;;m E R s i;morphalou2 dela;merci;314218;-;-;-;-;-;m E R s i;morphalou2 dela
+morbleu;40748;Interjection;;;-;;m O R b l 2;morphalou2 dela dicollecte;morbleu;321291;-;-;-;-;-;m O R b l 2;morphalou2 dela dicollecte
+mordieu;40767;Interjection;;;-;;m O R d j 2;morphalou2 dela;mordieu;321433;-;-;-;-;-;m O R d j 2;morphalou2 dela
+morguenne;40796;Interjection;;;-;;m O R g E n @;morphalou2 dela dicollecte;morguenne;321892;-;-;-;-;-;m O R g E n @;morphalou2 dela dicollecte
+morgué;40798;Interjection;;;-;"variante du lemme #40796 ""morguenne""";m O R g e;morphalou2 dela;morgué;321946;-;-;-;-;-;m O R g e;morphalou2 dela
+motus;40944;Interjection;;;-;;m O t y s OU m O/ t y s ;morphalou2 dela dicollecte;motus;322792;-;-;-;-;-;m O t y s OU m O/ t y s ;morphalou2 dela dicollecte
+na;42107;Interjection;;;-;;n a;morphalou2 dela dicollecte;na;330593;-;-;-;-;-;n a;morphalou2 dela dicollecte
+nibé;42542;Interjection;;;-;;n i b e;morphalou2;nibé;333107;-;-;-;-;-;n i b e;morphalou2
+oh;43770;Interjection;;;-;;o;morphalou2 dela dicollecte;oh;340548;-;-;-;-;-;o;morphalou2 dela dicollecte
+ohé;43773;Interjection;;;-;;O e OU O/ e ;morphalou2 dela dicollecte;ohé;340555;-;-;-;-;-;O e OU O/ e ;morphalou2 dela dicollecte
+olé;43842;Interjection;;;-;;O l e OU O/ l e ;morphalou2 dela dicollecte;olé;340840;-;-;-;-;-;O l e OU O/ l e ;morphalou2 dela dicollecte
+ouah;44545;Interjection;;;-;;w a;morphalou2 lefff;ouah;344382;-;-;-;-;-;w a;morphalou2 lefff
+ouat;44550;Interjection;;;-;;w a;morphalou2;ouat;344390;-;-;-;-;-;w a;morphalou2
+ouatte;44556;Interjection;;;-;"variante du lemme #44550 ""ouat""";w a t @;morphalou2;ouatte;344503;-;-;-;-;-;w a t @;morphalou2
+ouf;44572;Interjection;;;-;;u f;morphalou2 dela dicollecte;ouf;344591;-;-;-;-;-;u f;morphalou2 dela dicollecte
+ouiche;44579;Interjection;;;-;;w i S @;morphalou2;ouiche;344607;-;-;-;-;-;w i S @;morphalou2
+ouille;44581;Interjection;;;-;;u j @;morphalou2 dela;ouille;344610;-;-;-;-;-;u j @;morphalou2 dela
+oust;44611;Interjection;;;-;;u s t;morphalou2 dela dicollecte;oust;344823;-;-;-;-;-;u s t;morphalou2 dela dicollecte
+ouste;44613;Interjection;;;-;"variante du lemme #44611 ""oust""";u s t @;morphalou2 dela dicollecte;ouste;344828;-;-;-;-;-;u s t @;morphalou2 dela dicollecte
+palsambleu;45023;Interjection;;;-;;p a l s a~ b l 2;morphalou2 dela dicollecte;palsambleu;347846;-;-;-;-;-;p a l s a~ b l 2;morphalou2 dela dicollecte
+parbleu;45482;Interjection;;;-;;p a R b l 2;morphalou2 dela dicollecte lefff;parbleu;350578;-;-;-;-;-;p a R b l 2;morphalou2 dela dicollecte lefff
+pardi;45509;Interjection;;;-;;p a R d i;morphalou2 dela dicollecte;pardi;350834;-;-;-;-;-;p a R d i;morphalou2 dela dicollecte
+pardieu;45510;Interjection;;;-;;p a R d j 2;morphalou2 dela dicollecte;pardieu;350835;-;-;-;-;-;p a R d j 2;morphalou2 dela dicollecte
+patapon;45942;Interjection;onomatopée;;-;;p a t a p o~;morphalou2;patapon;353882;-;-;-;-;-;p a t a p o~;morphalou2
+patapouf;45944;Interjection;onomatopée;;-;;p a t a p u f;morphalou2 dela;patapouf;353885;-;-;-;-;-;p a t a p u f;morphalou2 dela
+patata;45954;Interjection;onomatopée;;-;;p a t a t a;morphalou2;patata;353904;-;-;-;-;-;p a t a t a;morphalou2
+patati;45956;Interjection;onomatopée;;-;;p a t a t i;morphalou2;patati;353907;-;-;-;-;-;p a t a t i;morphalou2
+patatras;45957;Interjection;;;-;;p a t a t R a;morphalou2 dela dicollecte;patatras;353908;-;-;-;-;-;p a t a t R a;morphalou2 dela dicollecte
+pechère;46197;Interjection;;;-;;p @ S E R @;morphalou2 dela;pechère;355674;-;-;-;-;-;p @ S E R @;morphalou2 dela
+peuchère;46727;Interjection;;;-;;p 2 S E R @ OU p 6 S E R @ ;morphalou2 dela dicollecte;peuchère;359774;-;-;-;-;-;p 2 S E R @ OU p 6 S E R @ ;morphalou2 dela dicollecte
+peuh;46729;Interjection;;;-;;p 2;morphalou2 dela dicollecte;peuh;359777;-;-;-;-;-;p 2;morphalou2 dela dicollecte
+pft;46749;Interjection;onomatopée;;-;;p f t;morphalou2;pft;359870;-;-;-;-;-;p f t;morphalou2
+pfui;46750;Interjection;onomatopée;;-;;p f H i;morphalou2;pfui;359871;-;-;-;-;-;p f H i;morphalou2
+pfuit;46751;Interjection;onomatopée;;-;"variante du lemme #46750 ""pfui""";p f H i;morphalou2;pfuit;359874;-;-;-;-;-;p f H i;morphalou2
+pfut;46752;Interjection;onomatopée;;-;;p f y t;morphalou2 dela dicollecte;pfut;359875;-;-;-;-;-;p f y t;morphalou2 dela dicollecte
+pfutt;46753;Interjection;onomatopée;;-;"variante du lemme #46752 ""pfut""";p f y t;morphalou2;pfutt;359878;-;-;-;-;-;p f y t;morphalou2
+play;47869;Interjection;;;-;;p l E OU p l E/ ;morphalou2;play;366673;-;-;-;-;-;p l E OU p l E/ ;morphalou2
+ploc;47945;Interjection;onomatopée;;-;;p l O k;morphalou2 dela dicollecte;ploc;367209;-;-;-;-;-;p l O k;morphalou2 dela dicollecte
+plouf;47978;Interjection;;;-;;p l u f;morphalou2 dela dicollecte;plouf;367435;-;-;-;-;-;p l u f;morphalou2 dela dicollecte
+pouah;48816;Interjection;;;-;;p u a;morphalou2 dela dicollecte lefff;pouah;372702;-;-;-;-;-;p u a;morphalou2 dela dicollecte lefff
+pouh;48841;Interjection;;;-;;p u;morphalou2;pouh;372901;-;-;-;-;-;p u;morphalou2
+poum;48877;Interjection;onomatopée;;-;;p u m;morphalou2;poum;373077;-;-;-;-;-;p u m;morphalou2
+prout;49699;Interjection;onomatopée;;-;;p R u t;morphalou2;prout;378590;-;-;-;-;-;p R u t;morphalou2
+pschit;50218;Interjection;;;-;;p S i t;morphalou2;pschit;382965;-;-;-;-;-;p S i t;morphalou2
+pschitt;50219;Interjection;;;-;"variante du lemme #50218 ""pschit""";p S i t;morphalou2 dicollecte;pschitt;382968;-;-;-;-;-;p S i t;morphalou2 dicollecte
+pscht;50220;Interjection;;;-;;p S t;morphalou2;pscht;382969;-;-;-;-;-;p S t;morphalou2
+pschtt;50221;Interjection;;;-;"variante du lemme #50220 ""pscht""";p S t;morphalou2;pschtt;382972;-;-;-;-;-;p S t;morphalou2
+pschut;50222;Interjection;;;-;;p S y t;morphalou2;pschut;382973;-;-;-;-;-;p S y;morphalou2
+pschutt;50223;Interjection;;;-;"variante du lemme #50222 ""pschut""";p S y t;morphalou2;pschutt;382976;-;-;-;-;-;p S y t;morphalou2
+psit;50232;Interjection;;;-;;p s t;morphalou2;psit;382997;-;-;-;-;-;p s t;morphalou2
+psst;50244;Interjection;;;-;;p s s t;morphalou2;psst;383023;-;-;-;-;-;p s s t;morphalou2
+péchère;50738;Interjection;;;-;"variante du lemme #46197 ""pechère""";p e S E R @ OU p E/ S E R @ ;morphalou2;péchère;385721;-;-;-;-;-;p e S E R @ OU p E/ S E R @ ;morphalou2
+raca;51499;Interjection;;;-;;R a k a;morphalou2 dela;raca;390263;-;-;-;-;-;R a k a;morphalou2 dela
+ran;51933;Interjection;onomatopée;;-;;R a~;morphalou2;ran;394247;-;-;-;-;-;R a~;morphalou2
+rataplan;52117;Interjection;onomatopée;;-;;R a t a p l a~;morphalou2 dela dicollecte;rataplan;396351;-;-;-;-;-;R a t a p l a~;morphalou2 dela dicollecte
+rebelote;52269;Interjection;;;-;;R @ b @ l O t @;morphalou2 dicollecte;rebelote;398180;-;-;-;-;-;R @ b @ l O t @;morphalou2 dicollecte
+sacrebleu;55554;Interjection;;;-;;s a k R @ b l 2;morphalou2 dela dicollecte;sacrebleu;438219;-;-;-;-;-;s a k R @ b l 2;morphalou2 dela dicollecte
+sacredieu;55555;Interjection;;;-;;s a k R @ d j 2;morphalou2 dela dicollecte;sacredieu;438220;-;-;-;-;-;s a k R @ d j 2;morphalou2 dela dicollecte
+sacristi;55573;Interjection;;;-;;s a k R i s t i;morphalou2 dela dicollecte;sacristi;438361;-;-;-;-;-;s a k R i s t i;morphalou2 dela dicollecte
+saperlipopette;55940;Interjection;;;-;;s a p E R l i p O p E t @ OU s a p E R l i p O/ p E t @ ;morphalou2 dela dicollecte;saperlipopette;440282;-;-;-;-;-;s a p E R l i p O p E t @ OU s a p E R l i p O/ p E t @ ;morphalou2 dela dicollecte
+saperlotte;55941;Interjection;;;-;;s a p E R l O t @;morphalou2 dela dicollecte;saperlotte;440283;-;-;-;-;-;s a p E R l O t @;morphalou2 dela dicollecte
+sapristi;55969;Interjection;;;-;;s a p R i s t i;morphalou2 dela dicollecte;sapristi;440394;-;-;-;-;-;s a p R i s t i;morphalou2 dela dicollecte
+sarpejeu;56022;Interjection;;;-;;s a R p @ Z 2 OU s a R p E/ Z 2 ;morphalou2 dicollecte;sarpejeu;440615;-;-;-;-;-;s a R p @ Z 2 OU s a R p E/ Z 2 ;morphalou2 dicollecte
+scrogneugneu;56521;Interjection;;;-;;s k R O J 2 J 2 OU s k R O/ J 6 J 2 ;morphalou2 dela;scrogneugneu;443844;-;-;-;-;-;s k R O J 2 J 2 OU s k R O/ J 6 J 2 ;morphalou2 dela
+scrongneugneu;56522;Interjection;;;-;"variante du lemme #56521 ""scrogneugneu""";s k R o~ J 2 J 2 OU s k R o~ J 6 J 2 ;morphalou2;scrongneugneu;443847;-;-;-;-;-;s k R o~ J 2 J 2 OU s k R o~ J 6 J 2 ;morphalou2
+stop;58589;Interjection;;;-;;s t O p;morphalou2 dela dicollecte;stop;456394;-;-;-;-;-;s t O p;morphalou2 dela dicollecte
+taratata;60393;Interjection;;;-;;t a R a t a t a;morphalou2 dela dicollecte;taratata;471040;-;-;-;-;-;t a R a t a t a;morphalou2 dela dicollecte
+taïaut;60574;Interjection;;;-;;t a j o;morphalou2 dela dicollecte;taïaut;472311;-;-;-;-;-;t a j o;morphalou2 dela dicollecte
+tchao;60580;Interjection;;;-;;t S a o;morphalou2 dela dicollecte;tchao;472324;-;-;-;-;-;t S a o;morphalou2 dela dicollecte
+tchiao;60588;Interjection;;;-;"variante du lemme #60580 ""tchao""";t S j a o;morphalou2;tchiao;472343;-;-;-;-;-;t S j a o;morphalou2
+toc;61322;Interjection;onomatopée;;-;;t O k;morphalou2 dela;toc;476703;-;-;-;-;-;t O k;morphalou2 dela
+tudieu;62797;Interjection;;;-;;t y d j 2;morphalou2 dela dicollecte;tudieu;488465;-;-;-;-;-;t y d j 2;morphalou2 dela dicollecte
+ventrebleu;63979;Interjection;;;-;;v a~ t R @ b l 2;morphalou2 dela dicollecte;ventrebleu;495591;-;-;-;-;-;v a~ t R @ b l 2;morphalou2 dela dicollecte
+vertubleu;64169;Interjection;;;-;;v E R t y b l 2;morphalou2 dela dicollecte;vertubleu;496961;-;-;-;-;-;v E R t y b l 2;morphalou2 dela dicollecte
+vertuchou;64170;Interjection;;;-;;v E R t y S u;morphalou2 dela dicollecte;vertuchou;496962;-;-;-;-;-;v E R t y S u;morphalou2 dela dicollecte
+vertudieu;64171;Interjection;;;-;;v E R t y d j 2;morphalou2 dela dicollecte;vertudieu;496963;-;-;-;-;-;v E R t y d j 2;morphalou2 dela dicollecte
+vivat;64653;Interjection;;;-;;v i v a;morphalou2 dela;vivat;500049;-;-;-;-;-;v i v a;morphalou2 dela
+vlan;64684;Interjection;onomatopée;;-;;v l a~;morphalou2 dela dicollecte;vlan;500308;-;-;-;-;-;v l a~;morphalou2 dela dicollecte
+vé;64998;Interjection;;;-;;v e;morphalou2;vé;502488;-;-;-;-;-;v e;morphalou2
+vélaut;65027;Interjection;;;-;;v e l o OU v E/ l o ;morphalou2;vélaut;502707;-;-;-;-;-;v e l o OU v E/ l o ;morphalou2
+zest;65355;Interjection;onomatopée;;-;;z E s t;morphalou2 dela;zest;503877;-;-;-;-;-;z E s t;morphalou2 dela
+zon;65411;Interjection;onomatopée;;-;;z o~;morphalou2;zon;504294;-;-;-;-;-;z o~;morphalou2
+zou;65460;Interjection;onomatopée;;-;;z u;morphalou2 dela dicollecte;zou;504512;-;-;-;-;-;z u;morphalou2 dela dicollecte
+zut;65474;Interjection;;;-;;z y t;morphalou2 dela dicollecte;zut;504592;-;-;-;-;-;z y t;morphalou2 dela dicollecte
+zzz;65491;Interjection;onomatopée;;-;;z z;morphalou2 dela;zzz;504681;-;-;-;-;-;z z;morphalou2 dela
+évohé;67349;Interjection;;;-;;e v O e OU e v O/ e ;morphalou2 dela dicollecte;évohé;524402;-;-;-;-;-;e v O e OU e v O/ e ;morphalou2 dela dicollecte
+évoé;67359;Interjection;;;-;"variante du lemme #67349 ""évohé""";e v O e OU e v O/ e ;morphalou2 dela;évoé;524527;-;-;-;-;-;e v O e OU e v O/ e ;morphalou2 dela
+ô;67374;Interjection;;;-;;o;morphalou2 dela dicollecte;ô;524604;-;-;-;-;-;o;morphalou2 dela dicollecte
+badaboum;69076;Interjection;;;-;;b a d a b u m;morphalou2 dela;badaboum;893872;-;-;-;-;-;;dela
+bast;69139;Interjection;;;-;;b a s t;morphalou2;bast;1020341;-;-;-;-;-;b a s t;
+basta;69140;Interjection;;;-;;b a s t a;morphalou2 dela dicollecte lefff;basta;828334;-;-;-;-;-;;dela dicollecte lefff
+çà;69598;Interjection;;;-;;s a;morphalou2;çà;1020646;-;-;-;-;-;s a;
+capout;69667;Interjection;;;-;;k a p u;morphalou2;capout;1020685;-;-;-;-;-;k a p u;
+caramba!;69670;Interjection;;;-;;k a R a~ b a;morphalou2;caramba!;1020688;-;-;-;-;-;k a R a~ b a;
+chut!;70375;Interjection;;;-;;S y t;morphalou2;chut!;1021160;-;-;-;-;-;S y t;
+coin-coin;70621;Interjection;onomatopée;;-;;k w e~ k w e~;morphalou2;coin-coin;1021338;-;-;-;-;-;k w e~ k w e~;
+coui-coui;70955;Interjection;onomatopée;;-;;k u i k u i;morphalou2;coui-coui;1021535;-;-;-;-;-;k u i k u i;
+crebleu;71073;Interjection;;;-;;k R @ b l 2;morphalou2;crebleu;1021602;-;-;-;-;-;k R @ b l 2;
+crébleu;71074;Interjection;;;-;;;morphalou2;crébleu;1021603;-;-;-;-;-;;
+crébleu;71075;Interjection;;;-;;k R e b l 2 OU k R E/ b l 2 ;morphalou2;crébleu;1021604;-;-;-;-;-;k R e b l 2 OU k R E/ b l 2 ;
+crédié;71076;Interjection;;;-;;k R e d j e OU k R E/ d j e ;morphalou2;crédié;1021605;-;-;-;-;-;k R e d j e OU k R E/ d j e ;
+crédieu;71077;Interjection;;;-;;k R e d j 2 OU k R E/ d j 2 ;morphalou2;crédieu;1021606;-;-;-;-;-;k R e d j 2 OU k R E/ d j 2 ;
+crénom;71078;Interjection;;;-;;k R e n o~ OU k R E/ n o~ ;morphalou2 dela dicollecte;crénom;849195;-;-;-;-;-;;dela dicollecte
+cristi;71119;Interjection;;;-;;k R i s t i;morphalou2 dela;cristi;909719;-;-;-;-;-;;dela
+cui-cui;71257;Interjection;onomatopée;;-;;k H i k H i;morphalou2 dicollecte;cui-cui;862580;-;-;-;-;-;;dicollecte
+flic-flac;73094;Interjection;onomatopée;;-;;f l i k f l a k;morphalou2;flic-flac;1022728;-;-;-;-;-;f l i k f l a k;
+flon;73108;Interjection;onomatopée;;-;;f l o~;morphalou2;flon;1022740;-;-;-;-;-;f l o~;
+frou;73490;Interjection;onomatopée;;-;;f R u;morphalou2;frou;1022967;-;-;-;-;-;f R u;
+gaie;73617;Interjection;;;-;;g E OU g E/ ;morphalou2;gaie;1023033;-;-;-;-;-;g E OU g E/ ;
+glou-glou;74251;Interjection;onomatopée;;-;;g l u g l u;morphalou2;glou-glou;1023391;-;-;-;-;-;g l u g l u;
+gnan;74296;Interjection;onomatopée;;-;;J a~;morphalou2;gnan;1023409;-;-;-;-;-;J a~;
+gnian;74317;Interjection;onomatopée;;-;;J j a~;morphalou2;gnian;1023426;-;-;-;-;-;J j a~;
+gouzi-gouzi;74490;Interjection;onomatopée;;-;;g u z i g u z i;morphalou2;gouzi-gouzi;1023531;-;-;-;-;-;g u z i g u z i;
+guili-guili;74836;Interjection;onomatopée;;-;;g i l i g i l i;morphalou2;guili-guili;1023720;-;-;-;-;-;g i l i g i l i;
+happ;74977;Interjection;onomatopée;;-;;a p;morphalou2;happ;1023798;-;-;-;-;-;a p;
+hi-han;75405;Interjection;onomatopée;;-;;i a~;morphalou2 dicollecte;hi-han;859625;-;-;-;-;-;;dicollecte
+hm;75497;Interjection;;;-;;m;morphalou2;hm;1024075;-;-;-;-;-;m;
+hmm;75498;Interjection;;;-;;@ m;morphalou2;hmm;1024076;-;-;-;-;-;@ m;
+ho! ho!;75519;Interjection;;;-;;;morphalou2;ho! ho!;1024091;-;-;-;-;-;;
+kss!;77812;Interjection;;;-;;k s;morphalou2;kss!;1025308;-;-;-;-;-;k s;
+mâtiche;79140;Interjection;;;-;;m a t i S @;morphalou2;mâtiche;1026023;-;-;-;-;-;m a t i S @;
+maugrébis;79164;Interjection;;;-;;m o g R e b i OU m O/ g R E/ b i ;morphalou2;maugrébis;1026042;-;-;-;-;-;m o g R e b i OU m O/ g R E/ b i ;
+miam-miam;79802;Interjection;;;-;;m j a m m j a m;morphalou2 dicollecte;miam-miam;872300;-;-;-;-;-;;dicollecte
+mordienne;80444;Interjection;;;-;;m O R d j E n @;morphalou2;mordienne;1026805;-;-;-;-;-;m O R d j E n @;
+mordious;80446;Interjection;;;-;;m O R d j u;morphalou2;mordious;1026807;-;-;-;-;-;m O R d j u;
+notre-dame;81648;Interjection;;;-;;n O t R @ d a m @;morphalou2;notre-dame;1027481;-;-;-;-;-;n O t R @ d a m @;
+oh la la;81951;Interjection;;;-;;o l a l a;morphalou2;oh la la;1027664;-;-;-;-;-;o l a l a;
+oh là là;81952;Interjection;;;-;;;morphalou2;oh là là;1027665;-;-;-;-;-;;
+oh! oh!;81953;Interjection;;;-;;;morphalou2;oh! oh!;1027666;-;-;-;-;-;;
+paff;82757;Interjection;;;-;;p a f;morphalou2;paff;1028089;-;-;-;-;-;p a f;
+palsangué;82879;Interjection;;;-;;p a l s a~ g e;morphalou2;palsangué;1028155;-;-;-;-;-;p a l s a~ g e;
+palsanguié;82880;Interjection;;;-;;p a l s a~ g j e;morphalou2;palsanguié;1028156;-;-;-;-;-;p a l s a~ g j e;
+palsanguienne;82881;Interjection;;;-;;p a l s a~ g j E n @;morphalou2;palsanguienne;1028157;-;-;-;-;-;p a l s a~ g j E n @;
+patatra;83279;Interjection;;;-;;p a t a t R a;morphalou2 dela;patatra;973426;-;-;-;-;-;;dela
+patatrac;83280;Interjection;;;-;;p a t a t R a k;morphalou2;patatrac;1028383;-;-;-;-;-;p a t a t R a k;
+patatras!;83281;Interjection;;;-;;p a t a t R a;morphalou2;patatras!;1028384;-;-;-;-;-;p a t a t R a;
+pécaïre;83382;Interjection;;;-;;p e k a i R @ OU p E/ k a i R @ ;morphalou2 dela dicollecte;pécaïre;853577;-;-;-;-;-;;dela dicollecte
+pécaïré;83383;Interjection;;;-;;p e k a i R e OU p E/ k a i R e ;morphalou2;pécaïré;1028450;-;-;-;-;-;p e k a i R e OU p E/ k a i R e ;
+pf;83876;Interjection;onomatopée;;-;"variante du lemme #108089 ""pff""";p f;morphalou2;pf;1028692;-;-;-;-;-;p f;
+pin-pon;84491;Interjection;;;-;;p e~ p o~;morphalou2;pin-pon;1029013;-;-;-;-;-;p e~ p o~;
+plac-ploc;84585;Interjection;onomatopée;;-;;p l a k p l O k;morphalou2;plac-ploc;1029077;-;-;-;-;-;p l a k p l O k;
+plan plan;84644;Interjection;onomatopée;;-;;p l a~ p l a~;morphalou2;plan plan;1029110;-;-;-;-;-;p l a~ p l a~;
+ploc-plac;84816;Interjection;onomatopée;;-;;p l O k p l a k;morphalou2;ploc-plac;1029220;-;-;-;-;-;p l O k p l a k;
+plof;84817;Interjection;onomatopée;;-;;p l O f;morphalou2 dela;plof;978161;-;-;-;-;-;;dela
+pristi;86027;Interjection;;;-;;p R i s t i;morphalou2;pristi;1029915;-;-;-;-;-;p R i s t i;
+sacreblotte;88765;Interjection;;;-;;s a k R @ b l O t @;morphalou2;sacreblotte;1031473;-;-;-;-;-;s a k R @ b l O t @;
+sacredié;88766;Interjection;;;-;;s a k R @ d j e;morphalou2;sacredié;1031474;-;-;-;-;-;s a k R @ d j e;
+sacrelotte;88767;Interjection;;;-;;s a k R @ l O t @;morphalou2;sacrelotte;1031475;-;-;-;-;-;s a k R @ l O t @;
+saprelotte;88975;Interjection;;;-;;s a p R @ l O t @;morphalou2 dela;saprelotte;993696;-;-;-;-;-;;dela
+sapristoche;88977;Interjection;;;-;;s a p R i s t O S @;morphalou2;sapristoche;1031592;-;-;-;-;-;s a p R i s t O S @;
+tchin-tchin;92469;Interjection;;;-;;t S e~ t S e~;morphalou2 dicollecte;tchin-tchin;859740;-;-;-;-;-;;dicollecte
+tête-dieu;92799;Interjection;;;-;;t E t @ d j 2;morphalou2;tête-dieu;1033651;-;-;-;-;-;t E t @ d j 2;
+têtigué;92802;Interjection;;;-;;t e t i g e OU t E/ t i g e ;morphalou2;têtigué;1033654;-;-;-;-;-;t e t i g e OU t E/ t i g e ;
+teuf-teuf;92871;Interjection;onomatopée;;-;;t 9 f t 9 f;morphalou2;teuf-teuf;1033685;-;-;-;-;-;t 9 f t 9 f;
+teufteuf;92873;Interjection;onomatopée;;-;;t 9 f t 9 f;morphalou2;teufteuf;1033686;-;-;-;-;-;t 9 f t 9 f;
+tic-tac;93154;Interjection;onomatopée;;-;;t i k t a k;morphalou2;tic-tac;1033831;-;-;-;-;-;t i k t a k;
+tin-tin;93182;Interjection;onomatopée;;-;;t e~ t e~;morphalou2;tin-tin;1033849;-;-;-;-;-;t e~ t e~;
+tope;93342;Interjection;;;-;;t O p @;morphalou2 dela dicollecte;tope;846970;-;-;-;-;-;;dela dicollecte
+tralala;93604;Interjection;;;-;;t R a l a l a;morphalou2 dela dicollecte;tralala;836365;-;-;-;-;-;;dela dicollecte
+tsoin-tsoin;94096;Interjection;onomatopée;;-;;t s w e~ t s w e~;morphalou2 dicollecte;tsoin-tsoin;860781;-;-;-;-;-;;dicollecte
+tss;94098;Interjection;onomatopée;;-;;t s;morphalou2 dicollecte;tss;840226;-;-;-;-;-;;dicollecte
+tss-tss;94099;Interjection;onomatopée;;-;;t s t s;morphalou2 dicollecte;tss-tss;862456;-;-;-;-;-;;dicollecte
+turlututu;94203;Interjection;onomatopée;;-;;t y R l y t y t y;morphalou2 dela dicollecte;turlututu;1034380;-;-;-;-;-;t y R l y t y t y;dela dicollecte
+tutu-panpan;94212;Interjection;onomatopée;;-;;t y t y p a~ p a~;morphalou2;tutu-panpan;1034386;-;-;-;-;-;t y t y p a~ p a~;
+va;94717;Interjection;;;-;;v a;morphalou2 dela dicollecte;va;818699;-;-;-;-;-;;dela dicollecte
+ventre-de-biche;94977;Interjection;;;-;;v a~ t R @ d @ b i S @;morphalou2;ventre-de-biche;1034817;-;-;-;-;-;v a~ t R @ d @ b i S @;
+ventredieu;94978;Interjection;;;-;;v a~ t R @ d j 2;morphalou2;ventredieu;1034818;-;-;-;-;-;v a~ t R @ d j 2;
+ventre-saint-gris;94979;Interjection;;;-;;v a~ t R @ s e~ g R i;morphalou2;ventre-saint-gris;1034819;-;-;-;-;-;v a~ t R @ s e~ g R i;
+vivent;95358;Interjection;;;-;;v i v @;morphalou2;vivent;1035057;-;-;-;-;-;v i v @;
+gare;95811;Interjection;;;-;;g a R @;morphalou2 dela;gare;524674;-;-;-;-;-;g a R @;morphalou2 dela
+chiche;95812;Interjection;;;-;;S i S @;morphalou2 dela;chiche;524659;-;-;-;-;-;S i S @;morphalou2 dela
+salut;101173;Interjection;;;-;;;dela dicollecte;salut;818897;-;-;-;-;-;;dela dicollecte
+pan;101641;Interjection;;;-;;;dela dicollecte;pan;820173;-;-;-;-;-;;dela dicollecte
+OK;101758;Interjection;;;-;;;dicollecte lefff;OK;820491;-;-;-;-;-;;dicollecte lefff
+heu;101800;Interjection;;;-;;2;dela dicollecte;heu;820633;-;-;-;-;-;;dela dicollecte
+hé;102093;Interjection;;;-;;;dela dicollecte lefff;hé;821520;-;-;-;-;-;;dela dicollecte lefff
+coucou;103017;Interjection;;;-;;;dela dicollecte lefff;coucou;824399;-;-;-;-;-;;dela dicollecte lefff
+ding;103815;Interjection;;;-;;;dela dicollecte;ding;826899;-;-;-;-;-;;dela dicollecte
+pst;104173;Interjection;;;-;;;dela dicollecte;pst;827957;-;-;-;-;-;;dela dicollecte
+diantre;104357;Interjection;;;-;;;dela dicollecte lefff;diantre;828501;-;-;-;-;-;;dela dicollecte lefff
+bye;104426;Interjection;;;-;;;dela dicollecte lefff;bye;828748;-;-;-;-;-;;dela dicollecte lefff
+bof;106675;Interjection;;;-;;;dela dicollecte lefff;bof;835981;-;-;-;-;-;;dela dicollecte lefff
+miam;107156;Interjection;;;-;;;dicollecte lefff;miam;837562;-;-;-;-;-;;dicollecte lefff
+oups;107602;Interjection;;;-;;;dicollecte;oups;838971;-;-;-;-;-;;dicollecte
+pff;108089;Interjection;;;-;;;dela dicollecte;pff;840615;-;-;-;-;-;;dela dicollecte
+tintin;108157;Interjection;;;-;;;dela dicollecte;tintin;840886;-;-;-;-;-;;dela dicollecte
+brrr;109118;Interjection;;;-;;;dela dicollecte;brrr;843836;-;-;-;-;-;;dela dicollecte
+sniff;109156;Interjection;;;-;;;dela dicollecte;sniff;843962;-;-;-;-;-;;dela dicollecte
+bravissimo;109523;Interjection;;;-;;;dela dicollecte;bravissimo;845101;-;-;-;-;-;;dela dicollecte
+vroum;109730;Interjection;;;-;;;dicollecte lefff;vroum;845739;-;-;-;-;-;;dicollecte lefff
+snif;110158;Interjection;;;-;;;dicollecte lefff;snif;847245;-;-;-;-;-;;dicollecte lefff
+beurk;110422;Interjection;;;-;;;dela dicollecte lefff;beurk;848149;-;-;-;-;-;;dela dicollecte lefff
+psitt;110678;Interjection;;;-;;;dela dicollecte;psitt;848961;-;-;-;-;-;;dela dicollecte
+pfft;110735;Interjection;;;-;;;dela dicollecte;pfft;849129;-;-;-;-;-;;dela dicollecte
+youpi;111437;Interjection;;;-;;;dicollecte lefff;youpi;851713;-;-;-;-;-;;dicollecte lefff
+berk;111546;Interjection;;;-;;;dela dicollecte;berk;852059;-;-;-;-;-;;dela dicollecte
+bigre;111671;Interjection;;;-;;;dela dicollecte;bigre;852487;-;-;-;-;-;;dela dicollecte
+ollé;111712;Interjection;;;-;;;dela dicollecte;ollé;852629;-;-;-;-;-;;dela dicollecte
+hihan;112097;Interjection;;;-;;;dicollecte;hihan;854161;-;-;-;-;-;;dicollecte
+morguienne;112260;Interjection;;;-;;;dela dicollecte;morguienne;854868;-;-;-;-;-;;dela dicollecte
+rebonjour;112461;Interjection;;;-;;;dela dicollecte;rebonjour;855786;-;-;-;-;-;;dela dicollecte
+foutredieu;113038;Interjection;;;-;;;dicollecte;foutredieu;857666;-;-;-;-;-;;dicollecte
+bye-bye;113510;Interjection;;;-;;;dicollecte;bye-bye;858854;-;-;-;-;-;;dicollecte
+jarnicoton;113810;Interjection;;;-;;;dela dicollecte;jarnicoton;859638;-;-;-;-;-;;dela dicollecte
+oufti;114361;Interjection;;;-;;;dicollecte;oufti;861224;-;-;-;-;-;;dicollecte
+bardaf;114489;Interjection;;;-;;;dicollecte;bardaf;861619;-;-;-;-;-;;dicollecte
+byebye;114501;Interjection;;;-;;;dicollecte;byebye;861659;-;-;-;-;-;;dicollecte
+cuicui;114760;Interjection;;;-;;;dicollecte;cuicui;862582;-;-;-;-;-;;dicollecte
+miammiam;116466;Interjection;;;-;;;dicollecte;miammiam;872301;-;-;-;-;-;;dicollecte
+tchintchin;117004;Interjection;;;-;;;dicollecte;tchintchin;876229;-;-;-;-;-;;dicollecte
+tsointsoin;117055;Interjection;;;-;;;dicollecte;tsointsoin;876627;-;-;-;-;-;;dicollecte
+youpie;117144;Interjection;;;-;;;dicollecte;youpie;877326;-;-;-;-;-;;dicollecte
+alerte;120031;Interjection;;;-;;;dela;alerte;883860;-;-;-;-;-;;dela
+arrière;122407;Interjection;;;-;;;dela;arrière;890830;-;-;-;-;-;;dela
+attention;122817;Interjection;;;-;;;dela;attention;891933;-;-;-;-;-;;dela
+bagasse;123583;Interjection;;;-;;;dela;bagasse;893908;-;-;-;-;-;;dela
+banco;123693;Interjection;;;-;;;dela;banco;894146;-;-;-;-;-;;dela
+barbe;123748;Interjection;;;-;;;dela;barbe;894275;-;-;-;-;-;;dela
+baste;123861;Interjection;;;-;;;dela;baste;894555;-;-;-;-;-;;dela
+bis;124456;Interjection;;;-;;;dela;bis;896189;-;-;-;-;-;;dela
+bon;124694;Interjection;;;-;;;dela;bon;896786;-;-;-;-;-;;dela
+bougre;124851;Interjection;;;-;;;dela;bougre;897133;-;-;-;-;-;;dela
+bravo;125057;Interjection;;;-;;;dela;bravo;897553;-;-;-;-;-;;dela
+catastrophe;126558;Interjection;;;-;;;dela;catastrophe;901258;-;-;-;-;-;;dela
+chouette;127589;Interjection;;;-;;;dela;chouette;903818;-;-;-;-;-;;dela
+ciel;127794;Interjection;;;-;;;dela;ciel;904391;-;-;-;-;-;;dela
+comment;128675;Interjection;;;-;;;dela;comment;906566;-;-;-;-;-;;dela
+cric;129974;Interjection;;;-;;;dela;cric;909615;-;-;-;-;-;;dela
+croc;130020;Interjection;;;-;;;dela;croc;909749;-;-;-;-;-;;dela
+crotte;130072;Interjection;;;-;;;dela;crotte;909857;-;-;-;-;-;;dela
+dame;130976;Interjection;;;-;;;dela;dame;912233;-;-;-;-;-;;dela
+damnation;130988;Interjection;;;-;;;dela;damnation;912256;-;-;-;-;-;;dela
+debout;131069;Interjection;;;-;;;dela;debout;912438;-;-;-;-;-;;dela
+diable;131405;Interjection;;;-;;;dela;diable;913249;-;-;-;-;-;;dela
+dieu;131710;Interjection;;;-;;;dela;dieu;914088;-;-;-;-;-;;dela
+dong;132444;Interjection;;;-;;;dela;dong;915964;-;-;-;-;-;;dela
+fixe;136860;Interjection;;;-;;;dela;fixe;926340;-;-;-;-;-;;dela
+flic;136972;Interjection;;;-;;;dela;flic;926602;-;-;-;-;-;;dela
+flop;136991;Interjection;;;-;;;dela;flop;926641;-;-;-;-;-;;dela
+flûte;137099;Interjection;;;-;;;dela;flûte;926907;-;-;-;-;-;;dela
+foin;137125;Interjection;;;-;;;dela;foin;926971;-;-;-;-;-;;dela
+gai;137804;Interjection;;;-;;;dela;gai;928744;-;-;-;-;-;;dela
+gling;138366;Interjection;;;-;;;dela;gling;930204;-;-;-;-;-;;dela
+grâce;139047;Interjection;;;-;;;dela;grâce;932055;-;-;-;-;-;;dela
+gué;139151;Interjection;;;-;;;dela;gué;932313;-;-;-;-;-;;dela
+haha;139440;Interjection;;;-;;;dela;haha;933213;-;-;-;-;-;;dela
+hallali;139489;Interjection;;;-;;;dela;hallali;933325;-;-;-;-;-;;dela
+halte;139528;Interjection;;;-;;;dela;halte;933423;-;-;-;-;-;;dela
+hardi;139652;Interjection;;;-;;;dela;hardi;933716;-;-;-;-;-;;dela
+houst;140344;Interjection;;;-;;;dela;houst;935871;-;-;-;-;-;;dela
+las;145044;Interjection;;;-;;;dela;las;950345;-;-;-;-;-;;dela
+là;146207;Interjection;;;-;;;dela;là;953553;-;-;-;-;-;;dela
+mais;146523;Interjection;;;-;;;dela;mais;954487;-;-;-;-;-;;dela
+mazette;147088;Interjection;;;-;;;dela;mazette;955983;-;-;-;-;-;;dela
+mince;147624;Interjection;;;-;;;dela;mince;957441;-;-;-;-;-;;dela
+montjoie;148152;Interjection;;;-;;;dela;montjoie;959268;-;-;-;-;-;;dela
+mâtin;148881;Interjection;;;-;;;dela;mâtin;961472;-;-;-;-;-;;dela
+ouais;151811;Interjection;;;-;;;dela lefff;ouais;970208;-;-;-;-;-;;dela lefff
+ouïe;151878;Interjection;;;-;;;dela;ouïe;970346;-;-;-;-;-;;dela
+paf;152067;Interjection;;;-;;;dela;paf;970914;-;-;-;-;-;;dela
+paix;152105;Interjection;;;-;;;dela;paix;971010;-;-;-;-;-;;dela
+pardine;152746;Interjection;;;-;;;dela;pardine;972872;-;-;-;-;-;;dela
+pif;154097;Interjection;;;-;;;dela;pif;976887;-;-;-;-;-;;dela
+pouf;155648;Interjection;;;-;;;dela;pouf;981164;-;-;-;-;-;;dela
+putain;157045;Interjection;;;-;;;dela lefff;putain;985301;-;-;-;-;-;;dela lefff
+rantanplan;158132;Interjection;;;-;;;dela;rantanplan;988538;-;-;-;-;-;;dela
+sésame;163114;Interjection;;;-;;;dela;sésame;1002962;-;-;-;-;-;;dela
+tac;163148;Interjection;;;-;;;dela;tac;1003074;-;-;-;-;-;;dela
+tagada;163186;Interjection;;;-;;;dela;tagada;1003195;-;-;-;-;-;;dela
+tayaut;163410;Interjection;;;-;;;dela;tayaut;1003776;-;-;-;-;-;;dela
+tchin;163427;Interjection;;;-;;;dela;tchin;1003813;-;-;-;-;-;;dela
+tiens;164055;Interjection;;;-;;;dela;tiens;1005709;-;-;-;-;-;;dela
+té;165436;Interjection;;;-;;;dela;té;1009644;-;-;-;-;-;;dela
+vive;166660;Interjection;;;-;;v i v @;dela;vive;1013509;-;-;-;-;-;;dela
+youp;167067;Interjection;;;-;;;dela;youp;1014722;-;-;-;-;-;;dela
+zeste;167098;Interjection;;;-;;;dela;zeste;1014824;-;-;-;-;-;;dela
+O.K.;170452;Interjection;abréviation;;-;;;lefff;O.K.;1036424;-;-;-;-;-;;lefff
+aglagla;170509;Interjection;;;-;;;lefff;aglagla;1036581;-;-;-;-;-;;lefff
+allez;170524;Interjection;;;-;;;lefff;allez;1036669;-;-;-;-;-;;lefff
+allez donc;170525;Interjection;;;-;;;lefff;allez donc;1036670;-;-;-;-;-;;lefff
+atchoum;170591;Interjection;;;-;;;lefff;atchoum;1037050;-;-;-;-;-;;lefff
+au revoir;170639;Interjection;;;-;;;lefff;au revoir;1037134;-;-;-;-;-;;lefff
+bip;170779;Interjection;;;-;;;lefff;bip;1038504;-;-;-;-;-;;lefff
+bon appétit;170812;Interjection;;;-;;;lefff;bon appétit;1038702;-;-;-;-;-;;lefff
+bonjour;170814;Interjection;;;-;;;lefff;bonjour;1038706;-;-;-;-;-;;lefff
+bonne journée;170815;Interjection;;;-;;;lefff;bonne journée;1038707;-;-;-;-;-;;lefff
+bonne nuit;170816;Interjection;;;-;;;lefff;bonne nuit;1038708;-;-;-;-;-;;lefff
+bouh;170824;Interjection;;;-;;;lefff;bouh;1038736;-;-;-;-;-;;lefff
+carpe diem;170887;Interjection;;;-;;;lefff;carpe diem;1039060;-;-;-;-;-;;lefff
+damned;171051;Interjection;;;-;;;lefff;damned;1040329;-;-;-;-;-;;lefff
+eh ben;171255;Interjection;;;-;;;lefff;eh ben;1042513;-;-;-;-;-;;lefff
+eh bien;171256;Interjection;;;-;;;lefff;eh bien;1042514;-;-;-;-;-;;lefff
+eh quoi;171257;Interjection;;;-;;;lefff;eh quoi;1042515;-;-;-;-;-;;lefff
+glagla;171497;Interjection;;;-;;;lefff;glagla;1043884;-;-;-;-;-;;lefff
+grrr;171524;Interjection;;;-;;;lefff;grrr;1044015;-;-;-;-;-;;lefff
+hasta luego;171559;Interjection;;;-;;;lefff;hasta luego;1044195;-;-;-;-;-;;lefff
+hey;171566;Interjection;;;-;;;lefff;hey;1044227;-;-;-;-;-;;lefff
+hihihi;171569;Interjection;;;-;;;lefff;hihihi;1044232;-;-;-;-;-;;lefff
+hola;171575;Interjection;;;-;;;lefff;hola;1044250;-;-;-;-;-;;lefff
+meuh;171861;Interjection;;;-;;;lefff;meuh;1045786;-;-;-;-;-;;lefff
+mhh;171864;Interjection;;;-;;;lefff;mhh;1045790;-;-;-;-;-;;lefff
+mmm;171874;Interjection;;;-;;;lefff;mmm;1045912;-;-;-;-;-;;lefff
+mouais;171894;Interjection;;;-;;;lefff;mouais;1045981;-;-;-;-;-;;lefff
+moui;171895;Interjection;;;-;;;lefff;moui;1046002;-;-;-;-;-;;lefff
+nan;171930;Interjection;;;-;;;lefff;nan;1046173;-;-;-;-;-;;lefff
+niark;171951;Interjection;;;-;;;lefff;niark;1046221;-;-;-;-;-;;lefff
+oops;171993;Interjection;;;-;;;lefff;oops;1046418;-;-;-;-;-;;lefff
+pfff;172099;Interjection;;;-;;;lefff;pfff;1046748;-;-;-;-;-;;lefff
+pfiou;172100;Interjection;;;-;;;lefff;pfiou;1046749;-;-;-;-;-;;lefff
+revoici;172302;Interjection;;;-;;;lefff;revoici;1048487;-;-;-;-;-;;lefff
+revoilà;172304;Interjection;;;-;;;lefff;revoilà;1048489;-;-;-;-;-;;lefff
+sangrebleu;172369;Interjection;;;-;;;lefff;sangrebleu;1049347;-;-;-;-;-;;lefff
+sorry;172449;Interjection;;;-;;;lefff;sorry;1049753;-;-;-;-;-;;lefff
+tchuss;172531;Interjection;;;-;;;lefff;tchuss;1050925;-;-;-;-;-;;lefff
+voici;172713;Interjection;;;-;;;lefff;voici;1052187;-;-;-;-;-;;lefff
+voilà;172716;Interjection;;;-;;;lefff;voilà;1052192;-;-;-;-;-;;lefff
+wie geht's;172739;Interjection;;;-;;;lefff;wie geht's;1052254;-;-;-;-;-;;lefff
+zyva;172764;Interjection;;;-;;;lefff;zyva;1052397;-;-;-;-;-;;lefff
+à bientôt;172765;Interjection;;;-;;;lefff;à bientôt;1052398;-;-;-;-;-;;lefff
+à plus;172817;Interjection;;;-;;;lefff;à plus;1052468;-;-;-;-;-;;lefff
+tchô;172919;Interjection;;;-;"variante du lemme #15357 ""ciao""";t S a w;lefff;tchô;1050926;-;-;-;-;-;;lefff
+okay;172931;Interjection;;;-;"variante du lemme #101758 ""OK""";;lefff;okay;1046355;-;-;-;-;-;;lefff
+oki;172932;Interjection;;;-;"variante du lemme #101758 ""OK""";;lefff;oki;1046356;-;-;-;-;-;;lefff
+okidoki;172933;Interjection;;;-;"variante du lemme #101758 ""OK""";;lefff;okidoki;1046357;-;-;-;-;-;;lefff
+bof-bof;172934;Interjection;;;-;"variante du lemme #106675 ""bof""";;lefff;bof-bof;1038685;-;-;-;-;-;;lefff
+bon app';172936;Interjection;abréviation;;-;"variante du lemme #170812 ""bon appétit""";;lefff;bon app';1038703;-;-;-;-;-;;lefff
+oups;172940;Interjection;;;-;"variante du lemme #171993 ""oops""";;lefff;oups;1046511;-;-;-;-;-;;lefff
+voili;172946;Interjection;;;-;"variante du lemme #172716 ""voilà""";;lefff;voili;1052193;-;-;-;-;-;;lefff
+voilou;172947;Interjection;;;-;"variante du lemme #172716 ""voilà""";;lefff;voilou;1052194;-;-;-;-;-;;lefff
+à plouche;172948;Interjection;;;-;"variante du lemme #172817 ""à plus""";;lefff;à plouche;1052469;-;-;-;-;-;;lefff

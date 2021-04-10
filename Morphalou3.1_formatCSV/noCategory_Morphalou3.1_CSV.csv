@@ -1,0 +1,372 @@
+---------------------------------------------------------------------------
+Morphalou3.1 : Lexique morphologique ouvert du français – Ce fichier contient uniquement les non catégorisés
+356 lemmes et 356 formes fléchies de catégorie non catégorisés (sur un total de 159 271 lemmes et 976 570 formes fléchies, toutes catégories confondues)
+Le maintien et la mise à jour du lexique sont assurés par l'ATILF CNRS. (44 avenue de la Libération 54000 Nancy)
+Morphalou3 est distribué sous licence LGPL-LR.
+Version de 6/2016
+Morphalou3 est le résultat de la fusion de 5 lexiques :
+	- Morphalou2 (décembre 2013) : http://www.cnrtl.fr/lexiques/morphalou/
+	- DELA (décembre 2011) : http://infolingu.univ-mlv.fr/
+	- Dicollecte (4.3) : http://dicollecte.org/home.php?prj=fr
+	- Lefff (2.1) : http://www.labri.fr/perso/clement/lefff/
+	- LGLex et LGLexLefff (3.4) : http://infolingu.univ-mlv.fr/
+Ce travail a été réalisé par Marie TONNELIER dans le cadre du projet Ortolang. (ORTOLANG bénéficie d'une aide de l’Etat au titre du programme « Investissements d’avenir » ANR–11–EQPX–0032)
+---------------------------------------------------------------------------
+LEMME;;;;;;;;;FLEXION;;;;;;;;
+GRAPHIE;ID;CATÉGORIE;SOUS CATÉGORIE;LOCUTION;GENRE;AUTRES LEMMES LIÉS;PHONÉTIQUE;ORIGINES;GRAPHIE;ID;NOMBRE;MODE;GENRE;TEMPS;PERSONNE;PHONÉTIQUE;ORIGINES
+ouais;44547;;;;-;;w E OU w E/ ;morphalou2 dicollecte;ouais;344385;-;-;-;-;-;w E OU w E/ ;morphalou2 dicollecte
+vive;64656;;;;-;;v i v @;morphalou2;vive;500053;-;-;-;-;-;v i v @;morphalou2
+ab hoc et ab hac;67414;;;;-;;a b O k E t a b a k;morphalou2;ab hoc et ab hac;1019176;-;-;-;-;-;a b O k E t a b a k;
+ab intestat;67415;;;;-;;a b e~ t E s t a;morphalou2;ab intestat;1019177;-;-;-;-;-;a b e~ t E s t a;
+ab irato;67416;;;;-;;a b i R a t o;morphalou2;ab irato;1019178;-;-;-;-;-;a b i R a t o;
+ab ovo;67418;;;;-;;a b O v o OU a b O/ v o ;morphalou2;ab ovo;1019180;-;-;-;-;-;a b O v o OU a b O/ v o ;
+aco;67500;;;;-;;a k o;morphalou2;aco;1019236;-;-;-;-;-;a k o;
+à contre-lumière;67502;;;;-;;a k o~ t R @ l y m j E R @;morphalou2;à contre-lumière;1019238;-;-;-;-;-;a k o~ t R @ l y m j E R @;
+ad hoc;67605;;;;-;;a d O k;morphalou2;ad hoc;1019304;-;-;-;-;-;a d O k;
+ad hominem;67607;;;;-;;a d O m i n E m OU a d O/ m i n E m ;morphalou2;ad hominem;1019306;-;-;-;-;-;a d O m i n E m OU a d O/ m i n E m ;
+ad honores;67608;;;;-;;a d O n O R E s OU a d O/ n O R E s ;morphalou2;ad honores;1019307;-;-;-;-;-;a d O n O R E s OU a d O/ n O R E s ;
+adieu-va;67611;;;;-;;a d j 2 v a;morphalou2;adieu-va;1019310;-;-;-;-;-;a d j 2 v a;
+adieu-vat;67612;;;;-;;a d j 2 v a;morphalou2;adieu-vat;1019311;-;-;-;-;-;a d j 2 v a;
+ad libitum;67628;;;;-;;a d l i b i t O m;morphalou2;ad libitum;1019322;-;-;-;-;-;a d l i b i t O m;
+ad patres;67631;;;;-;;a d p a t R E s;morphalou2;ad patres;1019325;-;-;-;-;-;a d p a t R E s;
+ad referendum;67632;;;;-;;a d R e f e R a~ d O m OU a d R E/ f E/ R a~ d O m ;morphalou2;ad referendum;1019326;-;-;-;-;-;a d R e f e R a~ d O m OU a d R E/ f E/ R a~ d O m ;
+ad rem;67633;;;;-;;a d R E m;morphalou2;ad rem;1019327;-;-;-;-;-;a d R E m;
+d'affile;67722;;;;-;;d a f i l @;morphalou2; d'affile;1019387;-;-;-;-;-;d a f i l @;
+d'affilée;67723;;;;-;;d a f i l e;morphalou2; d'affilée;1019388;-;-;-;-;-;d a f i l e;
+à la bonne franquette;67763;;;;-;;a l a b O n @ f R a~ k E t @ OU a l a b O/ n @ f R a~ k E t @ ;morphalou2;à la bonne franquette;1019417;-;-;-;-;-;a l a b O n @ f R a~ k E t @ OU a l a b O/ n @ f R a~ k E t @ ;
+à l'envers;67816;;;;-;;a l a~ v E R;morphalou2;à l'envers;1019445;-;-;-;-;-;a l a~ v E R;
+alla breve;67846;;;;-;;a l a b R E v e OU a l a b R E/ v e ;morphalou2;alla breve;1019468;-;-;-;-;-;a l a b R E v e OU a l a b R E/ v e ;
+altèque;67915;;;;-;;a l t E k @;morphalou2;altèque;1019515;-;-;-;-;-;a l t E k @;
+d'altèque;67916;;;;-;;d a l t E k @;morphalou2; d'altèque;1019516;-;-;-;-;-;d a l t E k @;
+à l'amiable;68007;;;;-;;a l a m j a b l @;morphalou2; à l'amiable;1019581;-;-;-;-;-;a l a m j a b l @;
+à muche-pot;68108;;;;-;;a m y S @ p o;morphalou2;à muche-pot;1019646;-;-;-;-;-;a m y S @ p o;
+à musse-pot;68110;;;;-;;a m y s @ p o;morphalou2;à musse-pot;1019647;-;-;-;-;-;a m y s @ p o;
+à pic;68559;;;;-;;a p i k;morphalou2;à pic;1019977;-;-;-;-;-;a p i k;
+à posteriori;68576;;;;-;;a p O s t e R j O R i OU a p O/ s t E/ R j O/ R i ;morphalou2;à posteriori;1019987;-;-;-;-;-;a p O s t e R j O R i OU a p O/ s t E/ R j O/ R i ;
+à priori;68607;;;;-;;a p R i j O R i OU a p R i j O/ R i ;morphalou2;à priori;1020002;-;-;-;-;-;a p R i j O R i OU a p R i j O/ R i ;
+arrache-pied;68680;;;;-;;a R a S @ p j e;morphalou2;arrache-pied;1020054;-;-;-;-;-;a R a S @ p j e;
+d'arrache-pied;68681;;;;-;;d a R a S @ p j e;morphalou2; d'arrache-pied;1020055;-;-;-;-;-;d a R a S @ p j e;
+à tire-larigot;68856;;;;-;;a t i R @ l a R i g o;morphalou2;à tire-larigot;1020168;-;-;-;-;-;a t i R @ l a R i g o;
+auprès de;68908;;;;-;;o p R E d @ OU O/ p R E/ d @ ;morphalou2;auprès de;1020205;-;-;-;-;-;o p R E d @ OU O/ p R E/ d @ ;
+autor;68960;;;;-;;o t O R OU O/ t O R ;morphalou2;autor;1020243;-;-;-;-;-;o t O R OU O/ t O R ;
+d'autor;68961;;;;-;;d o t O R OU d O/ t O R ;morphalou2; d'autor;1020244;-;-;-;-;-;d o t O R OU d O/ t O R ;
+à vau;69015;;;;-;;a v o;morphalou2;à vau;1020263;-;-;-;-;-;a v o;
+à vau-de-route;69016;;;;-;;a v o d @ R u t @;morphalou2;à vau-de-route;1020264;-;-;-;-;-;a v o d @ R u t @;
+à vau-le-feu;69017;;;;-;;a v o l @ f 2;morphalou2;à vau-le-feu;1020265;-;-;-;-;-;a v o l @ f 2;
+avenantà l';69021;;;;-;;;morphalou2;avenantà l';1020269;-;-;-;-;-;;
+aveuglette;69023;;;;-;;a v 2 g l E t @ OU a v 6 g l E t @ ;morphalou2;aveuglette;1020270;-;-;-;-;-;a v 2 g l E t @ OU a v 6 g l E t @ ;
+à l'aveuglette;69024;;;;-;;a l a v 2 g l E t @ OU a l a v 6 g l E t @ ;morphalou2; à l'aveuglette;1020271;-;-;-;-;-;a l a v 2 g l E t @ OU a l a v 6 g l E t @ ;
+boucheton;69487;;;;-;;b u S @ t o~;morphalou2;boucheton;1020572;-;-;-;-;-;b u S @ t o~;
+à boucheton;69488;;;;-;;a b u S @ t o~;morphalou2; à boucheton;1020573;-;-;-;-;-;a b u S @ t o~;
+à la bradel;69520;;;;-;;a l a b R a d E l;morphalou2; à la bradel;1020593;-;-;-;-;-;a l a b R a d E l;
+bras-le-corps;69531;;;;-;;b R a l @ k O R;morphalou2;bras-le-corps;1020602;-;-;-;-;-;b R a l @ k O R;
+à bras-le-corps;69532;;;;-;;a b R a l @ k O R;morphalou2; à bras-le-corps;1020603;-;-;-;-;-;a b R a l @ k O R;
+brassette;69535;;;;-;;b R a s E t @;morphalou2;brassette;1020606;-;-;-;-;-;b R a s E t @;
+à la brassette;69536;;;;-;;a l a b R a s E t @;morphalou2; à la brassette;1020607;-;-;-;-;-;a l a b R a s E t @;
+bredi-breda;69540;;;;-;;b R E d i b R E d a;morphalou2;bredi-breda;1020610;-;-;-;-;-;b R E d i b R E d a;
+bric et de broc;69546;;;;-;;b R i k e d @ b R o k OU b R i k E/ d @ b R o k ;morphalou2;bric et de broc;1020615;-;-;-;-;-;b R i k e d @ b R o k OU b R i k E/ d @ b R o k ;
+de bric et de broc;69547;;;;-;;d @ b R i k e d @ b R o k OU d @ b R i k E/ d @ b R o k ;morphalou2; de bric et de broc;1020616;-;-;-;-;-;d @ b R i k e d @ b R o k OU d @ b R i k E/ d @ b R o k ;
+brûle-pourpoint;69575;;;;-;;b R y l @ p u R p w e~;morphalou2;brûle-pourpoint;1020631;-;-;-;-;-;b R y l @ p u R p w e~;
+à brûle-pourpoint;69576;;;;-;;a b R y l @ p u R p w e~;morphalou2; à brûle-pourpoint;1020632;-;-;-;-;-;a b R y l @ p u R p w e~;
+brunante;69578;;;;-;;b R y n a~ t @;morphalou2;brunante;1020634;-;-;-;-;-;b R y n a~ t @;
+à la brunante;69579;;;;-;;a l a b R y n a~ t @;morphalou2; à la brunante;1020635;-;-;-;-;-;a l a b R y n a~ t @;
+califourchon;69639;;;;-;;k a l i f u R S o~;morphalou2;califourchon;1020663;-;-;-;-;-;k a l i f u R S o~;
+à califourchon;69641;;;;-;;a k a l i f u R S o~;morphalou2; à califourchon;1020664;-;-;-;-;-;a k a l i f u R S o~;
+catimini;69837;;;;-;;k a t i m i n i;morphalou2;catimini;1020786;-;-;-;-;-;k a t i m i n i;
+en catimini;69838;;;;-;;a~ k a t i m i n i;morphalou2; en catimini;1020787;-;-;-;-;-;a~ k a t i m i n i;
+charlemagne;70073;;;;-;;S a R l @ m a J @;morphalou2;charlemagne;1020974;-;-;-;-;-;S a R l @ m a J @;
+charlemagne faire;70074;;;;-;;S a R l @ m a J @ f E R @ OU f E R @ S a R l @ m a J @ ;morphalou2;charlemagne faire;1020975;-;-;-;-;-;S a R l @ m a J @ f E R @ OU f E R @ S a R l @ m a J @ ;
+chevauchons;70195;;;;-;;S @ v o S o~ OU S @ v O/ S o~ ;morphalou2;chevauchons;1021056;-;-;-;-;-;S @ v o S o~ OU S @ v O/ S o~ ;
+cloche-pied;70524;;;;-;;k l O S @ p j e;morphalou2;cloche-pied;1021267;-;-;-;-;-;k l O S @ p j e;
+contre-biais;70734;;;;-;;k o~ t R @ b j E OU k o~ t R @ b j E/ ;morphalou2;contre-biais;1021401;-;-;-;-;-;k o~ t R @ b j E OU k o~ t R @ b j E/ ;
+à contre-biais;70735;;;;-;;a k o~ t R @ b j E OU a k o~ t R @ b j E/ ;morphalou2; à contre-biais;1021402;-;-;-;-;-;a k o~ t R @ b j E OU a k o~ t R @ b j E/ ;
+contrebord;70736;;;;-;;k o~ t R @ b O R;morphalou2;contrebord;1021403;-;-;-;-;-;k o~ t R @ b O R;
+à contrebord;70737;;;;-;;a k o~ t R @ b O R;morphalou2; à contrebord;1021404;-;-;-;-;-;a k o~ t R @ b O R;
+contre-cœur;70745;;;;-;;k o~ t R @ k 9 R;morphalou2;contre-cœur;1021408;-;-;-;-;-;k o~ t R @ k 9 R;
+à contre-cœur;70747;;;;-;;a k o~ t R @ k 9 R;morphalou2; à contre-cœur;1021410;-;-;-;-;-;a k o~ t R @ k 9 R;
+contre-échange;70752;;;;-;;k o~ t R @ e S a~ Z @ OU k o~ t R @ E/ S a~ Z @ ;morphalou2;contre-échange;1021412;-;-;-;-;-;k o~ t R @ e S a~ Z @ OU k o~ t R @ E/ S a~ Z @ ;
+en contre-échange;70753;;;;-;;a~ k o~ t R @ e S a~ Z @ OU a~ k o~ t R @ E/ S a~ Z @ ;morphalou2; en contre-échange;1021413;-;-;-;-;-;a~ k o~ t R @ e S a~ Z @ OU a~ k o~ t R @ E/ S a~ Z @ ;
+contre-fil;70769;;;;-;;k o~ t R @ f i l;morphalou2;contre-fil;1021417;-;-;-;-;-;k o~ t R @ f i l;
+à contre-fil;70770;;;;-;;a k o~ t R @ f i l;morphalou2; à contre-fil;1021418;-;-;-;-;-;a k o~ t R @ f i l;
+contre-gré;70774;;;;-;;k o~ t R @ g R e;morphalou2;contre-gré;1021421;-;-;-;-;-;k o~ t R @ g R e;
+à contre-gré;70775;;;;-;;a k o~ t R @ g R e;morphalou2; à contre-gré;1021422;-;-;-;-;-;a k o~ t R @ g R e;
+contre-haut;70779;;;;-;;k o~ t R @ o;morphalou2;contre-haut;1021426;-;-;-;-;-;k o~ t R @ o;
+en contre-haut;70780;;;;-;;a~ k o~ t R @ o;morphalou2; en contre-haut;1021427;-;-;-;-;-;a~ k o~ t R @ o;
+contre-mesure;70793;;;;-;;k o~ t R @ m @ z y R @;morphalou2;contre-mesure;1021429;-;-;-;-;-;k o~ t R @ m @ z y R @;
+à contre-mesure;70794;;;;-;;a k o~ t R @ m @ z y R @;morphalou2; à contre-mesure;1021430;-;-;-;-;-;a k o~ t R @ m @ z y R @;
+contre-nature;70802;;;;-;;k o~ t R @ n a t y R @;morphalou2;contre-nature;1021436;-;-;-;-;-;k o~ t R @ n a t y R @;
+contre-poil;70813;;;;-;;k o~ t R @ p w a l;morphalou2;contre-poil;1021442;-;-;-;-;-;k o~ t R @ p w a l;
+à contre-poil;70814;;;;-;;a k o~ t R @ p w a l;morphalou2; à contre-poil;1021443;-;-;-;-;-;a k o~ t R @ p w a l;
+contre-saison;70830;;;;-;;k o~ t R @ s E z o~ OU k o~ t R @ s E/ z o~ ;morphalou2;contre-saison;1021448;-;-;-;-;-;k o~ t R @ s E z o~ OU k o~ t R @ s E/ z o~ ;
+à contre-saison;70831;;;;-;;a k o~ t R @ s E z o~ OU a k o~ t R @ s E/ z o~ ;morphalou2; à contre-saison;1021449;-;-;-;-;-;a k o~ t R @ s E z o~ OU a k o~ t R @ s E/ z o~ ;
+contre-voie;70846;;;;-;;k o~ t R @ v w a;morphalou2;contre-voie;1021456;-;-;-;-;-;k o~ t R @ v w a;
+à contre-voie;70847;;;;-;;a k o~ t R @ v w a;morphalou2; à contre-voie;1021457;-;-;-;-;-;a k o~ t R @ v w a;
+couci-couci;70952;;;;-;;k u s i k u s i;morphalou2;couci-couci;1021534;-;-;-;-;-;k u s i k u s i;
+croque-au-sel;71123;;;;-;;k R O k @ o s E l;morphalou2;croque-au-sel;1021637;-;-;-;-;-;k R O k @ o s E l;
+à la croque-au-sel;71124;;;;-;;a l a k R O k o s E l;morphalou2; à la croque-au-sel;1021638;-;-;-;-;-;a l a k R O k o s E l;
+croupetons;71131;;;;-;;k R u p @ t o~;morphalou2;croupetons;1021639;-;-;-;-;-;k R u p @ t o~;
+à croupetons;71132;;;;-;;a k R u p @ t o~;morphalou2; à croupetons;1021640;-;-;-;-;-;a k R u p @ t o~;
+da capo;71470;;;;-;;d a k a p o;morphalou2;da capo;1021861;-;-;-;-;-;d a k a p o;
+dare-dare;71486;;;;-;;d a R @ d a R @;morphalou2;dare-dare;1021869;-;-;-;-;-;d a R @ d a R @;
+à la daumont;71489;;;;-;;a l a d o m o~ OU a l a d O/ m o~ ;morphalou2; à la daumont;1021872;-;-;-;-;-;a l a d o m o~ OU a l a d O/ m o~ ;
+de la;71536;;;;-;;d @ l a;morphalou2; la  de ;1021900;-;-;-;-;-;d @ l a;
+demi-bas;71555;;;;-;;d @ m i b a;morphalou2;demi-bas;1021913;-;-;-;-;-;d @ m i b a;
+demi-basà;71557;;;;-;;d @ m i b a z a;morphalou2;demi-basà;1021914;-;-;-;-;-;d @ m i b a z a;
+demi-hauteur;71600;;;;-;;d @ m i o t 9 R OU d @ m i O/ t 9 R ;morphalou2;demi-hauteur;1021936;-;-;-;-;-;d @ m i o t 9 R OU d @ m i O/ t 9 R ;
+à demi-hauteur;71601;;;;-;;a d @ m i o t 9 R OU a d @ m i O/ t 9 R ;morphalou2; à demi-hauteur;1021937;-;-;-;-;-;a d @ m i o t 9 R OU a d @ m i O/ t 9 R ;
+demi-mot;71622;;;;-;;d @ m i m o;morphalou2;demi-mot;1021946;-;-;-;-;-;d @ m i m o;
+a demi-mot;71624;;;;-;;a d @ m i m o;morphalou2; a demi-mot;1021947;-;-;-;-;-;a d @ m i m o;
+demi-sang;71642;;;;-;;d @ m i s a~;morphalou2;demi-sang;1021952;-;-;-;-;-;d @ m i s a~;
+demi-voix;71666;;;;-;;d @ m i v w a;morphalou2;demi-voix;1021963;-;-;-;-;-;d @ m i v w a;
+à demi-voix;71667;;;;-;;a d @ m i v w a;morphalou2; à demi-voix;1021964;-;-;-;-;-;a d @ m i v w a;
+en dépit de;71697;;;;-;;;morphalou2;en dépit de;1021981;-;-;-;-;-;;
+de visu;71813;;;;-;;d @ v i z y;morphalou2;de visu;1022035;-;-;-;-;-;d @ v i z y;
+divinis;71893;;;;-;;d i v i n i;morphalou2;divinis;1022079;-;-;-;-;-;d i v i n i;
+a divinis;71894;;;;-;;a d i v i n i;morphalou2; a divinis;1022080;-;-;-;-;-;a d i v i n i;
+eh bien;72124;;;;-;;e b j e~ OU E/ b j e~ ;morphalou2;eh bien;1022191;-;-;-;-;-;e b j e~ OU E/ b j e~ ;
+emblée;72221;;;;-;;a~ b l e;morphalou2;emblée;1022243;-;-;-;-;-;a~ b l e;
+d'emblée;72222;;;;-;;d a~ b l e;morphalou2; d'emblée;1022244;-;-;-;-;-;d a~ b l e;
+encontre;72289;;;;-;;a~ k o~ t R @;morphalou2;encontre;1022294;-;-;-;-;-;a~ k o~ t R @;
+à l'encontre;72290;;;;-;;a l a~ k o~ t R @;morphalou2; à l'encontre;1022295;-;-;-;-;-;a l a~ k o~ t R @;
+en suspens;72368;;;;-;;a~ s y s p a~;morphalou2;en suspens;1022344;-;-;-;-;-;a~ s y s p a~;
+entrefaites;72399;;;;-;;a~ t R @ f E t @;morphalou2;entrefaites;1022366;-;-;-;-;-;a~ t R @ f E t @;
+sur ces entrefaites;72400;;;;-;;s y R s e z a~ t R @ f E t @;morphalou2;sur ces entrefaites;1022367;-;-;-;-;-;s y R s e z a~ t R @ f E t @;
+entre temps;72411;;;;-;;a~ t R @ t a~;morphalou2;entre temps;1022376;-;-;-;-;-;a~ t R @ t a~;
+envi;72422;;;;-;;a~ v i;morphalou2;envi;1022382;-;-;-;-;-;a~ v i;
+à l'envi;72423;;;;-;;a l a~ v i;morphalou2; à l'envi;1022383;-;-;-;-;-;a l a~ v i;
+espère;72551;;;;-;;E s p E R @;morphalou2;espère;1022445;-;-;-;-;-;E s p E R @;
+à l'espère;72552;;;;-;;a l E s p E R @;morphalou2; à l'espère;1022446;-;-;-;-;-;a l E s p E R @;
+est-ce que;72565;;;;-;;E s @ k @;morphalou2;est-ce que;1022450;-;-;-;-;-;E s @ k @;
+est-ce qui;72566;;;;-;;E s @ k i;morphalou2;est-ce qui;1022451;-;-;-;-;-;E s @ k i;
+est-ce qui que;72567;;;;-;;E s @ k i k @;morphalou2;est-ce qui que;1022452;-;-;-;-;-;E s @ k i k @;
+et cætera;72580;;;;-;;E t s e t e R a OU E/ t s e t e R a ;morphalou2;et cætera;1022457;-;-;-;-;-;E t s e t e R a OU E/ t s e t e R a ;
+et cetera;72581;;;;-;;E t s e t e R a OU E/ s e t e R a ;morphalou2;et cetera;1022458;-;-;-;-;-;E t s e t e R a OU E/ s e t e R a ;
+et cœtera;72582;;;;-;;E t s e t @ R a OU E/ t s e t e R a ;morphalou2;et cœtera;1022459;-;-;-;-;-;E t s e t @ R a OU E/ t s e t e R a ;
+étouffée;72596;;;;-;;e t u f e;morphalou2;étouffée;1022467;-;-;-;-;-;e t u f e;
+à l'étouffée;72597;;;;-;;a l e t u f e OU a l E/ t u f e ;morphalou2; à l'étouffée;1022468;-;-;-;-;-;a l e t u f e OU a l E/ t u f e ;
+ex-aequo;72636;;;;-;;E k s e k o OU E k s E/ E/ k o ;morphalou2;ex-aequo;1022488;-;-;-;-;-;E k s e k o OU E k s E/ E/ k o ;
+ex cathedra;72638;;;;-;;E k s k a t e d R a OU E k s k a t E/ d R a ;morphalou2;ex cathedra;1022490;-;-;-;-;-;E k s k a t e d R a OU E k s k a t E/ d R a ;
+exit;72645;;;;-;;E g z i t;morphalou2;exit;1022492;-;-;-;-;-;E g z i t;
+florès;73113;;;;-;;f l o R E s OU f l O/ R E s ;morphalou2;florès;1022745;-;-;-;-;-;f l o R E s OU f l O/ R E s ;
+florès faire;73116;;;;-;;f l o R E s f E R @ OU f l O/ R E s f E R @ ;morphalou2;florès faire;1022748;-;-;-;-;-;f l o R E s f E R @ OU f l O/ R E s f E R @ ;
+fortiori;73224;;;;-;;f O R s j O R i OU f O R s j O/ R i ;morphalou2;fortiori;1022806;-;-;-;-;-;f O R s j O R i OU f O R s j O/ R i ;
+a fortiori;73225;;;;-;;a f O R s j O R i OU a f O R s j O/ R i ;morphalou2; a fortiori;1022807;-;-;-;-;-;a f O R s j O R i OU a f O R s j O/ R i ;
+franc-étable;73326;;;;-;;f R a~ e t a b l @ OU f R a~ E/ t a b l @ ;morphalou2;franc-étable;1022861;-;-;-;-;-;f R a~ e t a b l @ OU f R a~ E/ t a b l @ ;
+de franc-étable;73327;;;;-;;f R a~ e t a b l @ d @ OU f R a~ E/ t a b l @ d @ ;morphalou2; de franc-étable;1022862;-;-;-;-;-;f R a~ e t a b l @ d @ OU f R a~ E/ t a b l @ d @ ;
+franc étrier;73328;;;;-;;f R a~ e t R i j e OU f R a~ E/ t R i j e ;morphalou2;franc étrier;1022863;-;-;-;-;-;f R a~ e t R i j e OU f R a~ E/ t R i j e ;
+à franc étrier;73329;;;;-;;a f R a~ e t R i j e OU a f R a~ E/ t R i j e ;morphalou2; à franc étrier;1022864;-;-;-;-;-;a f R a~ e t R i j e OU a f R a~ E/ t R i j e ;
+frise-lumière;73434;;;;-;;f R i z @ l y m j E R @;morphalou2;frise-lumière;1022930;-;-;-;-;-;f R i z @ l y m j E R @;
+à frise-lumière;73435;;;;-;;a f R i z @ l y m j E R @;morphalou2; à frise-lumière;1022931;-;-;-;-;-;a f R i z @ l y m j E R @;
+gille faire;74120;;;;-;;Z i l @ f E R @;morphalou2;gille faire;1023312;-;-;-;-;-;Z i l @ f E R @;
+giorno;74130;;;;-;;Z j O R n o;morphalou2;giorno;1023318;-;-;-;-;-;Z j O R n o;
+à giorno;74131;;;;-;;a Z j O R n o;morphalou2; à giorno;1023319;-;-;-;-;-;a Z j O R n o;
+à gogo;74353;;;;-;;a g O g o OU a g O/ g o ;morphalou2; à gogo;1023448;-;-;-;-;-;a g O g o OU a g O/ g o ;
+tout de go;74429;;;;-;;t u d @ g o;morphalou2; tout de go;1023489;-;-;-;-;-;t u d @ g o;
+grand-peine;74534;;;;-;;g R a~ p E n @;morphalou2;grand-peine;1023549;-;-;-;-;-;g R a~ p E n @;
+à grand-peine;74535;;;;-;;a g R a~ p E n @;morphalou2; à grand-peine;1023550;-;-;-;-;-;a g R a~ p E n @;
+grèver de la faim;74668;;;;-;;g R E v e d @ l a f e~;morphalou2;grèver de la faim;1023615;-;-;-;-;-;g R E v e d @ l a f e~;
+guéau _;74792;;;;-;;;morphalou2;guéau _;1023692;-;-;-;-;-;;
+de guingois;74849;;;;-;;g e~ g w a d @;morphalou2; de guingois;1023728;-;-;-;-;-;g e~ g w a d @;
+haut-le-pied;75040;;;;-;;o l @ p j e;morphalou2;haut-le-pied;1023832;-;-;-;-;-;o l @ p j e;
+heu;75339;;;;-;;2;morphalou2;heu;1023977;-;-;-;-;-;2;
+hic et nunc;75371;;;;-;;i k E t n u n k OU i k E/ t n u n k ;morphalou2;hic et nunc;1023993;-;-;-;-;-;i k E t n u n k OU i k E/ t n u n k ;
+hironde;75427;;;;-;;i R o~ d @;morphalou2;hironde;1024028;-;-;-;-;-;i R o~ d @;
+d'hironde queue;75429;;;;-;;d i R o~ d k 2;morphalou2; d'hironde queue;1024029;-;-;-;-;-;d i R o~ d k 2;
+hors-bord;75703;;;;-;;O R b O R;morphalou2;hors-bord;1024187;-;-;-;-;-;O R b O R;
+huhau;75748;;;;-;;y o;morphalou2;huhau;1024206;-;-;-;-;-;y o;
+hyper-hyper;75999;;;;-;;i p e i p e;morphalou2;hyper-hyper;1024319;-;-;-;-;-;i p e i p e;
+illico presto;76421;;;;-;;i l i k o p R E s t o;morphalou2;illico presto;1024527;-;-;-;-;-;i l i k o p R E s t o;
+improviste;76574;;;;-;;e~ p R O v i s t @ OU e~ p R O/ v i s t @ ;morphalou2;improviste;1024610;-;-;-;-;-;e~ p R O v i s t @ OU e~ p R O/ v i s t @ ;
+à l'improviste;76575;;;;-;;a l e~ p R O v i s t @ OU a l e~ p R O/ v i s t @ ;morphalou2; à l'improviste;1024611;-;-;-;-;-;a l e~ p R O v i s t @ OU a l e~ p R O/ v i s t @ ;
+inabsentia;76585;;;;-;;i n a p s a~ s j a;morphalou2;inabsentia;1024615;-;-;-;-;-;i n a p s a~ s j a;
+inabstracto;76586;;;;-;;i n a p s t R a k t o;morphalou2;inabstracto;1024616;-;-;-;-;-;i n a p s t R a k t o;
+inarticulo mortis;76606;;;;-;;i n a R t i k y l o m O R t i;morphalou2;inarticulo mortis;1024626;-;-;-;-;-;i n a R t i k y l o m O R t i;
+inconcreto;76653;;;;-;;e~ k o~ k R @ t o;morphalou2;inconcreto;1024652;-;-;-;-;-;e~ k o~ k R @ t o;
+in extenso;76811;;;;-;;i n E k s t e~ s o;morphalou2;in extenso;1024721;-;-;-;-;-;i n E k s t e~ s o;
+in extremis;76814;;;;-;;i n E k s t R e m i s OU i n E k s t R E/ m i s ;morphalou2;in extremis;1024723;-;-;-;-;-;i n E k s t R e m i s OU i n E k s t R E/ m i s ;
+in fine;76831;;;;-;;i n f i n e;morphalou2;in fine;1024731;-;-;-;-;-;i n f i n e;
+infiocchi;76842;;;;-;;e~ f j O k i OU e~ f j O/ k i ;morphalou2;infiocchi;1024737;-;-;-;-;-;e~ f j O k i OU e~ f j O/ k i ;
+in globo;76918;;;;-;;i n g l o b o OU i n g l O/ b o ;morphalou2;in globo;1024796;-;-;-;-;-;i n g l o b o OU i n g l O/ b o ;
+inglobo;76919;;;;-;;e~ g l O b o OU e~ g l O/ b o ;morphalou2;inglobo;1024797;-;-;-;-;-;e~ g l O b o OU e~ g l O/ b o ;
+inmedias res;76948;;;;-;;i n m e d j a s R e s;morphalou2;inmedias res;1024809;-;-;-;-;-;i n m e d j a s R e s;
+in partibus;76969;;;;-;;i n p a R t i b u s;morphalou2;in partibus;1024824;-;-;-;-;-;i n p a R t i b u s;
+in petto;76970;;;;-;;i n p e t o OU i n p E/ t o ;morphalou2;in petto;1024825;-;-;-;-;-;i n p e t o OU i n p E/ t o ;
+inpraesentia;76972;;;;-;;e~ p R E z a~ s j a;morphalou2;inpraesentia;1024826;-;-;-;-;-;e~ p R E z a~ s j a;
+inprima instantia;76973;;;;-;;i n p R i m a i n s t a~ s j a;morphalou2;inprima instantia;1024827;-;-;-;-;-;i n p R i m a i n s t a~ s j a;
+inre;76982;;;;-;;i n R e;morphalou2;inre;1024832;-;-;-;-;-;i n R e;
+inrem;76983;;;;-;;i n R E m;morphalou2;inrem;1024833;-;-;-;-;-;i n R E m;
+insensu obvio;77001;;;;-;;i n s a~ s y O b v j o OU i n s a~ s y O/ b v j o ;morphalou2;insensu obvio;1024843;-;-;-;-;-;i n s a~ s y O b v j o OU i n s a~ s y O/ b v j o ;
+in situ;77009;;;;-;;i n s i t y;morphalou2;in situ;1024850;-;-;-;-;-;i n s i t y;
+inspecie;77024;;;;-;;e~ s p @ s i OU e~ s p E/ s i ;morphalou2;inspecie;1024857;-;-;-;-;-;e~ s p @ s i OU e~ s p E/ s i ;
+instar;77037;;;;-;;e~ s t a R;morphalou2 dicollecte;instar;819216;-;-;-;-;-;;dicollecte
+à l'instar de;77038;;;;-;;;morphalou2;à l'instar de;1024865;-;-;-;-;-;;
+instatu quo;77039;;;;-;;i n s t a t y k o;morphalou2;instatu quo;1024866;-;-;-;-;-;i n s t a t y k o;
+insu;77054;;;;-;;e~ s y;morphalou2;insu;1024872;-;-;-;-;-;e~ s y;
+à l'insu de;77056;;;;-;;;morphalou2;à l'insu de;1024874;-;-;-;-;-;;
+intemporalibus;77081;;;;-;;i n t e~ p O R a l i b y s OU i n t e~ p O/ R a l i b y s ;morphalou2;intemporalibus;1024889;-;-;-;-;-;i n t e~ p O R a l i b y s OU i n t e~ p O/ R a l i b y s ;
+interminis;77159;;;;-;;e~ t E R m i n i;morphalou2;interminis;1024930;-;-;-;-;-;e~ t E R m i n i;
+inutroque jure;77312;;;;-;;i n y t R O k @ j y R @;morphalou2;inutroque jure;1025019;-;-;-;-;-;i n y t R O k @ j y R @;
+invitro;77336;;;;-;;e~ v i t R o;morphalou2;invitro;1025034;-;-;-;-;-;e~ v i t R o;
+invivo;77338;;;;-;;e~ v i v o;morphalou2;invivo;1025036;-;-;-;-;-;e~ v i v o;
+ipso facto;77367;;;;-;;i p s o f a k t o;morphalou2;ipso facto;1025053;-;-;-;-;-;i p s o f a k t o;
+je-m'en-fiche;77574;;;;-;;Z @ m a~ f i S @;morphalou2;je-m'en-fiche;1025176;-;-;-;-;-;Z @ m a~ f i S @;
+à la je-m'en-fiche;77575;;;;-;;;morphalou2; à la je-m'en-fiche;1025177;-;-;-;-;-;;
+jeun;77601;;;;-;;Z 9~;morphalou2;jeun;1025192;-;-;-;-;-;Z 9~;
+à jeun;77603;;;;-;;a Z 9~;morphalou2; à jeun;1025194;-;-;-;-;-;a Z 9~;
+lèche-doigt;78083;;;;-;;l E S @ d w a;morphalou2;lèche-doigt;1025453;-;-;-;-;-;l E S @ d w a;
+à lèche-doigt;78084;;;;-;;a l E S @ d w a;morphalou2; à lèche-doigt;1025454;-;-;-;-;-;a l E S @ d w a;
+lèche-doigts;78085;;;;-;;l E S @ d w a;morphalou2;lèche-doigts;1025455;-;-;-;-;-;l E S @ d w a;
+à lèche-doigts;78086;;;;-;;a l E S @ d w a;morphalou2; à lèche-doigts;1025456;-;-;-;-;-;a l E S @ d w a;
+lèchemiettes;78087;;;;-;;l E S @ m j E t @ OU l E/ S @ m j E t @ ;morphalou2;lèchemiettes;1025457;-;-;-;-;-;l E S @ m j E t @ OU l E/ S @ m j E t @ ;
+à lèchemiettes;78088;;;;-;;a l E S @ m j E t @ OU a l E/ S @ m j E t @ ;morphalou2; à lèchemiettes;1025458;-;-;-;-;-;a l E S @ m j E t @ OU a l E/ S @ m j E t @ ;
+lève-cul;78225;;;;-;;l E v @ k y;morphalou2;lève-cul;1025522;-;-;-;-;-;l E v @ k y;
+à lève-cul;78226;;;;-;;a l E v @ k y;morphalou2; à lève-cul;1025523;-;-;-;-;-;a l E v @ k y;
+loco citato;78445;;;;-;;l O k o s i t a t o;morphalou2;loco citato;1025641;-;-;-;-;-;l O k o s i t a t o;
+macach bono;78702;;;;-;;m a k a S b O n o OU m a k a S b O/ n o ;morphalou2;macach bono;1025780;-;-;-;-;-;m a k a S b O n o OU m a k a S b O/ n o ;
+macache bono;78703;;;;-;;m a k a S b O n o;morphalou2;macache bono;1025781;-;-;-;-;-;m a k a S b O n o;
+mal-en-point;78888;;;;-;;m a l a~ p w e~;morphalou2;mal-en-point;1025881;-;-;-;-;-;m a l a~ p w e~;
+malheure;78893;;;;-;;m a l 9 R @;morphalou2;malheure;1025885;-;-;-;-;-;m a l 9 R @;
+à la malheure;78894;;;;-;;a l a m a l 9 R @;morphalou2; à la malheure;1025886;-;-;-;-;-;a l a m a l 9 R @;
+à la manque;78987;;;;-;;;morphalou2;à la manque;1025941;-;-;-;-;-;;
+manu militari;78994;;;;-;;m a n y m i l i t a R i;morphalou2;manu militari;1025945;-;-;-;-;-;m a n y m i l i t a R i;
+maxima;79194;;;;-;;m a k s i m a;morphalou2;maxima;1026066;-;-;-;-;-;m a k s i m a;
+a maxima;79195;;;;-;;a m a k s i m a;morphalou2; a maxima;1026067;-;-;-;-;-;a m a k s i m a;
+mezza-voce;79794;;;;-;;m e d z a v O t s @ OU m E/ d z a v O t s @ ;morphalou2;mezza-voce;1026424;-;-;-;-;-;m e d z a v O t s @ OU m E/ d z a v O t s @ ;
+mezzo-forte;79795;;;;-;;m E d z o f O R t @ OU m E/ d z o f O R t @ ;morphalou2;mezzo-forte;1026425;-;-;-;-;-;m E d z o f O R t @ OU m E/ d z o f O R t @ ;
+mezzo-voce;79800;;;;-;;m e d z o v O t s @ OU m E/ d z o v O t s @ ;morphalou2;mezzo-voce;1026427;-;-;-;-;-;m e d z o v O t s @ OU m E/ d z o v O t s @ ;
+mi-chemin;79815;;;;-;;m i S @ m e~;morphalou2;mi-chemin;1026437;-;-;-;-;-;m i S @ m e~;
+à mi-chemin;79816;;;;-;;a m i S @ m e~;morphalou2; à mi-chemin;1026438;-;-;-;-;-;a m i S @ m e~;
+mi-corps;79826;;;;-;;m i k O R;morphalou2;mi-corps;1026446;-;-;-;-;-;m i k O R;
+à mi-corps;79827;;;;-;;a m i k O R;morphalou2; à mi-corps;1026447;-;-;-;-;-;a m i k O R;
+mi-côte;79828;;;;-;;m i k o t @;morphalou2;mi-côte;1026448;-;-;-;-;-;m i k o t @;
+à mi-côte;79829;;;;-;;a m i k o t @;morphalou2; à mi-côte;1026449;-;-;-;-;-;a m i k o t @;
+mi-course;79831;;;;-;;m i k u R s @;morphalou2;mi-course;1026451;-;-;-;-;-;m i k u R s @;
+mi-distance;79920;;;;-;;m i d i s t a~ s @;morphalou2;mi-distance;1026490;-;-;-;-;-;m i d i s t a~ s @;
+mi-hauteur;79940;;;;-;;m i o t 9 R OU m i O/ t 9 R ;morphalou2;mi-hauteur;1026506;-;-;-;-;-;m i o t 9 R OU m i O/ t 9 R ;
+à mi-hauteur;79941;;;;-;;a m i o t 9 R OU a m i O/ t 9 R ;morphalou2; à mi-hauteur;1026507;-;-;-;-;-;a m i o t 9 R OU a m i O/ t 9 R ;
+mi-jambe;79943;;;;-;;m i Z a~ b @;morphalou2;mi-jambe;1026509;-;-;-;-;-;m i Z a~ b @;
+à mi-jambe;79944;;;;-;;a m i Z a~ b @;morphalou2; à mi-jambe;1026510;-;-;-;-;-;a m i Z a~ b @;
+mi-jambes;79945;;;;-;;m i Z a~ b @;morphalou2;mi-jambes;1026511;-;-;-;-;-;m i Z a~ b @;
+à mi-jambes;79946;;;;-;;a m i Z a~ b @;morphalou2; à mi-jambes;1026512;-;-;-;-;-;a m i Z a~ b @;
+minima;80020;;;;-;;m i n i m a;morphalou2;minima;1026553;-;-;-;-;-;m i n i m a;
+a minima;80021;;;;-;;a m i n i m a;morphalou2; a minima;1026554;-;-;-;-;-;a m i n i m a;
+mi-partie;80068;;;;-;;m i p a R t i;morphalou2;mi-partie;1026593;-;-;-;-;-;m i p a R t i;
+mi-représentation;80076;;;;-;;m i R @ p R e z a~ t a s j o~ OU m i R @ p R E/ z a~ t a s j o~ ;morphalou2;mi-représentation;1026600;-;-;-;-;-;m i R @ p R e z a~ t a s j o~ OU m i R @ p R E/ z a~ t a s j o~ ;
+à mi-représentation;80077;;;;-;;a m i R @ p R e z a~ t a s j o~ OU a m i R @ p R E/ z a~ t a s j o~ ;morphalou2; à mi-représentation;1026601;-;-;-;-;-;a m i R @ p R e z a~ t a s j o~ OU a m i R @ p R E/ z a~ t a s j o~ ;
+mi-temps;80109;;;;-;;m i t a~;morphalou2;mi-temps;1026619;-;-;-;-;-;m i t a~;
+mi-tempsà;80110;;;;-;;a m i t a~;morphalou2;mi-tempsà;1026620;-;-;-;-;-;a m i t a~;
+miton mitaine;80118;;;;-;;m i t o~ m i t E n @;morphalou2;miton mitaine;1026625;-;-;-;-;-;m i t o~ m i t E n @;
+mi-voix;80127;;;;-;;m i v w a;morphalou2;mi-voix;1026634;-;-;-;-;-;m i v w a;
+motu proprio;80545;;;;-;;m O t y p R O p R i j o OU m O/ t y p R O/ p R i j o ;morphalou2;motu proprio;1026862;-;-;-;-;-;m O t y p R O p R i j o OU m O/ t y p R O/ p R i j o ;
+mutatis mutandis;80773;;;;-;;m y t a t i m y t a~ d i;morphalou2;mutatis mutandis;1026999;-;-;-;-;-;m y t a t i m y t a~ d i;
+naturalibus;81011;;;;-;;n a t y R a l i b y s;morphalou2;naturalibus;1027120;-;-;-;-;-;n a t y R a l i b y s;
+naturalibus in;81012;;;;-;;i n n a t y R a l i b u s;morphalou2;naturalibus in;1027121;-;-;-;-;-;i n n a t y R a l i b u s;
+n'est-ce pas;81254;;;;-;;n e s @ p a;morphalou2;n'est-ce pas;1027267;-;-;-;-;-;n e s @ p a;
+neuf-huit;81259;;;;-;;n 9 f H i t;morphalou2;neuf-huit;1027269;-;-;-;-;-;n 9 f H i t;
+à neuf-huit;81260;;;;-;;a n 9 f H i t;morphalou2; à neuf-huit;1027270;-;-;-;-;-;a n 9 f H i t;
+ne varietur;81318;;;;-;;n e v a R j e t y R;morphalou2;ne varietur;1027303;-;-;-;-;-;n e v a R j e t y R;
+nota;81624;;;;-;;n O t a OU n O/ t a ;morphalou2;nota;1027463;-;-;-;-;-;n O t a OU n O/ t a ;
+nota bene;81626;;;;-;;n O t a b e n e OU n O/ t a b E/ n E/ ;morphalou2;nota bene;1027464;-;-;-;-;-;n O t a b e n e OU n O/ t a b E/ n E/ ;
+ô _;81732;;;;-;;;morphalou2;ô _;1027527;-;-;-;-;-;;
+o.k;81968;;abréviation;;-;;o k e OU o k E/ ;morphalou2;o.k;1027673;-;-;-;-;-;o k e OU o k E/ ;
+parde;83108;;;;-;;p a R d @;morphalou2;parde;1028280;-;-;-;-;-;p a R d @;
+à peine;83438;;;;-;;a p E n @;morphalou2; à peine;1028477;-;-;-;-;-;a p E n @;
+perpète;83759;;;;-;;p E R p E t @;morphalou2;perpète;1028623;-;-;-;-;-;p E R p E t @;
+à perpète;83761;;;;-;;a p E R p E t @;morphalou2; à perpète;1028625;-;-;-;-;-;a p E R p E t @;
+pible;84362;;;;-;;p i b l @;morphalou2;pible;1028937;-;-;-;-;-;p i b l @;
+à pible;84363;;;;-;;a p i b l @;morphalou2; à pible;1028938;-;-;-;-;-;a p i b l @;
+plain-pied;84608;;;;-;;p l e~ p j e;morphalou2;plain-pied;1029091;-;-;-;-;-;p l e~ p j e;
+plaît-il;84612;;;;-;;p l E i l OU p l E/ i l ;morphalou2;plaît-il;1029094;-;-;-;-;-;p l E i l OU p l E/ i l ;
+poil-poil;84988;;;;-;;p w a l p w a l;morphalou2;poil-poil;1029315;-;-;-;-;-;p w a l p w a l;
+à poste;85314;;;;-;;a p O s t @;morphalou2; à poste;1029460;-;-;-;-;-;a p O s t @;
+prêcha;85525;;;;-;;p R E S a OU p R E/ S a ;morphalou2;prêcha;1029593;-;-;-;-;-;p R E S a OU p R E/ S a ;
+prêchi;85530;;;;-;;p R E S i OU p R E/ S i ;morphalou2;prêchi;1029595;-;-;-;-;-;p R E S i OU p R E/ S i ;
+pro domo;86083;;;;-;;p R o d O m o OU p R o d O/ m o ;morphalou2;pro domo;1029941;-;-;-;-;-;p R o d O m o OU p R o d O/ m o ;
+professo;86102;;;;-;;p R O f E s o OU p R O/ f E s o ;morphalou2;professo;1029954;-;-;-;-;-;p R O f E s o OU p R O/ f E s o ;
+professo ex;86103;;;;-;;E k s p R o f E s o OU E k s p R O/ f E s o ;morphalou2;professo ex;1029955;-;-;-;-;-;E k s p R o f E s o OU E k s p R O/ f E s o ;
+pro forma;86108;;;;-;;p R o f O R m a;morphalou2;pro forma;1029957;-;-;-;-;-;p R o f O R m a;
+à quant;86866;;;;-;;k a~ t a;morphalou2; à quant;1030422;-;-;-;-;-;k a~ t a;
+quantième;86869;;;;-;;k a~ t j E m @;morphalou2;quantième;1030423;-;-;-;-;-;k a~ t j E m @;
+quésaco;86975;;;;-;;k e z a k o;morphalou2;quésaco;1030482;-;-;-;-;-;k e z a k o;
+quia;86994;;;;-;;k H i j a;morphalou2;quia;1030495;-;-;-;-;-;k H i j a;
+à quia;86995;;;;-;;a k H i j a;morphalou2; à quia;1030496;-;-;-;-;-;a k H i j a;
+qui-vive;87052;;;;-;;k i v i v @;morphalou2;qui-vive;1030537;-;-;-;-;-;k i v i v @;
+rebrousse-poil;87501;;;;-;;R @ b R u s @ p w a l;morphalou2;rebrousse-poil;1030775;-;-;-;-;-;R @ b R u s @ p w a l;
+à rebrousse-poil;87502;;;;-;;a R @ b R u s @ p w a l;morphalou2; à rebrousse-poil;1030776;-;-;-;-;-;a R @ b R u s @ p w a l;
+recto tono;87612;;;;-;;R E k t o t O n o OU R E k t o t O/ n o ;morphalou2;recto tono;1030838;-;-;-;-;-;R E k t o t O n o OU R E k t o t O/ n o ;
+reculons;87616;;;;-;;R @ k y l o~;morphalou2;reculons;1030841;-;-;-;-;-;R @ k y l o~;
+à reculons;87617;;;;-;;a R @ k y l o~;morphalou2; à reculons;1030842;-;-;-;-;-;a R @ k y l o~;
+redresse;87643;;;;-;;R @ d R E s @;morphalou2;redresse;1030855;-;-;-;-;-;R @ d R E s @;
+à la redresse;87644;;;;-;;a l a R @ d R E s @;morphalou2; à la redresse;1030856;-;-;-;-;-;a l a R @ d R E s @;
+refile;87702;;;;-;;R @ f i l @;morphalou2;refile;1030883;-;-;-;-;-;R @ f i l @;
+au refile aller;87703;;;;-;;a l e o R @ f i l @;morphalou2;au refile aller;1030884;-;-;-;-;-;a l e o R @ f i l @;
+ric-à-rac;88432;;;;-;;R i k a R a k;morphalou2;ric-à-rac;1031256;-;-;-;-;-;R i k a R a k;
+ric-à-ric;88433;;;;-;;R i k a R i k;morphalou2;ric-à-ric;1031257;-;-;-;-;-;R i k a R i k;
+ric-et-rac;88435;;;;-;;R i k e R a k OU R i k E/ R a k ;morphalou2;ric-et-rac;1031259;-;-;-;-;-;R i k e R a k OU R i k E/ R a k ;
+saint-glinglin;88813;;;;-;;s e~ g l e~ g l e~;morphalou2;saint-glinglin;1031492;-;-;-;-;-;s e~ g l e~ g l e~;
+à la saint-glinglin;88814;;;;-;;a l a s e~ g l e~ g l e~;morphalou2; à la saint-glinglin;1031493;-;-;-;-;-;a l a s e~ g l e~ g l e~;
+sans encombre;88928;;;;-;;s a~ z a~ k o~ b R @;morphalou2;sans encombre;1031564;-;-;-;-;-;s a~ z a~ k o~ b R @;
+sauve-qui-peut;89106;;;;-;;s o v @ k i p 2;morphalou2;sauve-qui-peut;1031667;-;-;-;-;-;s o v @ k i p 2;
+sauvette;89110;;;;-;;s o v E t @ OU s O/ v E t @ ;morphalou2;sauvette;1031669;-;-;-;-;-;s o v E t @ OU s O/ v E t @ ;
+à la sauvette;89111;;;;-;;a l a s o v E t @ OU a l a s O/ v E t @ ;morphalou2; à la sauvette;1031670;-;-;-;-;-;a l a s o v E t @ OU a l a s O/ v E t @ ;
+s'il te;89901;;;;-;;s i l t @;morphalou2;s'il te;1032115;-;-;-;-;-;s i l t @;
+sine die;89981;;;;-;;s i n e d j e;morphalou2;sine die;1032188;-;-;-;-;-;s i n e d j e;
+sine qua non;89982;;;;-;;s i n e k w a n o n;morphalou2;sine qua non;1032189;-;-;-;-;-;s i n e k w a n o n;
+six-quatre-deux;90063;;;;-;;s i s k a t R @ d 2;morphalou2;six-quatre-deux;1032228;-;-;-;-;-;s i s k a t R @ d 2;
+à la six-quatre-deux;90064;;;;-;;a l a s i s k a t R @ d 2;morphalou2; à la six-quatre-deux;1032229;-;-;-;-;-;a l a s i s k a t R @ d 2;
+sol-air;90186;;;;-;;s O l E R;morphalou2;sol-air;1032295;-;-;-;-;-;s O l E R;
+sol-sol;90208;;;;-;;s O l s O l;morphalou2;sol-sol;1032310;-;-;-;-;-;s O l s O l;
+suave mari magno;91198;;;;-;;s y a v @ m a R i m a J o;morphalou2;suave mari magno;1032790;-;-;-;-;-;s y a v @ m a R i m a J o;
+tantet;92346;;;;-;;t a~ t E OU t a~ t E/ ;morphalou2;tantet;1033403;-;-;-;-;-;t a~ t E OU t a~ t E/ ;
+un tantet;92347;;;;-;;9~ t a~ t E OU 9~ t a~ t E/ ;morphalou2; un tantet;1033404;-;-;-;-;-;9~ t a~ t E OU 9~ t a~ t E/ ;
+tapinois;92357;;;;-;;t a p i n w a;morphalou2;tapinois;1033411;-;-;-;-;-;t a p i n w a;
+en tapinois;92358;;;;-;;a~ t a p i n w a;morphalou2; en tapinois;1033412;-;-;-;-;-;a~ t a p i n w a;
+tâtons;92428;;;;-;;t a t o~;morphalou2;tâtons;1033468;-;-;-;-;-;t a t o~;
+à tâtons;92429;;;;-;;a t a t o~;morphalou2; à tâtons;1033469;-;-;-;-;-;a t a t o~;
+terre-à-terre;92751;;;;-;;t E R @ a t E R @;morphalou2;terre-à-terre;1033632;-;-;-;-;-;t E R @ a t E R @;
+tire-d'aile;93217;;;;-;;t i R @ d E l @;morphalou2;tire-d'aile;1033864;-;-;-;-;-;t i R @ d E l @;
+à tire-d'aile;93219;;;;-;;a t i R @ d E l @;morphalou2; à tire-d'aile;1033866;-;-;-;-;-;a t i R @ d E l @;
+touche-touche;93402;;;;-;;t u S @ t u S @;morphalou2;touche-touche;1033970;-;-;-;-;-;t u S @ t u S @;
+à touche-touche;93403;;;;-;;a t u S @ t u S @;morphalou2; à touche-touche;1033971;-;-;-;-;-;a t u S @ t u S @;
+tournemain;93438;;;;-;;t u R n @ m e~;morphalou2;tournemain;1033999;-;-;-;-;-;t u R n @ m e~;
+en un tournemain;93439;;;;-;;a~ n 9~ t u R n @ m e~;morphalou2; en  un tournemain;1034000;-;-;-;-;-;a~ n 9~ t u R n @ m e~;
+tout-va;93463;;;;-;;t u v a;morphalou2;tout-va;1034011;-;-;-;-;-;t u v a;
+à tout-va;93465;;;;-;;a t u v a;morphalou2; à tout-va;1034013;-;-;-;-;-;a t u v a;
+tue-tête;94132;;;;-;;t y t E t @;morphalou2;tue-tête;1034342;-;-;-;-;-;t y t E t @;
+à tue-tête;94133;;;;-;;a t y t E t @;morphalou2; à tue-tête;1034343;-;-;-;-;-;a t y t E t @;
+tutti-frutti;94209;;;;-;;t u t i f R u t i;morphalou2;tutti-frutti;1034383;-;-;-;-;-;t u t i f R u t i;
+tutti quanti;94211;;;;-;;t u t i k w a~ t i;morphalou2;tutti quanti;1034385;-;-;-;-;-;t u t i k w a~ t i;
+up to date;94548;;;;-;;9 p t u d E t @;morphalou2;up to date;1034604;-;-;-;-;-;9 p t u d E t @;
+vade retro;94736;;;;-;;v a d @ R e t R o;morphalou2;vade retro;1034684;-;-;-;-;-;v a d @ R e t R o;
+vade retro satanas ou satana;94737;;;;-;;v a d e R e t R o s a t a n a s u s a t a n a;morphalou2;vade retro satanas ou satana;1034685;-;-;-;-;-;v a d e R e t R o s a t a n a s u s a t a n a;
+en vain;94754;;;;-;;a~ v e~;morphalou2; en vain;1034696;-;-;-;-;-;a~ v e~;
+vanvole;94783;;;;-;;v a~ v O l @;morphalou2;vanvole;1034713;-;-;-;-;-;v a~ v O l @;
+à la vanvole;94784;;;;-;;a l a v a~ v O l @;morphalou2; à la vanvole;1034714;-;-;-;-;-;a l a v a~ v O l @;
+vau-l'eau;94889;;;;-;;v o l o;morphalou2;vau-l'eau;1034774;-;-;-;-;-;v o l o;
+vau-leau;94891;;;;-;;v o l o;morphalou2;vau-leau;1034776;-;-;-;-;-;v o l o;
+à vau-l'eau;94893;;;;-;;a v o l o;morphalou2; à vau-l'eau;1034778;-;-;-;-;-;a v o l o;
+vau-vent;94895;;;;-;;v o v a~;morphalou2;vau-vent;1034780;-;-;-;-;-;v o v a~;
+à vau-vent;94896;;;;-;;a v o v a~;morphalou2; à vau-vent;1034781;-;-;-;-;-;a v o v a~;
+venvole;94993;;;;-;;v a~ v O l @;morphalou2;venvole;1034828;-;-;-;-;-;v a~ v O l @;
+vice-versa;95181;;;;-;;v i s @ v E R s a;morphalou2;vice-versa;1034959;-;-;-;-;-;v i s @ v E R s a;
+vison-visu;95338;;;;-;;v i z o~ v i z y;morphalou2;vison-visu;1035048;-;-;-;-;-;v i z o~ v i z y;
+vous plaît;95425;;;;-;;v u p l E OU v u p l E/ ;morphalou2;vous plaît;1035094;-;-;-;-;-;v u p l E OU v u p l E/ ;
+qu;101032;;;;-;;;dicollecte;qu;818566;-;-;-;-;-;;dicollecte
+d;101035;;;;-;;;dicollecte;d;818570;-;-;-;-;-;;dicollecte
+ceux;101046;;;;-;;;dicollecte;ceux;818597;-;-;-;-;-;;dicollecte
+parce;101052;;;;-;;;dicollecte;parce;818610;-;-;-;-;-;;dicollecte
+afin;101063;;;;-;;;dicollecte;afin;818643;-;-;-;-;-;;dicollecte
+plupart;101066;;;;-;;;dicollecte;plupart;818650;-;-;-;-;-;;dicollecte
+grâce;101091;;;;-;;;dicollecte;grâce;818696;-;-;-;-;-;;dicollecte
+quant;101093;;;;-;;;dicollecte;quant;818700;-;-;-;-;-;;dicollecte
+auxquels;101107;;;;-;;;dicollecte;auxquels;818723;-;-;-;-;-;;dicollecte
+auxquelles;101118;;;;-;;;dicollecte;auxquelles;818755;-;-;-;-;-;;dicollecte
+courant;101148;;;;-;;;dicollecte;courant;818831;-;-;-;-;-;;dicollecte
+pire;101394;;;;-;;;dicollecte;pire;819512;-;-;-;-;-;;dicollecte
+vs;101682;;;;-;;;dicollecte;vs;820282;-;-;-;-;-;;dicollecte
+par-dessus;103681;;;;-;;;dicollecte;par-dessus;826430;-;-;-;-;-;;dicollecte
+quelques-unes;103921;;;;-;;;dicollecte;quelques-unes;827250;-;-;-;-;-;;dicollecte
+grand-chose;107465;;;;-;;;dicollecte;grand-chose;838577;-;-;-;-;-;;dicollecte
+compte-tenu;110043;;;;-;;;dicollecte;compte-tenu;846807;-;-;-;-;-;;dicollecte
+mouais;112845;;;;-;;;dicollecte;mouais;857075;-;-;-;-;-;;dicollecte
+n'importe;116537;;;;-;;;dicollecte;n'importe;872782;-;-;-;-;-;;dicollecte

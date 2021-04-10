@@ -1,0 +1,1342 @@
+---------------------------------------------------------------------------
+Morphalou3.1 : Lexique morphologique ouvert du français – Ce fichier contient uniquement les Mots grammaticaux (nombres, prépositions, pronoms, conjonctions et déterminants)
+813 lemmes et 1 326 formes fléchies de catégorie Mots grammaticaux (nombres, prépositions, pronoms, conjonctions et déterminants) (sur un total de 159 271 lemmes et 976 570 formes fléchies, toutes catégories confondues)
+Le maintien et la mise à jour du lexique sont assurés par l'ATILF CNRS. (44 avenue de la Libération 54000 Nancy)
+Morphalou3 est distribué sous licence LGPL-LR.
+Version de 6/2016
+Morphalou3 est le résultat de la fusion de 5 lexiques :
+	- Morphalou2 (décembre 2013) : http://www.cnrtl.fr/lexiques/morphalou/
+	- DELA (décembre 2011) : http://infolingu.univ-mlv.fr/
+	- Dicollecte (4.3) : http://dicollecte.org/home.php?prj=fr
+	- Lefff (2.1) : http://www.labri.fr/perso/clement/lefff/
+	- LGLex et LGLexLefff (3.4) : http://infolingu.univ-mlv.fr/
+Ce travail a été réalisé par Marie TONNELIER dans le cadre du projet Ortolang. (ORTOLANG bénéficie d'une aide de l’Etat au titre du programme « Investissements d’avenir » ANR–11–EQPX–0032)
+---------------------------------------------------------------------------
+LEMME;;;;;;;;;FLEXION;;;;;;;;
+GRAPHIE;ID;CATÉGORIE;SOUS CATÉGORIE;LOCUTION;GENRE;AUTRES LEMMES LIÉS;PHONÉTIQUE;ORIGINES;GRAPHIE;ID;NOMBRE;MODE;GENRE;TEMPS;PERSONNE;PHONÉTIQUE;ORIGINES
+a;168847;Préposition;;;-;;;lglex;a;1019140;-;-;-;-;-;;lglex
+afin de;170507;Préposition;;;-;;;lefff;afin de;1036574;-;-;-;-;-;;lefff
+;;;;;;;;;afin d';1036575;-;-;-;-;-;;lefff
+après;5480;Préposition;;;-;;a p R E OU a p R E/ ;morphalou2 dela dicollecte lglex lefff;après;39361;-;-;-;-;-;a p R E OU a p R E/ ;morphalou2 dela dicollecte lglex lefff
+attendu;101323;Préposition;;;-;;;dela dicollecte;attendu;819306;-;-;-;-;-;;dela dicollecte
+au beau milieu de;170594;Préposition;;;-;;;lefff;au beau milieu de;1037057;-;-;-;-;-;;lefff
+;;;;;;;;;au beau milieu d';1037058;-;-;-;-;-;;lefff
+au bord de;170595;Préposition;;;-;;;lefff;au bord de;1037059;-;-;-;-;-;;lefff
+;;;;;;;;;au bord d';1037060;-;-;-;-;-;;lefff
+au bout de;170596;Préposition;;;-;;;lefff;au bout de;1037061;-;-;-;-;-;;lefff
+;;;;;;;;;au bout d';1037062;-;-;-;-;-;;lefff
+au centre de;170599;Préposition;;;-;;;lefff;au centre de;1037065;-;-;-;-;-;;lefff
+;;;;;;;;;au centre d';1037066;-;-;-;-;-;;lefff
+au comble de;170600;Préposition;;;-;;;lefff;au comble de;1037067;-;-;-;-;-;;lefff
+;;;;;;;;;au comble d';1037068;-;-;-;-;-;;lefff
+au cours de;170601;Préposition;;;-;;;lefff;au cours de;1037069;-;-;-;-;-;;lefff
+;;;;;;;;;au cours d';1037070;-;-;-;-;-;;lefff
+au côté de;170602;Préposition;;;-;;;lefff;au côté de;1037071;-;-;-;-;-;;lefff
+;;;;;;;;;au côté d';1037072;-;-;-;-;-;;lefff
+au dehors de;170605;Préposition;;;-;;;lefff;au dehors de;1037075;-;-;-;-;-;;lefff
+;;;;;;;;;au dehors d';1037076;-;-;-;-;-;;lefff
+au delà de;170606;Préposition;;;-;;;lefff;au delà de;1037078;-;-;-;-;-;;lefff
+;;;;;;;;;au delà d';1037079;-;-;-;-;-;;lefff
+au dessous de;170609;Préposition;;;-;;;lefff;au dessous de;1037084;-;-;-;-;-;;lefff
+;;;;;;;;;au dessous d';1037085;-;-;-;-;-;;lefff
+au devant de;170610;Préposition;;;-;;;lefff;au devant de;1037086;-;-;-;-;-;;lefff
+;;;;;;;;;au devant d';1037087;-;-;-;-;-;;lefff
+au fond de;170611;Préposition;;;-;;;lefff;au fond de;1037088;-;-;-;-;-;;lefff
+;;;;;;;;;au fond d';1037089;-;-;-;-;-;;lefff
+au fur et à mesure de;170613;Préposition;;;-;;;lefff;au fur et à mesure de;1037091;-;-;-;-;-;;lefff
+;;;;;;;;;au fur et à mesure d';1037092;-;-;-;-;-;;lefff
+au grand dam de;170615;Préposition;;;-;;;lefff;au grand dam de;1037095;-;-;-;-;-;;lefff
+;;;;;;;;;au grand dam d';1037096;-;-;-;-;-;;lefff
+au gré de;170616;Préposition;;;-;;;lefff;au gré de;1037097;-;-;-;-;-;;lefff
+;;;;;;;;;au gré d';1037098;-;-;-;-;-;;lefff
+au large de;170618;Préposition;;;-;;;lefff;au large de;1037100;-;-;-;-;-;;lefff
+;;;;;;;;;au large d';1037101;-;-;-;-;-;;lefff
+au lieu de;170619;Préposition;;;-;;;lefff;au lieu de;1037102;-;-;-;-;-;;lefff
+;;;;;;;;;au lieu d';1037103;-;-;-;-;-;;lefff
+au long de;170620;Préposition;;;-;;;lefff;au long de;1037104;-;-;-;-;-;;lefff
+;;;;;;;;;au long d';1037105;-;-;-;-;-;;lefff
+au milieu de;170622;Préposition;;;-;;;lefff;au milieu de;1037107;-;-;-;-;-;;lefff
+;;;;;;;;;au milieu d';1037108;-;-;-;-;-;;lefff
+au moment de;170624;Préposition;;;-;;;lefff;au moment de;1037110;-;-;-;-;-;;lefff
+;;;;;;;;;au moment d';1037111;-;-;-;-;-;;lefff
+au moyen de;170626;Préposition;;;-;;;lefff;au moyen de;1037113;-;-;-;-;-;;lefff
+;;;;;;;;;au moyen d';1037114;-;-;-;-;-;;lefff
+au nom de;170629;Préposition;;;-;;;lefff;au nom de;1037119;-;-;-;-;-;;lefff
+;;;;;;;;;au nom d';1037120;-;-;-;-;-;;lefff
+au point de;170634;Préposition;;;-;;;lefff;au point de;1037125;-;-;-;-;-;;lefff
+;;;;;;;;;au point d';1037126;-;-;-;-;-;;lefff
+au prorata de;170636;Préposition;;;-;;;lefff;au prorata de;1037129;-;-;-;-;-;;lefff
+;;;;;;;;;au prorata d';1037130;-;-;-;-;-;;lefff
+au ras de;170638;Préposition;;;-;;;lefff;au ras de;1037132;-;-;-;-;-;;lefff
+;;;;;;;;;au ras d';1037133;-;-;-;-;-;;lefff
+au sein de;170640;Préposition;;;-;;;lefff;au sein de;1037135;-;-;-;-;-;;lefff
+;;;;;;;;;au sein d';1037136;-;-;-;-;-;;lefff
+au sortir de;170641;Préposition;;;-;;;lefff;au sortir de;1037137;-;-;-;-;-;;lefff
+;;;;;;;;;au sortir d';1037138;-;-;-;-;-;;lefff
+au sujet de;170642;Préposition;;;-;;;lefff;au sujet de;1037139;-;-;-;-;-;;lefff
+;;;;;;;;;au sujet d';1037140;-;-;-;-;-;;lefff
+au terme de;170643;Préposition;;;-;;;lefff;au terme de;1037141;-;-;-;-;-;;lefff
+;;;;;;;;;au terme d';1037142;-;-;-;-;-;;lefff
+au travers de;170645;Préposition;;;-;;;lefff;au travers de;1037144;-;-;-;-;-;;lefff
+;;;;;;;;;au travers d';1037145;-;-;-;-;-;;lefff
+au tréfonds de;170646;Préposition;;;-;;;lefff;au tréfonds de;1037146;-;-;-;-;-;;lefff
+;;;;;;;;;au tréfonds d';1037147;-;-;-;-;-;;lefff
+au vu de;170647;Préposition;;;-;;;lefff;au vu de;1037148;-;-;-;-;-;;lefff
+;;;;;;;;;au vu d';1037149;-;-;-;-;-;;lefff
+au vu et au su de;170648;Préposition;;;-;;;lefff;au vu et au su de;1037150;-;-;-;-;-;;lefff
+;;;;;;;;;au vu et au su d';1037151;-;-;-;-;-;;lefff
+au-delà de;170607;Préposition;;;-;;;lefff;au-delà de;1037080;-;-;-;-;-;;lefff
+;;;;;;;;;au delà d';1037081;-;-;-;-;-;;lefff
+;;;;;;;;;au delà de;1037082;-;-;-;-;-;;lefff
+;;;;;;;;;au-delà d';1037152;-;-;-;-;-;;lefff
+au-dessous de;170649;Préposition;;;-;;;lefff;au-dessous de;1037153;-;-;-;-;-;;lefff
+;;;;;;;;;au-dessous d';1037154;-;-;-;-;-;;lefff
+au-dessus de;170650;Préposition;;;-;;;lefff;au-dessus de;1037155;-;-;-;-;-;;lefff
+;;;;;;;;;au-dessus d';1037156;-;-;-;-;-;;lefff
+au-devant de;170651;Préposition;;;-;;;lefff;au-devant de;1037157;-;-;-;-;-;;lefff
+;;;;;;;;;au-devant d';1037158;-;-;-;-;-;;lefff
+auprès de;170659;Préposition;;;-;;;lefff;auprès de;1037183;-;-;-;-;-;;lefff
+;;;;;;;;;auprès d';1037184;-;-;-;-;-;;lefff
+autour;123262;Préposition;;;-;;;dela;autour;893049;-;-;-;-;-;;dela
+autour de;170693;Préposition;;;-;;;lefff;autour de;1038178;-;-;-;-;-;;lefff
+;;;;;;;;;autour d';1038179;-;-;-;-;-;;lefff
+aux bons soins de;170696;Préposition;;;-;;;lefff;aux bons soins de;1038182;-;-;-;-;-;;lefff
+;;;;;;;;;aux bons soins d';1038183;-;-;-;-;-;;lefff
+aux confins de;170697;Préposition;;;-;;;lefff;aux confins de;1038184;-;-;-;-;-;;lefff
+;;;;;;;;;aux confins d';1038185;-;-;-;-;-;;lefff
+aux dépens de;170698;Préposition;;;-;;;lefff;aux dépens de;1038186;-;-;-;-;-;;lefff
+;;;;;;;;;aux dépens d';1038187;-;-;-;-;-;;lefff
+avant;7417;Préposition;;;-;;a v a~;morphalou2 dela dicollecte lefff;avant;52458;-;-;-;-;-;a v a~;morphalou2 dela dicollecte lefff
+;;;;;;;;;avt;1038214;-;-;-;-;-;;lefff
+avant de;170700;Préposition;;;-;;;lefff;avant de;1038193;-;-;-;-;-;;lefff
+;;;;;;;;;avant d';1038194;-;-;-;-;-;;lefff
+avant même de;170701;Préposition;;;-;;;lefff;avant même de;1038195;-;-;-;-;-;;lefff
+;;;;;;;;;avant même d';1038196;-;-;-;-;-;;lefff
+avant que de;170704;Préposition;;;-;;;lefff;avant que de;1038201;-;-;-;-;-;;lefff
+;;;;;;;;;avant que d';1038202;-;-;-;-;-;;lefff
+avec;7436;Préposition;;;-;;a v E k;morphalou2 dela dicollecte lglex lefff;avec;52598;-;-;-;-;-;a v E k;morphalou2 dela dicollecte lglex lefff
+because;123954;Préposition;;;-;;;dela;because;894779;-;-;-;-;-;;dela
+bicause;124159;Préposition;;;-;;;dela;bicause;895316;-;-;-;-;-;;dela
+cause de;170900;Préposition;;;-;;;lefff;cause de;1039178;-;-;-;-;-;;lefff
+;;;;;;;;;cause d';1039179;-;-;-;-;-;;lefff
+cf;170908;Préposition;;;-;;;lefff;cf;1039196;-;-;-;-;-;;lefff
+;;;;;;;;;confer;1039799;-;-;-;-;-;;lefff
+chez;14849;Préposition;;;-;;S e;morphalou2 dela dicollecte lefff;chez;104726;-;-;-;-;-;S e;morphalou2 dela dicollecte lefff
+ci-devant;170943;Préposition;;;-;;;lefff;ci-devant;1039379;-;-;-;-;-;;lefff
+comme;170978;Préposition;;;-;;;lefff;comme;1039687;-;-;-;-;-;;lefff
+concernant;70715;Préposition;;;-;;k o~ s E R n a~;morphalou2 dela dicollecte;concernant;818811;-;-;-;-;-;;dela dicollecte
+considérant;129069;Préposition;;;-;;;dela;considérant;907533;-;-;-;-;-;;dela
+considéré;129070;Préposition;;;-;;;dela;considéré;907534;-;-;-;-;-;;dela
+contre;17802;Préposition;;;-;;k o~ t R @;morphalou2 dela dicollecte lglex lefff;contr';127400;-;-;-;-;-;k o~ t R;morphalou2
+;;;;;;;;;contre;127401;-;-;-;-;-;k o~ t R @;morphalou2 dela dicollecte lglex lefff
+d'après;171028;Préposition;;;-;;;lefff;d'après;1040300;-;-;-;-;-;;lefff
+d'avis de;171037;Préposition;;;-;;;lefff;d'avis de;1040311;-;-;-;-;-;;lefff
+;;;;;;;;;d'avis d';1040312;-;-;-;-;-;;lefff
+d'entre;171039;Préposition;;;-;;;lefff;d'entre;1040314;-;-;-;-;-;;lefff
+d'ici;171040;Préposition;;;-;;;lefff;d'ici;1040315;-;-;-;-;-;;lefff
+d'ici à;171042;Préposition;;;-;;;lefff;d'ici à;1040317;-;-;-;-;-;;lefff
+dans;20085;Préposition;;;-;;d a~;morphalou2 dela dicollecte lglex lefff;dans;144443;-;-;-;-;-;d a~;morphalou2 dela dicollecte lglex lefff
+de;131068;Préposition;;;-;;;dela lglex lefff;de;912437;-;-;-;-;-;;dela lglex lefff
+;;;;;;;;;d';1040297;-;-;-;-;-;;lefff
+de chez;171063;Préposition;;;-;;;lefff;de chez;1040347;-;-;-;-;-;;lefff
+de derrière;171067;Préposition;;;-;;;lefff;de derrière;1040351;-;-;-;-;-;;lefff
+de l'ordre de;171076;Préposition;;;-;;;lefff;de l'ordre de;1040360;-;-;-;-;-;;lefff
+;;;;;;;;;de l'ordre d';1040361;-;-;-;-;-;;lefff
+de manière à;171081;Préposition;;;-;;;lefff;de manière à;1040367;-;-;-;-;-;;lefff
+de par;171089;Préposition;;;-;;;lefff;de par;1040377;-;-;-;-;-;;lefff
+de part et d'autre de;171092;Préposition;;;-;;;lefff;de part et d'autre de;1040381;-;-;-;-;-;;lefff
+;;;;;;;;;de part et d'autre d';1040382;-;-;-;-;-;;lefff
+de près;171100;Préposition;;;-;;;lefff;de près;1040390;-;-;-;-;-;;lefff
+dedans;131076;Préposition;;;-;;;dela;dedans;912453;-;-;-;-;-;;dela
+dehors;131079;Préposition;;;-;;;dela;dehors;912460;-;-;-;-;-;;dela
+depuis;20241;Préposition;;;-;;d @ p H i;morphalou2 dela dicollecte lefff;depuis;145308;-;-;-;-;-;d @ p H i;morphalou2 dela dicollecte lefff
+derrière;20265;Préposition;;;-;;d E R j E R @ OU d E/ R j E R @ ;morphalou2 dela dicollecte lefff;derrière;145361;-;-;-;-;-;d E R j E R @ OU d E/ R j E R @ ;morphalou2 dela dicollecte lefff
+dessous;20321;Préposition;;;-;;d @ s u OU d E/ s u ;morphalou2 dicollecte lefff;dessous;146126;-;-;-;-;-;d @ s u OU d E/ s u ;morphalou2 dicollecte lefff
+dessus;20324;Préposition;;;-;;d @ s y;morphalou2 dicollecte lefff;dessus;146180;-;-;-;-;-;d @ s y;morphalou2 dicollecte lefff
+devant;20369;Préposition;;;-;;d @ v a~;morphalou2 dela dicollecte lefff;devant;146481;-;-;-;-;-;d @ v a~;morphalou2 dela dicollecte lefff
+devers;20376;Préposition;;;-;;d @ v E R;morphalou2 dela dicollecte lefff;devers;146542;-;-;-;-;-;d @ v E R;morphalou2 dela dicollecte lefff
+dixit;96601;Préposition;;;-;;;dela lefff;dixit;565457;-;-;-;-;-;;dela lefff
+dont;132453;Préposition;;;-;;d o~;dela;dont;915981;-;-;-;-;-;;dela
+du côté de;171172;Préposition;;;-;;;lefff;du côté de;1040804;-;-;-;-;-;;lefff
+;;;;;;;;;du côté d';1040805;-;-;-;-;-;;lefff
+durant;21808;Préposition;;;-;;d y R a~;morphalou2 dela dicollecte lefff;durant;156861;-;-;-;-;-;d y R a~;morphalou2 dela dicollecte lefff
+dès;21887;Préposition;;;-;;d E OU d E/ ;morphalou2 dela dicollecte lefff;dès;157321;-;-;-;-;-;d E OU d E/ ;morphalou2 dela dicollecte lefff
+dès avant;171181;Préposition;;;-;;;lefff;dès avant;1040820;-;-;-;-;-;;lefff
+en;24765;Préposition;;;-;;a~;morphalou2 dela dicollecte lglex lefff;en;205125;-;-;-;-;-;a~;morphalou2 dela dicollecte lglex lefff
+en absence de;171264;Préposition;;;-;;;lefff;en absence de;1042618;-;-;-;-;-;;lefff
+;;;;;;;;;en absence d';1042619;-;-;-;-;-;;lefff
+en accord avec;171265;Préposition;;;-;;;lefff;en accord avec;1042620;-;-;-;-;-;;lefff
+en amont de;171266;Préposition;;;-;;;lefff;en amont de;1042621;-;-;-;-;-;;lefff
+;;;;;;;;;en amont d';1042622;-;-;-;-;-;;lefff
+en arrière de;171268;Préposition;;;-;;;lefff;en arrière de;1042624;-;-;-;-;-;;lefff
+;;;;;;;;;en arrière d';1042625;-;-;-;-;-;;lefff
+en aval de;171269;Préposition;;;-;;;lefff;en aval de;1042626;-;-;-;-;-;;lefff
+;;;;;;;;;en aval d';1042627;-;-;-;-;-;;lefff
+en avant de;171271;Préposition;;;-;;;lefff;en avant de;1042629;-;-;-;-;-;;lefff
+;;;;;;;;;en avant d';1042630;-;-;-;-;-;;lefff
+en cas de;171273;Préposition;;;-;;;lefff;en cas de;1042632;-;-;-;-;-;;lefff
+;;;;;;;;;en cas d';1042633;-;-;-;-;-;;lefff
+en contrebas de;171279;Préposition;;;-;;;lefff;en contrebas de;1042641;-;-;-;-;-;;lefff
+;;;;;;;;;en contrebas d';1042642;-;-;-;-;-;;lefff
+en dedans de;171282;Préposition;;;-;;;lefff;en dedans de;1042645;-;-;-;-;-;;lefff
+;;;;;;;;;en dedans d';1042646;-;-;-;-;-;;lefff
+en dehors de;171283;Préposition;;;-;;;lefff;en dehors de;1042647;-;-;-;-;-;;lefff
+;;;;;;;;;en dehors d';1042648;-;-;-;-;-;;lefff
+en delà de;171284;Préposition;;;-;;;lefff;en delà de;1042649;-;-;-;-;-;;lefff
+;;;;;;;;;en delà d';1042650;-;-;-;-;-;;lefff
+en dessous de;171286;Préposition;;;-;;;lefff;en dessous de;1042652;-;-;-;-;-;;lefff
+;;;;;;;;;en dessous d';1042653;-;-;-;-;-;;lefff
+en début de;171291;Préposition;;;-;;;lefff;en début de;1042661;-;-;-;-;-;;lefff
+;;;;;;;;;en début d';1042662;-;-;-;-;-;;lefff
+en dépit de;171293;Préposition;;;-;;;lefff;en dépit de;1042664;-;-;-;-;-;;lefff
+;;;;;;;;;en dépit d';1042665;-;-;-;-;-;;lefff
+en face de;171296;Préposition;;;-;;;lefff;en face de;1042668;-;-;-;-;-;;lefff
+;;;;;;;;;en face d';1042669;-;-;-;-;-;;lefff
+en fait de;171297;Préposition;;;-;;;lefff;en fait de;1042670;-;-;-;-;-;;lefff
+;;;;;;;;;en fait d';1042671;-;-;-;-;-;;lefff
+en faveur de;171298;Préposition;;;-;;;lefff;en faveur de;1042672;-;-;-;-;-;;lefff
+;;;;;;;;;en faveur d';1042673;-;-;-;-;-;;lefff
+en fin de;171299;Préposition;;;-;;;lefff;en fin de;1042674;-;-;-;-;-;;lefff
+;;;;;;;;;en fin d';1042675;-;-;-;-;-;;lefff
+en guise de;171301;Préposition;;;-;;;lefff;en guise de;1042677;-;-;-;-;-;;lefff
+;;;;;;;;;en guise d';1042678;-;-;-;-;-;;lefff
+en haut de;171304;Préposition;;;-;;;lefff;en haut de;1042681;-;-;-;-;-;;lefff
+;;;;;;;;;en haut d';1042682;-;-;-;-;-;;lefff
+en hommage à;171305;Préposition;;;-;;;lefff;en hommage à;1042683;-;-;-;-;-;;lefff
+en instance de;171306;Préposition;;;-;;;lefff;en instance de;1042684;-;-;-;-;-;;lefff
+;;;;;;;;;en instance d';1042685;-;-;-;-;-;;lefff
+en manière de;171308;Préposition;;;-;;;lefff;en manière de;1042687;-;-;-;-;-;;lefff
+;;;;;;;;;en manière d';1042688;-;-;-;-;-;;lefff
+en manque de;171309;Préposition;;;-;;;lefff;en manque de;1042689;-;-;-;-;-;;lefff
+;;;;;;;;;en manque d';1042690;-;-;-;-;-;;lefff
+en milieu de;171310;Préposition;;;-;;;lefff;en milieu de;1042691;-;-;-;-;-;;lefff
+;;;;;;;;;en milieu d';1042692;-;-;-;-;-;;lefff
+en outre de;171316;Préposition;;;-;;;lefff;en outre de;1042699;-;-;-;-;-;;lefff
+;;;;;;;;;en outre d';1042700;-;-;-;-;-;;lefff
+en perte de;171319;Préposition;;;-;;;lefff;en perte de;1042703;-;-;-;-;-;;lefff
+;;;;;;;;;en perte d';1042704;-;-;-;-;-;;lefff
+en plein;171321;Préposition;;;-;;;lefff;en plein;1042706;-;-;-;-;-;;lefff
+en plein centre de;171322;Préposition;;;-;;;lefff;en plein centre de;1042707;-;-;-;-;-;;lefff
+;;;;;;;;;en plein centre d';1042708;-;-;-;-;-;;lefff
+en plein dans;171323;Préposition;;;-;;;lefff;en plein dans;1042709;-;-;-;-;-;;lefff
+en plein sur;171324;Préposition;;;-;;;lefff;en plein sur;1042710;-;-;-;-;-;;lefff
+en plus de;171326;Préposition;;;-;;;lefff;en plus de;1042712;-;-;-;-;-;;lefff
+;;;;;;;;;en plus d';1042713;-;-;-;-;-;;lefff
+en proie à;171329;Préposition;;;-;;;lefff;en proie à;1042716;-;-;-;-;-;;lefff
+en quête de;171332;Préposition;;;-;;;lefff;en quête de;1042719;-;-;-;-;-;;lefff
+;;;;;;;;;en quête d';1042720;-;-;-;-;-;;lefff
+en raison de;171333;Préposition;;;-;;;lefff;en raison de;1042721;-;-;-;-;-;;lefff
+;;;;;;;;;en raison d';1042722;-;-;-;-;-;;lefff
+en regard de;171334;Préposition;;;-;;;lefff;en regard de;1042723;-;-;-;-;-;;lefff
+;;;;;;;;;en regard d';1042724;-;-;-;-;-;;lefff
+en relation avec;171335;Préposition;;;-;;;lefff;en relation avec;1042725;-;-;-;-;-;;lefff
+en règlement de;171339;Préposition;;;-;;;lefff;en règlement de;1042729;-;-;-;-;-;;lefff
+;;;;;;;;;en règlement d';1042730;-;-;-;-;-;;lefff
+en signe de;171340;Préposition;;;-;;;lefff;en signe de;1042731;-;-;-;-;-;;lefff
+;;;;;;;;;en signe d';1042732;-;-;-;-;-;;lefff
+en tant que;171346;Préposition;;;-;;;lefff;en tant que;1042740;-;-;-;-;-;;lefff
+;;;;;;;;;en tant qu';1042741;-;-;-;-;-;;lefff
+en terme de;171347;Préposition;;;-;;;lefff;en terme de;1042742;-;-;-;-;-;;lefff
+;;;;;;;;;en terme d';1042743;-;-;-;-;-;;lefff
+en termes de;171348;Préposition;;;-;;;lefff;en termes de;1042744;-;-;-;-;-;;lefff
+;;;;;;;;;en termes d';1042745;-;-;-;-;-;;lefff
+en train de;171352;Préposition;;;-;;;lefff;en train de;1042749;-;-;-;-;-;;lefff
+;;;;;;;;;en train d';1042750;-;-;-;-;-;;lefff
+en vertu de;171355;Préposition;;;-;;;lefff;en vertu de;1042753;-;-;-;-;-;;lefff
+;;;;;;;;;en vertu d';1042754;-;-;-;-;-;;lefff
+en voie de;171357;Préposition;;;-;;;lefff;en voie de;1042756;-;-;-;-;-;;lefff
+;;;;;;;;;en voie d';1042757;-;-;-;-;-;;lefff
+en âge de;171360;Préposition;;;-;;;lefff;en âge de;1042760;-;-;-;-;-;;lefff
+;;;;;;;;;en âge d';1042761;-;-;-;-;-;;lefff
+en-deçà de;171289;Préposition;;;-;;;lefff;en-deçà de;1042657;-;-;-;-;-;;lefff
+;;;;;;;;;en deçà d';1042658;-;-;-;-;-;;lefff
+;;;;;;;;;en deçà de;1042659;-;-;-;-;-;;lefff
+;;;;;;;;;en-deçà d';1042762;-;-;-;-;-;;lefff
+endéans;72298;Préposition;;;-;;a~ d e a~ OU a~ d E/ a~ ;morphalou2 dela dicollecte lefff;endéans;825015;-;-;-;-;-;;dela dicollecte lefff
+entre;25449;Préposition;;;-;;a~ t R @;morphalou2 dela dicollecte lefff;entr';217144;-;-;-;-;-;a~ t R;morphalou2
+;;;;;;;;;entre;217145;-;-;-;-;-;a~ t R @;morphalou2 dela dicollecte lefff
+envers;25572;Préposition;;;-;;a~ v E R;morphalou2 dela dicollecte lefff;envers;219045;-;-;-;-;-;a~ v E R;morphalou2 dela dicollecte lefff
+eu égard à;171403;Préposition;;;-;;;lefff;eu égard à;1043233;-;-;-;-;-;;lefff
+ex;168848;Préposition;;;-;;;lglex;ex;1019141;-;-;-;-;-;;lglex
+excepté;26093;Préposition;;;-;;E k s E p t e;morphalou2 dela dicollecte lefff;excepté;223932;-;-;-;-;-;E k s E p t e;morphalou2 dela dicollecte lefff
+face à;171429;Préposition;;;-;;;lefff;face à;1043427;-;-;-;-;-;;lefff
+faute de;171437;Préposition;;;-;;;lefff;faute de;1043452;-;-;-;-;-;;lefff
+;;;;;;;;;faute d';1043453;-;-;-;-;-;;lefff
+fors;27955;Préposition;;;-;;f O R;morphalou2 dela;fors;239126;-;-;-;-;-;f O R;morphalou2 dela
+grâce à;171525;Préposition;;;-;;;lefff;grâce à;1044017;-;-;-;-;-;;lefff
+hormis;31690;Préposition;;;-;;O R m i;morphalou2 dela dicollecte lefff;hormis;266096;-;-;-;-;-;O R m i;morphalou2 dela dicollecte lefff
+hors;31707;Préposition;;;-;;O R;morphalou2 dela dicollecte lefff;hors;266238;-;-;-;-;-;O R;morphalou2 dela dicollecte lefff
+hors de;171598;Préposition;;;-;;;lefff;hors de;1044281;-;-;-;-;-;;lefff
+;;;;;;;;;hors d';1044282;-;-;-;-;-;;lefff
+il y a;171636;Préposition;;;-;;;lefff;il y a;1044590;-;-;-;-;-;;lefff
+jouxte;77638;Préposition;;;-;;Z u k s t @;morphalou2 dela;jouxte;948499;-;-;-;-;-;;dela
+jusqu'en;171705;Préposition;;;-;;;lefff;jusqu'en;1045058;-;-;-;-;-;;lefff
+jusqu'où;171708;Préposition;;;-;;;lefff;jusqu'où;1045061;-;-;-;-;-;;lefff
+jusqu'à;116385;Préposition;;;-;;;dicollecte lefff;jusqu'à;871565;-;-;-;-;-;;dicollecte lefff
+jusque;35765;Préposition;;;-;;Z y s k @;morphalou2 dela dicollecte lefff;jusqu';291956;-;-;-;-;-;Z y s k;morphalou2 lefff
+;;;;;;;;;jusque;291957;-;-;-;-;-;Z y s k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;jusques;291958;-;-;-;-;-;Z y s k @;morphalou2
+;;;;;;;;;jusqu;948688;-;-;-;-;-;;dela
+jusques;77714;Préposition;;;-;;Z y s k @;morphalou2 dela dicollecte;jusques;819112;-;-;-;-;-;;dela dicollecte
+le long de;171767;Préposition;;;-;;;lefff;le long de;1045334;-;-;-;-;-;;lefff
+;;;;;;;;;le long d';1045335;-;-;-;-;-;;lefff
+lez;36786;Préposition;;;-;;l e;morphalou2 dela dicollecte;lez;297145;-;-;-;-;-;l e;morphalou2 dela dicollecte
+loin de;171800;Préposition;;;-;;;lefff;loin de;1045456;-;-;-;-;-;;lefff
+;;;;;;;;;loin d';1045457;-;-;-;-;-;;lefff
+lors de;171804;Préposition;;;-;;;lefff;lors de;1045467;-;-;-;-;-;;lefff
+;;;;;;;;;lors d';1045468;-;-;-;-;-;;lefff
+lès;37825;Préposition;;;-;;l E OU l E/ ;morphalou2 dela dicollecte lefff;lès;303140;-;-;-;-;-;l E OU l E/ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;lez;1045379;-;-;-;-;-;;lefff
+malgré;38375;Préposition;;;-;;m a l g R e;morphalou2 dela dicollecte lefff;malgré;306179;-;-;-;-;-;m a l g R e;morphalou2 dela dicollecte lefff
+maugré;79162;Préposition;;;-;;m o g R e OU m O/ g R e ;morphalou2;maugré;1026040;-;-;-;-;-;m o g R e OU m O/ g R e ;
+moyennant;41113;Préposition;;;-;;m w a j E n a~ OU m w a j E/ n a~ ;morphalou2 dela lefff;moyennant;324031;-;-;-;-;-;m w a j E n a~ OU m w a j E/ n a~ ;morphalou2 dela lefff
+non sans;171959;Préposition;;;-;;;lefff;non sans;1046236;-;-;-;-;-;;lefff
+nonobstant;42817;Préposition;;;-;;n O n O p s t a~ OU n O/ n O/ p s t a~ ;morphalou2 dela dicollecte lefff;nonobstant;334960;-;-;-;-;-;n O n O p s t a~ OU n O/ n O/ p s t a~ ;morphalou2 dela dicollecte lefff
+outre;44633;Préposition;;;-;;u t R @;morphalou2 dela dicollecte lefff;outre;344973;-;-;-;-;-;u t R @;morphalou2 dela dicollecte lefff
+par;45332;Préposition;;;-;;p a R;morphalou2 dela dicollecte lefff;par;349567;-;-;-;-;-;p a R;morphalou2 dela dicollecte lefff
+par delà;172043;Préposition;;;-;;;lefff;par delà;1046576;-;-;-;-;-;;lefff
+par devers;172044;Préposition;;;-;;;lefff;par devers;1046578;-;-;-;-;-;;lefff
+par rapport à;172050;Préposition;;;-;;;lefff;par rapport à;1046585;-;-;-;-;-;;lefff
+par égard pour;172052;Préposition;;;-;;;lefff;par égard pour;1046587;-;-;-;-;-;;lefff
+par égard à;172053;Préposition;;;-;;;lefff;par égard à;1046588;-;-;-;-;-;;lefff
+par-delà;107261;Préposition;;;-;;;dicollecte lefff;par-delà;837946;-;-;-;-;-;;dicollecte lefff
+;;;;;;;;;par delà;1046577;-;-;-;-;-;;lefff
+par-dessous;172055;Préposition;;;-;;;lefff;par-dessous;1046590;-;-;-;-;-;;lefff
+par-dessus;172057;Préposition;;;-;;;lefff;par-dessus;1046592;-;-;-;-;-;;lefff
+par-devant;110682;Préposition;;;-;;;dicollecte;par-devant;848977;-;-;-;-;-;;dicollecte
+par-devers;112822;Préposition;;;-;;;dicollecte;par-devers;857015;-;-;-;-;-;;dicollecte
+parmi;45629;Préposition;;;-;;p a R m i;morphalou2 dela dicollecte lefff;parmi;351951;-;-;-;-;-;p a R m i;morphalou2 dela dicollecte lefff
+passé;152933;Préposition;;;-;;;dela;passé;973377;-;-;-;-;-;;dela
+pendant;46327;Préposition;;;-;;p a~ d a~;morphalou2 dela dicollecte lefff;pendant;356795;-;-;-;-;-;p a~ d a~;morphalou2 dela dicollecte lefff
+;;;;;;;;;pdt;1046705;-;-;-;-;-;;lefff
+peu de;172095;Préposition;;;-;;;lefff;peu de;1046742;-;-;-;-;-;;lefff
+;;;;;;;;;peu d';1046743;-;-;-;-;-;;lefff
+plein de;172118;Préposition;;;-;;;lefff;plein de;1046897;-;-;-;-;-;;lefff
+;;;;;;;;;plein d';1046898;-;-;-;-;-;;lefff
+plus de;172123;Préposition;;;-;;;lefff;plus de;1046937;-;-;-;-;-;;lefff
+;;;;;;;;;plus d';1046938;-;-;-;-;-;;lefff
+plutôt que de;172130;Préposition;;;-;;;lefff;plutôt que de;1046952;-;-;-;-;-;;lefff
+;;;;;;;;;plutôt que d';1046953;-;-;-;-;-;;lefff
+posé;155605;Préposition;;;-;;;dela;posé;981054;-;-;-;-;-;;dela
+pour;48892;Préposition;;;-;;p u R;morphalou2 dela dicollecte lglex lefff;pour;373161;-;-;-;-;-;p u R;morphalou2 dela dicollecte lglex lefff
+;;;;;;;;;pr;1047145;-;-;-;-;-;;lefff
+pour cause de;172154;Préposition;;;-;;;lefff;pour cause de;1047114;-;-;-;-;-;;lefff
+;;;;;;;;;pour cause d';1047115;-;-;-;-;-;;lefff
+pour comble de;172156;Préposition;;;-;;;lefff;pour comble de;1047118;-;-;-;-;-;;lefff
+;;;;;;;;;pour comble d';1047119;-;-;-;-;-;;lefff
+proche de;172173;Préposition;;;-;;;lefff;proche de;1047162;-;-;-;-;-;;lefff
+;;;;;;;;;proche d';1047163;-;-;-;-;-;;lefff
+près;156291;Préposition;;;-;;;dela;près;983061;-;-;-;-;-;;dela
+près de;172189;Préposition;;;-;;;lefff;près de;1047200;-;-;-;-;-;;lefff
+;;;;;;;;;près d';1047201;-;-;-;-;-;;lefff
+revoici;53496;Préposition;;;-;;R @ v w a s i;morphalou2 dicollecte;revoici;418589;-;-;-;-;-;R @ v w a s i;morphalou2 dicollecte
+revoilà;53497;Préposition;;;-;;R @ v w a l a;morphalou2 dicollecte;revoilà;418590;-;-;-;-;-;R @ v w a l a;morphalou2 dicollecte
+rez;88261;Préposition;;;-;;R e;morphalou2;rez;1031181;-;-;-;-;-;R e;
+sans;55908;Préposition;;;-;;s a~;morphalou2 dela dicollecte lefff;sans;440115;-;-;-;-;-;s a~;morphalou2 dela dicollecte lefff
+sauf;56118;Préposition;;;-;;s o f;morphalou2 dela dicollecte lefff;sauf;441341;-;-;-;-;-;s o f;morphalou2 dela dicollecte lefff
+sauf à;172384;Préposition;;;-;;;lefff;sauf à;1049459;-;-;-;-;-;;lefff
+selon;56674;Préposition;;;-;;s @ l o~;morphalou2 dela dicollecte lefff;selon;444690;-;-;-;-;-;s @ l o~;morphalou2 dela dicollecte lefff
+si près de;172421;Préposition;;;-;;;lefff;si près de;1049633;-;-;-;-;-;;lefff
+;;;;;;;;;si près d';1049634;-;-;-;-;-;;lefff
+sinon;57288;Préposition;;;-;;s i n o~;morphalou2 dela dicollecte;sinon;448337;-;-;-;-;-;s i n o~;morphalou2 dela dicollecte
+sitôt;161046;Préposition;;;-;;;dela;sitôt;996518;-;-;-;-;-;;dela
+sous;58009;Préposition;;;-;;s u;morphalou2 dela dicollecte lefff;sous;453355;-;-;-;-;-;s u;morphalou2 dela dicollecte lefff
+sous l'effet de;172451;Préposition;;;-;;;lefff;sous l'effet de;1049762;-;-;-;-;-;;lefff
+;;;;;;;;;sous l'effet d';1049763;-;-;-;-;-;;lefff
+sous le coup de;172452;Préposition;;;-;;;lefff;sous le coup de;1049764;-;-;-;-;-;;lefff
+;;;;;;;;;sous le coup d';1049765;-;-;-;-;-;;lefff
+suite à;172483;Préposition;;;-;;;lefff;suite à;1050029;-;-;-;-;-;;lefff
+suivant;59060;Préposition;;;-;;s H i v a~;morphalou2 dela dicollecte lefff;suivant;460049;-;-;-;-;-;s H i v a~;morphalou2 dela dicollecte lefff
+supposé;162453;Préposition;;;-;;;dela;supposé;1000882;-;-;-;-;-;;dela
+sur;59231;Préposition;;;-;;s y R;morphalou2 dela dicollecte lglex lefff;sur;461471;-;-;-;-;-;s y R;morphalou2 dela dicollecte lglex lefff
+touchant;164345;Préposition;;;-;;;dela;touchant;1006480;-;-;-;-;-;;dela
+tout au bout de;172575;Préposition;;;-;;;lefff;tout au bout de;1051097;-;-;-;-;-;;lefff
+;;;;;;;;;tout au bout d';1051098;-;-;-;-;-;;lefff
+tout au long de;172576;Préposition;;;-;;;lefff;tout au long de;1051099;-;-;-;-;-;;lefff
+;;;;;;;;;tout au long d';1051100;-;-;-;-;-;;lefff
+tout en haut de;172587;Préposition;;;-;;;lefff;tout en haut de;1051111;-;-;-;-;-;;lefff
+;;;;;;;;;tout en haut d';1051112;-;-;-;-;-;;lefff
+tout plein de;172592;Préposition;;;-;;;lefff;tout plein de;1051117;-;-;-;-;-;;lefff
+;;;;;;;;;tout plein d';1051118;-;-;-;-;-;;lefff
+tout près de;172593;Préposition;;;-;;;lefff;tout près de;1051119;-;-;-;-;-;;lefff
+;;;;;;;;;tout près d';1051120;-;-;-;-;-;;lefff
+vers;64127;Préposition;;;-;;v E R;morphalou2 dela dicollecte lefff;vers;496767;-;-;-;-;-;v E R;morphalou2 dela dicollecte lefff
+versus;101759;Préposition;;;-;;;dela dicollecte;versus;820499;-;-;-;-;-;;dela dicollecte
+via;64225;Préposition;;;-;;v j a;morphalou2 dela dicollecte lefff;via;497192;-;-;-;-;-;v j a;morphalou2 dela dicollecte lefff
+vis-à-vis;172710;Préposition;;;-;;;lefff;vis-à-vis;1052176;-;-;-;-;-;;lefff
+vis-à-vis de;172711;Préposition;;;-;;;lefff;vis-à-vis de;1052177;-;-;-;-;-;;lefff
+;;;;;;;;;vis-à-vis d';1052178;-;-;-;-;-;;lefff
+voici;64713;Préposition;;;-;;v w a s i;morphalou2 dicollecte;voici;500518;-;-;-;-;-;v w a s i;morphalou2 dicollecte
+voilà;64724;Préposition;;;-;;v w a l a;morphalou2 dicollecte;voilà;500590;-;-;-;-;-;v w a l a;morphalou2 dicollecte
+vs;172694;Préposition;;;-;;;lefff;vs;1052010;-;-;-;-;-;;lefff
+;;;;;;;;;versus;1052011;-;-;-;-;-;;lefff
+vu;101096;Préposition;;;-;;;dela dicollecte;vu;818705;-;-;-;-;-;;dela dicollecte
+y compris;172748;Préposition;;;-;;;lefff;y compris;1052274;-;-;-;-;-;;lefff
+à;65530;Préposition;;;-;;a;morphalou2 dela dicollecte lglex lefff;au;504843;-;-;-;-;-;o;morphalou2
+;;;;;;;;;aux;504844;-;-;-;-;-;o;morphalou2
+;;;;;;;;;à;504845;-;-;-;-;-;a;morphalou2 dela dicollecte lglex lefff
+à cause de;172770;Préposition;;;-;;;lefff;à cause de;1052403;-;-;-;-;-;;lefff
+;;;;;;;;;à cause d';1052404;-;-;-;-;-;;lefff
+à côté de;172776;Préposition;;;-;;;lefff;à côté de;1052412;-;-;-;-;-;;lefff
+;;;;;;;;;à côté d';1052413;-;-;-;-;-;;lefff
+à défaut de;172781;Préposition;;;-;;;lefff;à défaut de;1052418;-;-;-;-;-;;lefff
+;;;;;;;;;à défaut d';1052419;-;-;-;-;-;;lefff
+à force de;172783;Préposition;;;-;;;lefff;à force de;1052421;-;-;-;-;-;;lefff
+;;;;;;;;;à force d';1052422;-;-;-;-;-;;lefff
+à hauteur de;172786;Préposition;;;-;;;lefff;à hauteur de;1052425;-;-;-;-;-;;lefff
+;;;;;;;;;à hauteur d';1052426;-;-;-;-;-;;lefff
+à l'aune de;172790;Préposition;;;-;;;lefff;à l'aune de;1052431;-;-;-;-;-;;lefff
+;;;;;;;;;à l'aune d';1052432;-;-;-;-;-;;lefff
+à l'encontre de;172791;Préposition;;;-;;;lefff;à l'encontre de;1052433;-;-;-;-;-;;lefff
+;;;;;;;;;à l'encontre d';1052434;-;-;-;-;-;;lefff
+à l'instar de;172793;Préposition;;;-;;;lefff;à l'instar de;1052436;-;-;-;-;-;;lefff
+;;;;;;;;;à l'instar d';1052437;-;-;-;-;-;;lefff
+à l'insu de;172794;Préposition;;;-;;;lefff;à l'insu de;1052438;-;-;-;-;-;;lefff
+;;;;;;;;;à l'insu d';1052439;-;-;-;-;-;;lefff
+à l'égard de;172795;Préposition;;;-;;;lefff;à l'égard de;1052440;-;-;-;-;-;;lefff
+;;;;;;;;;à l'égard d';1052441;-;-;-;-;-;;lefff
+à moins de;172803;Préposition;;;-;;;lefff;à moins de;1052450;-;-;-;-;-;;lefff
+;;;;;;;;;à moins d';1052451;-;-;-;-;-;;lefff
+à même;172807;Préposition;;;-;;;lefff;à même;1052456;-;-;-;-;-;;lefff
+à même de;172808;Préposition;;;-;;;lefff;à même de;1052457;-;-;-;-;-;;lefff
+;;;;;;;;;à même d';1052458;-;-;-;-;-;;lefff
+à partir de;172812;Préposition;;;-;;;lefff;à partir de;1052462;-;-;-;-;-;;lefff
+;;;;;;;;;à partir d';1052463;-;-;-;-;-;;lefff
+à proportion de;172819;Préposition;;;-;;;lefff;à proportion de;1052471;-;-;-;-;-;;lefff
+;;;;;;;;;à proportion d';1052472;-;-;-;-;-;;lefff
+à propos de;172821;Préposition;;;-;;;lefff;à propos de;1052474;-;-;-;-;-;;lefff
+;;;;;;;;;à propos d';1052475;-;-;-;-;-;;lefff
+à raison de;172826;Préposition;;;-;;;lefff;à raison de;1052481;-;-;-;-;-;;lefff
+;;;;;;;;;à raison d';1052482;-;-;-;-;-;;lefff
+à travers;172838;Préposition;;;-;;;lefff;à travers;1052499;-;-;-;-;-;;lefff
+ès;72543;Préposition;;;-;;E s;morphalou2 dela dicollecte;ès;819643;-;-;-;-;-;;dela dicollecte
+ôté;82545;Préposition;;;-;;o t e OU O/ t e ;morphalou2 dela;ôté;1019074;-;-;-;-;-;;dela
+apr.;172881;Préposition;abréviation;;-;"variante du lemme #5480 ""après""";;lefff;apr.;1036870;-;-;-;-;-;;lefff
+av.;172883;Préposition;abréviation;;-;"variante du lemme #7417 ""avant""";;lefff;av.;1038188;-;-;-;-;-;;lefff
+cf.;172886;Préposition;abréviation;;-;"variante du lemme #170908 ""cf""";;lefff;cf.;1039197;-;-;-;-;-;;lefff
+conf.;172887;Préposition;abréviation;;-;"variante du lemme #170908 ""cf""";;lefff;conf.;1039798;-;-;-;-;-;;lefff
+vs.;172915;Préposition;abréviation;;-;"variante du lemme #172694 ""vs""";;lefff;vs.;1052216;-;-;-;-;-;;lefff
+au;101033;Préposition;+ article;;-;;;dela dicollecte;au;818567;singular;-;masculine;-;-;;dela dicollecte
+;;;;;;;;;aux;893098;plural;-;invariable;-;-;;dela dicollecte
+du;131271;Préposition;+ article;;-;;;dela;des;912903;plural;-;invariable;-;-;;dela
+;;;;;;;;;du;916466;singular;-;masculine;-;-;;dela
+audit;101478;Préposition;+ déterminant;;-;;;dela dicollecte;audit;819727;singular;-;masculine;-;-;;dela dicollecte
+;;;;;;;;;auxdites;893099;plural;-;feminine;-;-;;dela dicollecte
+;;;;;;;;;auxdits;893100;plural;-;masculine;-;-;;dela dicollecte
+dudit;131285;Préposition;+ déterminant;;-;;;dela;desdites;912930;plural;-;feminine;-;-;;dela
+;;;;;;;;;desdits;912931;plural;-;masculine;-;-;;dela
+;;;;;;;;;dudit;916505;singular;-;masculine;-;-;;dela
+ce;126649;Pronom;démonstratif;;-;;s @;morphalou2 dela lefff;c';85724;singular;-;masculine;-;thirdPerson;k;morphalou2 lefff
+;;;;;;;;;ce;901536;singular;-;masculine;-;thirdPerson;s @;dela lefff
+ceci;13917;Pronom;démonstratif;;-;;s @ s i;morphalou2 dela dicollecte lefff;ceci;97810;singular;-;neuter;-;-;s @ s i;morphalou2 dela dicollecte lefff
+cela;13934;Pronom;démonstratif;;-;;s @ l a;morphalou2 dela dicollecte lefff;cela;98041;singular;-;-;-;-;s @ l a;morphalou2 dela dicollecte lefff
+celui;13977;Pronom;démonstratif;;-;;s @ l H i;morphalou2 dela dicollecte lefff;celle;98192;singular;-;feminine;-;-;s E l @ OU s E/ l @ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;celles;98193;plural;-;feminine;-;-;s E l @ OU s E/ l @ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;celui;98194;singular;-;masculine;-;-;s @ l H i;morphalou2 dela dicollecte lefff
+;;;;;;;;;ceux;98195;plural;-;masculine;-;-;s 2;morphalou2 dela lefff
+celui-ci;69884;Pronom;démonstratif;;-;;s @ l H i s i;morphalou2 dela dicollecte lefff;celui-ci;821098;singular;-;masculine;-;-;s @ l H i s i;dela dicollecte lefff
+;;;;;;;;;celle-ci;821734;singular;-;feminine;-;-;s E l @ s i OU s E/ l @ s i ;dela dicollecte lefff
+;;;;;;;;;ceux-ci;822920;plural;-;masculine;-;-;s 2 s i;dela dicollecte lefff
+;;;;;;;;;celles-ci;825140;plural;-;feminine;-;-;s E l @ s i OU s E/ l @ s i ;dela dicollecte lefff
+celui-là;69885;Pronom;démonstratif;;-;;s @ l H i l a;morphalou2 dela dicollecte lefff;celui-là;826247;singular;-;masculine;-;-;s @ l H i l a;dela dicollecte lefff
+;;;;;;;;;ceux-là;826924;plural;-;masculine;-;-;s 2 l a;dela dicollecte lefff
+;;;;;;;;;celle-là;828830;singular;-;feminine;-;-;s E l @ l a OU s E/ l @ l a ;dela dicollecte lefff
+;;;;;;;;;celles-là;836281;plural;-;feminine;-;-;s E l @ l a OU s E/ l @ l a ;dela dicollecte lefff
+ci;70385;Pronom;démonstratif;;-;;s i;morphalou2;ci;1021166;-;-;-;-;-;s i;
+icelui;76304;Pronom;démonstratif;;-;;i s @ l H i;morphalou2 dela dicollecte lefff;icelle;820064;singular;-;feminine;-;thirdPerson;i s E l @;dela dicollecte lefff
+;;;;;;;;;icelui;821257;singular;-;masculine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;icelles;940880;plural;-;feminine;-;thirdPerson;i s E l @;dela dicollecte lefff
+;;;;;;;;;iceux;940882;plural;-;masculine;-;thirdPerson;;dela lefff
+ça;65552;Pronom;démonstratif;;-;;s a;morphalou2 dela dicollecte lefff;ça;504943;singular;-;masculine;-;thirdPerson;s a;morphalou2 dela dicollecte lefff
+;;;;;;;;;ç';1020645;singular;-;neuter;-;thirdPerson;s;
+le leur;171741;Pronom;possessif;;-;;;lefff;le leur;1045190;plural;-;masculine;-;thirdPerson;;lefff
+;;;;;;;;;la leur;1045191;plural;-;feminine;-;thirdPerson;;lefff
+;;;;;;;;;les leurs;1045359;plural;-;masculine;-;thirdPerson;;lefff
+le mien;171742;Pronom;possessif;;-;;;lefff;le mien;1045192;singular;-;masculine;-;firstPerson;;lefff
+;;;;;;;;;la mienne;1045193;singular;-;feminine;-;firstPerson;;lefff
+;;;;;;;;;les miennes;1045360;singular;-;feminine;-;firstPerson;;lefff
+;;;;;;;;;les miens;1045361;singular;-;masculine;-;firstPerson;;lefff
+le nôtre;171743;Pronom;possessif;;-;;;lefff;le nôtre;1045194;plural;-;masculine;-;firstPerson;;lefff
+;;;;;;;;;la nôtre;1045195;plural;-;feminine;-;firstPerson;;lefff
+;;;;;;;;;les nôtres;1045362;plural;-;masculine;-;firstPerson;;lefff
+le sien;171747;Pronom;possessif;;-;;;lefff;le sien;1045202;singular;-;masculine;-;thirdPerson;;lefff
+;;;;;;;;;la sienne;1045203;singular;-;feminine;-;thirdPerson;;lefff
+;;;;;;;;;les siennes;1045363;singular;-;feminine;-;thirdPerson;;lefff
+;;;;;;;;;les siens;1045364;singular;-;masculine;-;thirdPerson;;lefff
+le tien;171748;Pronom;possessif;;-;;;lefff;le tien;1045204;singular;-;masculine;-;secondPerson;;lefff
+;;;;;;;;;la tienne;1045205;singular;-;feminine;-;secondPerson;;lefff
+;;;;;;;;;les tiennes;1045365;singular;-;feminine;-;secondPerson;;lefff
+;;;;;;;;;les tiens;1045366;singular;-;masculine;-;secondPerson;;lefff
+le vôtre;171749;Pronom;possessif;;-;;;lefff;le vôtre;1045206;plural;-;masculine;-;secondPerson;;lefff
+;;;;;;;;;la vôtre;1045207;plural;-;feminine;-;secondPerson;;lefff
+;;;;;;;;;les vôtres;1045369;plural;-;masculine;-;secondPerson;;lefff
+mien;39783;Pronom;possessif;;-;;m j e~;morphalou2;mien;315341;-;-;-;-;-;m j e~;morphalou2
+;;;;;;;;;mienne;315342;-;-;-;-;-;m j E n @;morphalou2
+;;;;;;;;;miennes;315343;-;-;-;-;-;m j E n @;morphalou2
+;;;;;;;;;miens;315344;-;-;-;-;-;m j e~;morphalou2
+nôtre;43349;Pronom;possessif;;-;;n o t R @;morphalou2;nôtre;337535;-;-;-;-;-;n o t R @;morphalou2
+;;;;;;;;;nôtres;337536;-;-;-;-;-;n o t R @;morphalou2
+sien;57092;Pronom;possessif;;-;;s j e~;morphalou2;sien;446967;-;-;-;-;-;s j e~;morphalou2
+;;;;;;;;;sienne;446968;-;-;-;-;-;s j E n @;morphalou2
+;;;;;;;;;siennes;446969;-;-;-;-;-;s j E n @;morphalou2
+;;;;;;;;;siens;446970;-;-;-;-;-;s j e~;morphalou2
+tien;61144;Pronom;possessif;;-;;t j e~;morphalou2;tien;475242;-;-;-;-;-;t j e~;morphalou2
+;;;;;;;;;tienne;475243;-;-;-;-;-;t j E n @;morphalou2
+;;;;;;;;;tiennes;475244;-;-;-;-;-;t j E n @;morphalou2
+;;;;;;;;;tiens;475245;-;-;-;-;-;t j e~;morphalou2
+vôtre;65152;Pronom;possessif;;-;;v o t R @;morphalou2;vôtre;503280;-;-;-;-;-;v o t R @;morphalou2
+;;;;;;;;;vôtres;503281;-;-;-;-;-;v o t R @;morphalou2
+ce;170854;Pronom;personnel;;-;;;lefff;ce;1038916;-;-;-;-;-;;lefff
+;;;;;;;;;c';1038917;singular;-;-;-;-;;lefff
+;;;;;;;;;ç';1052504;singular;-;masculine;-;thirdPerson;;lefff
+che;170909;Pronom;personnel;;-;;;lefff;che;1039198;-;-;-;-;-;;lefff
+;;;;;;;;;ch';1039199;singular;-;-;-;firstPerson;;lefff
+cézigue;70054;Pronom;personnel;;-;;s e z i g @ OU s E/ z i g @ ;morphalou2 dela;cézigue;912031;singular;-;invariable;-;thirdPerson;;dela
+en;134765;Pronom;personnel;;-;;a~;dela;en;921106;invariable;-;invariable;-;thirdPerson;;dela
+eux;26037;Pronom;personnel;;-;;2;morphalou2 dela dicollecte lefff;eux;223308;plural;-;masculine;-;thirdPerson;2;morphalou2 dela dicollecte lefff
+il;32576;Pronom;personnel;;-;;i l;morphalou2 dela dicollecte lefff;elle;198365;singular;-;feminine;-;thirdPerson;E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;elles;198366;plural;-;feminine;-;thirdPerson;E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;il;270878;singular;-;masculine;-;thirdPerson;i l;morphalou2 dela dicollecte lefff
+;;;;;;;;;ils;270879;plural;-;masculine;-;thirdPerson;i l;morphalou2 dela dicollecte lefff
+je;35467;Pronom;personnel;;-;;Z @;morphalou2 dela dicollecte lefff;j';290062;singular;-;-;-;firstPerson;Z;morphalou2 lefff
+;;;;;;;;;je;290063;singular;-;-;-;firstPerson;Z @;morphalou2 dela dicollecte lefff
+l'on;171737;Pronom;personnel;;-;;;lefff;l'on;1045182;singular;-;-;-;thirdPerson;;lefff
+le;144737;Pronom;personnel;;-;;l @;dela;la;949520;singular;-;feminine;-;thirdPerson;;dela
+;;;;;;;;;le;950655;singular;-;masculine;-;thirdPerson;;dela
+;;;;;;;;;les;950898;plural;-;invariable;-;thirdPerson;;dela
+leur;36744;Pronom;personnel;;-;;l 9 R;morphalou2 dela dicollecte;leur;296849;singular;-;invariable;-;thirdPerson;l 9 R;morphalou2 dela dicollecte
+;;;;;;;;;leurs;296850;plural;-;invariable;-;thirdPerson;l 9 R;morphalou2
+leurszigues;145347;Pronom;personnel;;-;;;dela;leurszigues;951180;plural;-;invariable;-;thirdPerson;;dela
+lui;37626;Pronom;personnel;;-;;l H i;morphalou2 dela dicollecte lefff;lui;302135;singular;-;invariable;-;thirdPerson;l H i;morphalou2 dela dicollecte lefff
+lui-même;101657;Pronom;personnel;;-;;;dela dicollecte lefff;lui-même;820206;singular;-;masculine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;elle-même;821334;singular;-;feminine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;elles-mêmes;920717;plural;-;feminine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;eux-mêmes;923630;plural;-;masculine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;elles-même;1042519;-;-;-;-;-;;lefff
+;;;;;;;;;eux-même;1043292;-;-;-;-;-;;lefff
+me;39412;Pronom;personnel;;-;;m @;morphalou2 dela dicollecte lefff;m';313225;singular;-;-;-;firstPerson;m;morphalou2 lefff
+;;;;;;;;;me;313226;singular;-;-;-;firstPerson;m @;morphalou2 dela dicollecte lefff
+;;;;;;;;;m';1025777;-;-;-;-;-;m;
+moi;40312;Pronom;personnel;;-;;m w a;morphalou2 dela dicollecte lefff;moi;318780;singular;-;invariable;-;firstPerson;m w a;morphalou2 dela dicollecte lefff
+moi-même;102862;Pronom;personnel;;-;;;dela dicollecte lefff;moi-même;823906;singular;-;invariable;-;firstPerson;;dela dicollecte lefff
+mézigue;79793;Pronom;personnel;;-;;m e z i g @ OU m E/ z i g @ ;morphalou2 dela dicollecte;mézigue;846487;singular;-;invariable;-;firstPerson;;dela dicollecte
+;;;;;;;;;mézigues;872779;plural;-;invariable;-;firstPerson;;dicollecte
+noszigues;150294;Pronom;personnel;;-;;;dela;noszigues;965544;plural;-;invariable;-;firstPerson;;dela
+nous;42942;Pronom;personnel;;-;;n u;morphalou2 dela dicollecte lefff;nous;335602;plural;-;-;-;firstPerson;n u;morphalou2 dela dicollecte lefff
+nous-même;171963;Pronom;personnel;;-;;;lefff;nous-même;1046247;-;-;-;-;-;;lefff
+;;;;;;;;;nous-mêmes;1046248;-;-;-;-;-;;lefff
+nous-mêmes;104250;Pronom;personnel;;-;;;dela dicollecte;nous-mêmes;828181;plural;-;invariable;-;firstPerson;;dela dicollecte
+on;43909;Pronom;personnel;;-;;o~;morphalou2 dela dicollecte lefff;on;341167;singular;-;invariable;-;thirdPerson;o~;morphalou2 dela dicollecte lefff
+quelqu'autre;157775;Pronom;personnel;;-;;;dela;quelqu'autre;987511;singular;-;invariable;-;thirdPerson;;dela
+quelqu'un;86965;Pronom;personnel;;-;;k E l k 9~;morphalou2 dela dicollecte lefff;quelques-uns;824285;plural;-;masculine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;quelqu'un;874461;singular;-;masculine;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;quelqu'une;874462;singular;-;feminine;-;thirdPerson;;dicollecte lefff
+;;;;;;;;;quelque-une;987515;singular;-;feminine;-;thirdPerson;;dela
+;;;;;;;;;quelques-unes;987518;plural;-;feminine;-;thirdPerson;;dela lefff
+se;56564;Pronom;personnel;;-;;s @;morphalou2 dela dicollecte lefff;s';444047;singular;-;-;-;thirdPerson;s;morphalou2 dela dicollecte lefff
+;;;;;;;;;se;444048;singular;-;-;-;thirdPerson;s @;morphalou2 dela dicollecte lefff
+soi;57521;Pronom;personnel;;-;;s w a;morphalou2 dela dicollecte lefff;soi;449520;singular;-;invariable;-;thirdPerson;s w a;morphalou2 dela dicollecte lefff
+soi-même;103456;Pronom;personnel;;-;;;dela dicollecte lefff;soi-même;825743;singular;-;invariable;-;thirdPerson;;dela dicollecte lefff
+sézigue;89792;Pronom;personnel;;-;"variante du lemme #70054 ""cézigue""";s e z i g @ OU s E/ z i g @ ;morphalou2 dela dicollecte;sézigue;864526;singular;-;invariable;-;thirdPerson;;dela dicollecte
+te;60598;Pronom;personnel;;-;;t @;morphalou2 dela dicollecte lefff;t';472366;singular;-;-;-;secondPerson;t;morphalou2 lefff
+;;;;;;;;;te;472367;singular;-;-;-;secondPerson;t @;morphalou2 dela dicollecte lefff
+;;;;;;;;;t';1033336;-;-;-;-;-;t;
+toi;61330;Pronom;personnel;;-;;t w a;morphalou2 dela dicollecte lefff;toi;476720;singular;-;invariable;-;secondPerson;t w a;morphalou2 dela dicollecte lefff
+toi-même;104479;Pronom;personnel;;-;;;dela dicollecte lefff;toi-même;828932;singular;-;invariable;-;secondPerson;;dela dicollecte lefff
+tu;62756;Pronom;personnel;;-;;t y;morphalou2 dela dicollecte lefff;tu;488207;singular;-;-;-;secondPerson;t y;morphalou2 dela dicollecte lefff
+tézigue;92884;Pronom;personnel;;-;;t e z i g @ OU t E/ z i g @ ;morphalou2 dela;tézigue;1010433;singular;-;invariable;-;secondPerson;;dela
+uns;94545;Pronom;personnel;;-;;9~;morphalou2 dicollecte;uns;818655;-;-;-;-;-;;dicollecte
+voszigues;166757;Pronom;personnel;;-;;;dela;voszigues;1013787;plural;-;invariable;-;secondPerson;;dela
+vous;64899;Pronom;personnel;;-;;v u;morphalou2 dela dicollecte lefff;vous;501813;plural;-;-;-;secondPerson;v u;morphalou2 dela dicollecte lefff
+vous-même;104168;Pronom;personnel;;-;;;dela dicollecte lefff;vous-même;827935;singular;-;invariable;-;secondPerson;;dicollecte lefff
+;;;;;;;;;vous-mêmes;835525;plural;-;invariable;-;secondPerson;;dela dicollecte lefff
+vousaille;95422;Pronom;personnel;;-;;v u z a j @;morphalou2;vousaille;1035092;-;-;-;-;-;v u z a j @;
+vousailles;95423;Pronom;personnel;;-;;v u z a j @;morphalou2;vousailles;1035093;-;-;-;-;-;v u z a j @;
+vs;172728;Pronom;personnel;;-;;;lefff;vs;1052215;plural;-;-;-;secondPerson;;lefff
+y;65268;Pronom;personnel;;-;;i;morphalou2 dela dicollecte;y;503596;invariable;-;invariable;-;thirdPerson;i;morphalou2 dela dicollecte
+ça;172842;Pronom;personnel;;-;;;lefff;ça;1052505;singular;-;masculine;-;thirdPerson;;lefff
+auquel;7129;Pronom;relatif;;-;;o k E l OU O/ k E l ;morphalou2 dela dicollecte;auquel;50861;singular;-;masculine;-;-;o k E l OU O/ k E l ;morphalou2 dela dicollecte
+;;;;;;;;;auxquelles;50862;plural;-;feminine;-;-;o k E l @ OU O/ k E l @ ;morphalou2 dela
+;;;;;;;;;auxquels;50863;plural;-;masculine;-;-;o k E l OU O/ k E l ;morphalou2 dela
+dont;132452;Pronom;relatif;;-;;d o~;dela lefff;dont;915980;invariable;-;invariable;-;-;;dela lefff
+duquel;21799;Pronom;relatif;;-;;d y k E l;morphalou2 dela dicollecte;desquelles;156839;plural;-;feminine;-;-;d e k E l @ OU d E/ k E l @ ;morphalou2 dela dicollecte
+;;;;;;;;;desquels;156840;plural;-;masculine;-;-;d e k E l OU d E/ k E l ;morphalou2 dela dicollecte
+;;;;;;;;;duquel;156841;singular;-;masculine;-;-;d y k E l;morphalou2 dela dicollecte
+lequel;145243;Pronom;relatif;;-;;;dela lefff;laquelle;950232;singular;-;feminine;-;-;;dela lefff
+;;;;;;;;;lequel;950891;singular;-;masculine;-;-;;dela lefff
+;;;;;;;;;lesquelles;950907;plural;-;feminine;-;-;l e k E l OU l E/ k E l @ ;dela lefff
+;;;;;;;;;lesquels;950909;plural;-;masculine;-;-;l e k E l;dela lefff
+où;44750;Pronom;relatif;;-;;u;morphalou2 dela dicollecte lefff;où;345809;invariable;-;invariable;-;-;u;morphalou2 dela dicollecte lefff
+que;172226;Pronom;relatif;;-;;;lefff;que;1047512;-;-;-;-;-;;lefff
+;;;;;;;;;qu';1047513;-;-;-;-;-;;lefff
+qui;172238;Pronom;relatif;;-;;;lefff;qui;1047543;-;-;-;-;-;;lefff
+quiconque;51309;Pronom;relatif;;-;;k i k o~ k @;morphalou2 dela dicollecte lefff;quiconque;388853;singular;-;-;-;-;k i k o~ k @;morphalou2 dela dicollecte lefff
+quoi;172242;Pronom;relatif;;-;;;lefff;quoi;1047547;-;-;-;-;-;;lefff
+aucun;7047;Pronom;indéfini;;-;;o k 9~ OU O/ k 9~ ;morphalou2 dela dicollecte lefff;aucun;50428;singular;-;masculine;-;-;o k 9~ OU O/ k 9~ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;aucune;50429;singular;-;feminine;-;-;o k y n @ OU O/ k y n @ ;morphalou2 dela lefff
+autre;7365;Pronom;indéfini;;-;;o t R @;morphalou2 lefff;autre;52094;singular;-;-;-;-;o t R @;morphalou2 lefff
+;;;;;;;;;autres;52095;plural;-;-;-;-;o t R @;morphalou2 lefff
+autre chose;170694;Pronom;indéfini;;-;;;lefff;autre chose;1038180;-;-;masculine;-;-;;lefff
+autrui;7373;Pronom;indéfini;;-;;o t R H i OU O/ t R H i ;morphalou2 dela dicollecte lefff;autrui;52110;singular;-;masculine;-;-;o t R H i OU O/ t R H i ;morphalou2 dela dicollecte lefff
+certain;126750;Pronom;indéfini;;-;;;dela lefff;certaines;901830;plural;-;feminine;-;-;;dela lefff
+;;;;;;;;;certains;901833;plural;-;masculine;-;-;;dela lefff
+;;;;;;;;;certain;1035331;singular;-;masculine;-;-;;
+chacun;14148;Pronom;indéfini;;-;;S a k 9~;morphalou2 dela dicollecte lefff;chacun;99136;singular;-;masculine;-;-;S a k 9~;morphalou2 dela dicollecte lefff
+;;;;;;;;;chacune;99137;singular;-;feminine;-;-;S a k y n @;morphalou2 dela dicollecte lefff
+je-ne-sais-quoi;77589;Pronom;indéfini;;-;;Z @ n @ s E k w a OU Z @ n @ s E/ k w a ;morphalou2;je-ne-sais-quoi;1025185;-;-;-;-;-;Z @ n @ s E k w a OU Z @ n @ s E/ k w a ;
+je-nesais-quoi;77591;Pronom;indéfini;;-;"variante du lemme #77589 ""je-ne-sais-quoi""";Z @ n @ z e k w a OU Z @ n @ z E/ k w a ;morphalou2;je-nesais-quoi;1025186;-;-;-;-;-;Z @ n @ z e k w a OU Z @ n @ z E/ k w a ;
+jene-saisquoi;77593;Pronom;indéfini;;-;"variante du lemme #77589 ""je-ne-sais-quoi""";Z @ n @ s E s k w a;morphalou2;jene-saisquoi;1025188;-;-;-;-;-;Z @ n @ s E s k w a;
+l'autre;171736;Pronom;indéfini;;-;;;lefff;l'autre;1045181;singular;-;-;-;-;;lefff
+;;;;;;;;;les autres;1045358;plural;-;-;-;-;;lefff
+l'un;171738;Pronom;indéfini;;-;;;lefff;l'un;1045183;singular;-;masculine;-;-;;lefff
+;;;;;;;;;l'une;1045186;singular;-;feminine;-;-;;lefff
+;;;;;;;;;les unes;1045367;plural;-;feminine;-;-;;lefff
+;;;;;;;;;les uns;1045368;plural;-;masculine;-;-;;lefff
+l'un et l'autre;171739;Pronom;indéfini;;-;;;lefff;l'un et l'autre;1045184;plural;-;masculine;-;-;;lefff
+;;;;;;;;;l'une et l'autre;1045187;plural;-;feminine;-;-;;lefff
+l'un ou l'autre;171740;Pronom;indéfini;;-;;;lefff;l'un ou l'autre;1045185;plural;-;masculine;-;-;;lefff
+;;;;;;;;;l'une ou l'autre;1045188;plural;-;feminine;-;-;;lefff
+la plupart;171744;Pronom;indéfini;;-;;;lefff;la plupart;1045196;-;-;-;-;-;;lefff
+même;171919;Pronom;indéfini;;-;;;lefff;même;1046113;singular;-;-;-;-;;lefff
+;;;;;;;;;mêmes;1046115;plural;-;-;-;-;;lefff
+n'importe où;171922;Pronom;indéfini;;-;;;lefff;n'importe où;1046117;-;-;-;-;-;;lefff
+ni l'un ni l'autre;171949;Pronom;indéfini;;-;;;lefff;ni l'un ni l'autre;1046218;plural;-;masculine;-;-;;lefff
+;;;;;;;;;ni l'une ni l'autre;1046219;plural;-;feminine;-;-;;lefff
+nul;101217;Pronom;indéfini;;-;;;dela dicollecte lefff;nul;819013;singular;-;masculine;-;-;;dela dicollecte lefff
+;;;;;;;;;nulle;1046253;singular;-;feminine;-;-;;lefff
+pas grand-chose;172071;Pronom;indéfini;;-;;;lefff;pas grand-chose;1046631;singular;-;-;-;-;;lefff
+personne;46615;Pronom;indéfini;;-;;p E R s O n @ OU p E R s O/ n @ ;morphalou2 dela dicollecte lefff;personne;359017;singular;-;masculine;-;-;p E R s O n @ OU p E R s O/ n @ ;morphalou2 dela dicollecte lefff
+peu de chose;172096;Pronom;indéfini;;-;;;lefff;peu de chose;1046744;-;-;-;-;-;;lefff
+plus d'un;172124;Pronom;indéfini;;-;;;lefff;plus d'un;1046939;-;-;masculine;-;-;;lefff
+;;;;;;;;;plus d'une;1046940;-;-;feminine;-;-;;lefff
+plusieurs;154646;Pronom;indéfini;;-;;;dela lefff;plusieurs;978399;plural;-;-;-;-;;dela lefff
+pouic;85406;Pronom;indéfini;;-;;p w i k;morphalou2;pouic;1029513;-;-;-;-;-;p w i k;
+qqc;172221;Pronom;indéfini;;-;"variante du lemme #172236 ""quelque chose""";;lefff;qqc;1047504;singular;-;masculine;-;-;;lefff
+qqch;172222;Pronom;indéfini;;-;"variante du lemme #172236 ""quelque chose""";;lefff;qqch;1047505;singular;-;masculine;-;-;;lefff
+qqchose;172223;Pronom;indéfini;;-;"variante du lemme #172236 ""quelque chose""";;lefff;qqchose;1047506;singular;-;masculine;-;-;;lefff
+qqn;172224;Pronom;indéfini;;-;"variante du lemme #172236 ""quelque chose""";;lefff;qqn;1047508;singular;-;-;-;-;;lefff
+quelque chose;172236;Pronom;indéfini;;-;;;lefff;quelque chose;1047536;singular;-;masculine;-;-;;lefff
+qui de droit;172239;Pronom;indéfini;;-;;;lefff;qui de droit;1047544;singular;-;-;-;-;;lefff
+qui que ce soit;172240;Pronom;indéfini;;-;;;lefff;qui que ce soit;1047545;singular;-;-;-;-;;lefff
+rien;53681;Pronom;indéfini;;-;;R j e~;morphalou2 dela dicollecte lefff;rien;419749;singular;-;masculine;-;-;R j e~;morphalou2 dela dicollecte lefff
+tel;60652;Pronom;indéfini;;-;;t E l;morphalou2 dela dicollecte lefff;tel;472687;singular;-;masculine;-;-;t E l;morphalou2 dela dicollecte lefff
+;;;;;;;;;telle;472688;singular;-;feminine;-;-;t E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;telles;472689;plural;-;feminine;-;-;t E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;tels;472690;plural;-;masculine;-;-;t E l;morphalou2 dela dicollecte lefff
+tel et tel;172534;Pronom;indéfini;;-;;;lefff;tel et tel;1050931;singular;-;masculine;-;-;;lefff
+;;;;;;;;;telle et telle;1050939;singular;-;feminine;-;-;;lefff
+;;;;;;;;;telles et telles;1050945;plural;-;feminine;-;-;;lefff
+;;;;;;;;;tels et tels;1050952;plural;-;masculine;-;-;;lefff
+tel ou tel;172536;Pronom;indéfini;;-;;;lefff;tel ou tel;1050933;singular;-;masculine;-;-;;lefff
+;;;;;;;;;telle ou telle;1050941;singular;-;feminine;-;-;;lefff
+;;;;;;;;;telles ou telles;1050947;plural;-;feminine;-;-;;lefff
+;;;;;;;;;tels ou tels;1050954;plural;-;masculine;-;-;;lefff
+tout;164397;Pronom;indéfini;;-;;;dela lefff;tous;1006596;plural;-;masculine;-;-;;dela lefff
+;;;;;;;;;tout;1006597;singular;-;masculine;-;-;;dela lefff
+;;;;;;;;;toutes;1006605;plural;-;feminine;-;-;;dela lefff
+;;;;;;;;;toute;1051128;singular;-;feminine;-;-;;lefff
+tout le monde;172589;Pronom;indéfini;;-;;;lefff;tout le monde;1051114;singular;-;masculine;-;-;;lefff
+un;172655;Pronom;indéfini;;-;;;lefff;un;1051704;singular;-;masculine;-;-;;lefff
+;;;;;;;;;une;1051715;singular;-;feminine;-;-;;lefff
+;;;;;;;;;unes;1051722;plural;-;feminine;-;-;;lefff
+;;;;;;;;;uns;1051776;plural;-;masculine;-;-;;lefff
+combien;170974;Pronom;interrogatif;;-;;;lefff;combien;1039677;-;-;-;-;-;;lefff
+comment;170981;Pronom;interrogatif;;-;;;lefff;comment;1039690;-;-;-;-;-;;lefff
+lequel;36690;Pronom;interrogatif;;-;;l @ k E l;morphalou2 dela dicollecte lefff;laquelle;296619;singular;-;feminine;-;-;l a k E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;lequel;296620;singular;-;masculine;-;-;l @ k E l;morphalou2 dela dicollecte lefff
+;;;;;;;;;lesquelles;296621;plural;-;feminine;-;-;l e k E l @ OU l E/ k E l @ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;lesquels;296622;plural;-;masculine;-;-;l e k E l OU l E/ k E l ;morphalou2 dela dicollecte lefff
+où;172025;Pronom;interrogatif;;-;;;lefff;où;1046532;-;-;-;-;-;;lefff
+pkoi;172115;Pronom;interrogatif;;-;;;lefff;pkoi;1046888;-;-;-;-;-;;lefff
+pourquoi;172166;Pronom;interrogatif;;-;;;lefff;pourquoi;1047134;-;-;-;-;-;;lefff
+quand;172229;Pronom;interrogatif;;-;;;lefff;quand;1047522;-;-;-;-;-;;lefff
+que;157667;Pronom;interrogatif;;-;;k @;dela lefff;qu;987151;invariable;-;invariable;-;-;;dela
+;;;;;;;;;que;987496;invariable;-;invariable;-;-;;dela lefff
+;;;;;;;;;qu';1047514;-;-;-;-;-;;lefff
+quel;157772;Pronom;interrogatif;;-;;k E l;morphalou2 dela lefff;quel;987502;singular;-;masculine;-;-;;dela lefff
+;;;;;;;;;quelle;987503;singular;-;feminine;-;-;;dela lefff
+;;;;;;;;;quelles;987506;plural;-;feminine;-;-;;dela lefff
+;;;;;;;;;quels;987520;plural;-;masculine;-;-;;dela lefff
+qui;51304;Pronom;interrogatif;;-;;k i;morphalou2 dela dicollecte lefff;qui;388844;invariable;-;invariable;-;-;k i;morphalou2 dela dicollecte lefff
+quid;86996;Pronom;interrogatif;;-;;k H i d;morphalou2 dicollecte;quid;819875;-;-;-;-;-;;dicollecte
+quoi;51392;Pronom;interrogatif;;-;;k w a;morphalou2 dela dicollecte lefff;quoi;389291;invariable;-;invariable;-;-;k w a;morphalou2 dela dicollecte lefff
+c't';170862;Déterminant;démonstratif;;-;;;lefff;c't';1038927;invariable;-;invariable;-;-;;lefff
+ce;13916;Déterminant;démonstratif;;-;;s @;morphalou2 dela dicollecte lefff;ce;97806;singular;-;masculine;-;-;s @;morphalou2 dela dicollecte lefff
+;;;;;;;;;ces;97807;plural;-;invariable;-;-;s e OU s E/ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;cet;97808;singular;-;masculine;-;-;s E t;morphalou2 dela lefff
+;;;;;;;;;cette;97809;singular;-;feminine;-;-;s E t @;morphalou2 dela dicollecte lefff
+ce putain de;170901;Déterminant;démonstratif;;-;;;lefff;ce putain de;1039182;singular;-;masculine;-;-;;lefff
+;;;;;;;;;ces putain de;1039194;plural;-;invariable;-;-;;lefff
+;;;;;;;;;cette putain de;1039195;singular;-;feminine;-;-;;lefff
+ct';171022;Déterminant;démonstratif;;-;;;lefff;ct';1040236;invariable;-;invariable;-;-;;lefff
+icelui;76303;Déterminant;démonstratif;;-;;i s @ l H i;morphalou2;icelles;1024452;singular;-;feminine;-;-;i s E l @;
+;;;;;;;;;icelui;1024454;singular;-;masculine;-;-;i s @ l H i;
+leur;101042;Déterminant;possessif;;-;;l 9 R;morphalou2 dela dicollecte lefff;leur;818592;plural;-;invariable;-;thirdPerson;;dela dicollecte lefff
+;;;;;;;;;leurs;818603;plural;-;invariable;-;thirdPerson;;dela dicollecte lefff
+mon;40429;Déterminant;possessif;;-;;m o~;morphalou2 dela dicollecte lefff;ma;319650;singular;-;feminine;-;firstPerson;m a;morphalou2 lefff
+;;;;;;;;;mes;319651;singular;-;invariable;-;firstPerson;m e OU m E/ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;mon;319652;singular;-;invariable;-;firstPerson;m o~;morphalou2 dela dicollecte lefff
+notre;42905;Déterminant;possessif;;-;;n O t R @;morphalou2 dela dicollecte lefff;nos;335421;plural;-;invariable;-;firstPerson;n o;morphalou2 dela dicollecte lefff
+;;;;;;;;;notre;335422;plural;-;invariable;-;firstPerson;n O t R @;morphalou2 dela dicollecte lefff
+son;57711;Déterminant;possessif;;-;;s o~;morphalou2 dela dicollecte lefff;sa;451098;singular;-;feminine;-;thirdPerson;s a;morphalou2 lefff
+;;;;;;;;;ses;451099;singular;-;feminine;-;thirdPerson;s e OU s E/ ;morphalou2 dela dicollecte lefff
+;;;;;;;;;son;451100;singular;-;invariable;-;thirdPerson;s o~;morphalou2 dela dicollecte lefff
+ton;61402;Déterminant;possessif;;-;;t o~;morphalou2 dela dicollecte lefff;ta;477277;singular;-;feminine;-;secondPerson;t a;morphalou2 lefff
+;;;;;;;;;tes;477278;singular;-;invariable;-;secondPerson;t e;morphalou2 dela dicollecte lefff
+;;;;;;;;;ton;477279;singular;-;invariable;-;secondPerson;t o~;morphalou2 dela dicollecte lefff
+vot;172725;Déterminant;possessif;;-;;;lefff;vot;1052208;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;vot';1052209;plural;-;invariable;-;secondPerson;;lefff
+votre;64889;Déterminant;possessif;;-;;v O t R @;morphalou2 dela dicollecte lefff;votre;501692;plural;-;invariable;-;secondPerson;v O t R @;morphalou2 dela dicollecte lefff
+;;;;;;;;;vos;818663;plural;-;invariable;-;secondPerson;v o;morphalou2 dela dicollecte lefff
+assez de;170586;Déterminant;indéfini;;-;;;lefff;assez de;1037034;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;assez d';1037035;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;assez de la;1037036;plural;-;masculine;-;-;;lefff
+;;;;;;;;;assez des;1037037;plural;-;invariable;-;-;;lefff
+;;;;;;;;;assez du;1037038;singular;-;masculine;-;-;;lefff
+aucun;101070;Déterminant;indéfini;;-;;;dela dicollecte lefff;aucun;818656;singular;-;masculine;-;-;;dela dicollecte lefff
+;;;;;;;;;aucune;818657;singular;-;feminine;-;-;;dela dicollecte lefff
+;;;;;;;;;aucuns;819234;plural;-;masculine;-;-;;dicollecte
+;;;;;;;;;aucunes;819996;plural;-;feminine;-;-;;dicollecte
+autant de;170663;Déterminant;indéfini;;-;;;lefff;autant de;1037190;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;autant d';1037191;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;autant de la;1037192;plural;-;masculine;-;-;;lefff
+;;;;;;;;;autant des;1037193;plural;-;invariable;-;-;;lefff
+;;;;;;;;;autant du;1037196;singular;-;masculine;-;-;;lefff
+bcp de;170742;Déterminant;indéfini;;-;"variante du lemme #170743 ""beaucoup de""";;lefff;bcp de;1038396;invariable;-;invariable;-;-;;lefff
+beaucoup de;170743;Déterminant;indéfini;;-;;;lefff;beaucoup de;1038398;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;beaucoup d';1038399;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;beaucoup de la;1038400;plural;-;masculine;-;-;;lefff
+;;;;;;;;;beaucoup des;1038401;plural;-;invariable;-;-;;lefff
+;;;;;;;;;beaucoup du;1038402;singular;-;masculine;-;-;;lefff
+bien de;170764;Déterminant;indéfini;;-;;;lefff;bien de;1038463;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;bien de la;1038464;plural;-;masculine;-;-;;lefff
+;;;;;;;;;bien des;1038465;plural;-;invariable;-;-;;lefff
+;;;;;;;;;bien du;1038466;singular;-;masculine;-;-;;lefff
+certain;14103;Déterminant;indéfini;;-;;s E R t e~;morphalou2 dela dicollecte;certain;98892;singular;-;masculine;-;-;s E R t e~;morphalou2 dicollecte
+;;;;;;;;;certaine;98893;singular;-;feminine;-;-;s E R t E n @;morphalou2 dicollecte
+;;;;;;;;;certaines;98894;plural;-;feminine;-;-;s E R t E n @;morphalou2 dela dicollecte
+;;;;;;;;;certains;98895;plural;-;masculine;-;-;s E R t e~;morphalou2 dela dicollecte
+chaque;14424;Déterminant;indéfini;;-;;S a k @;morphalou2 dela dicollecte lefff;chaque;101303;singular;-;invariable;-;-;S a k @;morphalou2 dela dicollecte lefff
+combien de;170975;Déterminant;indéfini;;-;;;lefff;combien de;1039678;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;combien d';1039679;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;combien de la;1039680;plural;-;masculine;-;-;;lefff
+;;;;;;;;;combien des;1039681;plural;-;invariable;-;-;;lefff
+;;;;;;;;;combien du;1039682;singular;-;masculine;-;-;;lefff
+de;20155;Déterminant;indéfini;;-;;d @;morphalou2 dela dicollecte lefff;d';144903;plural;-;invariable;-;-;d;morphalou2 dicollecte lefff
+;;;;;;;;;de;144904;plural;-;invariable;-;-;d @;morphalou2 dicollecte lefff
+;;;;;;;;;des;144905;plural;-;invariable;-;-;d e OU d E/ ;morphalou2 lefff
+;;;;;;;;;du;144906;singular;-;masculine;-;-;d y;morphalou2 dela dicollecte lefff
+de drôle de;171068;Déterminant;indéfini;;-;;;lefff;de drôle de;1040352;plural;-;invariable;-;-;;lefff
+de la;171077;Déterminant;indéfini;;-;;;lefff;de la;1040362;singular;-;feminine;-;-;;lefff
+de tel;171103;Déterminant;indéfini;;-;;;lefff;de tel;1040396;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;de telles;1040397;plural;-;feminine;-;-;;lefff
+;;;;;;;;;de tels;1040398;plural;-;masculine;-;-;;lefff
+dieu sait quel;171133;Déterminant;indéfini;;-;;;lefff;dieu sait quel;1040542;singular;-;masculine;-;-;;lefff
+;;;;;;;;;dieu sait quelle;1040543;singular;-;feminine;-;-;;lefff
+;;;;;;;;;dieu sait quelles;1040544;plural;-;feminine;-;-;;lefff
+;;;;;;;;;dieu sait quels;1040545;plural;-;masculine;-;-;;lefff
+différents;131736;Déterminant;indéfini;;-;;;dela;différentes;914150;plural;-;feminine;-;-;;dela
+;;;;;;;;;différents;914159;plural;-;masculine;-;-;;dela
+divers;101094;Déterminant;indéfini;;-;;;dela dicollecte;divers;818702;plural;-;masculine;-;-;;dela dicollecte
+;;;;;;;;;diverses;915449;plural;-;feminine;-;-;;dela dicollecte
+force;137202;Déterminant;indéfini;;-;;;dela;force;927194;invariable;-;invariable;-;-;;dela
+la plupart de;171745;Déterminant;indéfini;;-;;;lefff;la plupart de;1045197;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;la plupart de la;1045198;plural;-;masculine;-;-;;lefff
+;;;;;;;;;la plupart des;1045199;plural;-;invariable;-;-;;lefff
+;;;;;;;;;la plupart du;1045200;singular;-;masculine;-;-;;lefff
+le moins de;171770;Déterminant;indéfini;;-;;;lefff;le moins de;1045338;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;le moins d';1045339;invariable;-;invariable;-;-;;lefff
+le plus de;171773;Déterminant;indéfini;;-;;;lefff;le plus de;1045343;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;le plus d';1045344;invariable;-;invariable;-;-;;lefff
+maint;38260;Déterminant;indéfini;;-;;m e~;morphalou2 dela dicollecte;maint;305754;singular;-;masculine;-;-;m e~;morphalou2 dela dicollecte
+;;;;;;;;;mainte;305755;singular;-;feminine;-;-;m e~ t @;morphalou2 dela dicollecte
+;;;;;;;;;maintes;305756;plural;-;feminine;-;-;m e~ t @;morphalou2 dela dicollecte
+;;;;;;;;;maints;305757;plural;-;masculine;-;-;m e~;morphalou2 dela dicollecte
+moins de;171879;Déterminant;indéfini;;-;;;lefff;moins de;1045923;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;moins d';1045924;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;moins de la;1045926;plural;-;masculine;-;-;;lefff
+;;;;;;;;;moins des;1045927;plural;-;invariable;-;-;;lefff
+;;;;;;;;;moins du;1045928;singular;-;masculine;-;-;;lefff
+n'importe quel;171923;Déterminant;indéfini;;-;;;lefff;n'importe quel;1046118;singular;-;masculine;-;-;;lefff
+;;;;;;;;;n'importe quelle;1046119;singular;-;feminine;-;-;;lefff
+;;;;;;;;;n'importe quelles;1046120;plural;-;feminine;-;-;;lefff
+;;;;;;;;;n'importe quels;1046121;plural;-;masculine;-;-;;lefff
+nul;43051;Déterminant;indéfini;;-;;n y l;morphalou2 dela dicollecte;nul;336255;singular;-;masculine;-;-;n y l;morphalou2 dela dicollecte
+;;;;;;;;;nulle;336256;singular;-;feminine;-;-;n y l @;morphalou2 dela dicollecte
+;;;;;;;;;nuls;820494;plural;-;masculine;-;-;;dela dicollecte
+;;;;;;;;;nulles;820700;plural;-;feminine;-;-;;dela dicollecte
+pas de;172068;Déterminant;indéfini;;-;;;lefff;pas de;1046627;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;pas d';1046628;invariable;-;invariable;-;-;;lefff
+pas mal de;172072;Déterminant;indéfini;;-;;;lefff;pas mal de;1046632;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;pas mal d';1046633;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;pas mal de la;1046634;plural;-;masculine;-;-;;lefff
+;;;;;;;;;pas mal des;1046635;plural;-;invariable;-;-;;lefff
+;;;;;;;;;pas mal du;1046636;singular;-;masculine;-;-;;lefff
+plein de;172117;Déterminant;indéfini;;-;;;lefff;plein de;1046895;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;plein d';1046896;invariable;-;invariable;-;-;;lefff
+plus de;172122;Déterminant;indéfini;;-;;;lefff;plus de;1046935;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;plus d';1046936;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;plus de la;1046941;plural;-;masculine;-;-;;lefff
+;;;;;;;;;plus des;1046942;plural;-;invariable;-;-;;lefff
+;;;;;;;;;plus du;1046943;singular;-;masculine;-;-;;lefff
+plusieurs;48025;Déterminant;indéfini;;-;;p l y z j 9 R;morphalou2 dela dicollecte lefff;plusieurs;367695;plural;-;invariable;-;-;p l y z j 9 R;morphalou2 dela dicollecte lefff
+qq;172220;Déterminant;indéfini;;-;"variante du lemme #51271 ""quelque""";;lefff;qq;1047503;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;qqes;1047507;plural;-;invariable;-;-;;lefff
+;;;;;;;;;qqs;1047511;plural;-;invariable;-;-;;lefff
+quelque;51271;Déterminant;indéfini;;-;;k E l k @;morphalou2 dela dicollecte lefff;quelqu';388627;singular;-;invariable;-;-;k E l k;morphalou2 dela dicollecte lefff
+;;;;;;;;;quelque;388628;singular;-;masculine;-;-;k E l k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;quelques;388629;plural;-;masculine;-;-;k E l k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;quelqu;987508;singular;-;masculine;-;-;;dela
+tant de;172521;Déterminant;indéfini;;-;;;lefff;tant de;1050858;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;tant d';1050859;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;tant de la;1050860;plural;-;masculine;-;-;;lefff
+;;;;;;;;;tant des;1050861;plural;-;invariable;-;-;;lefff
+;;;;;;;;;tant du;1050862;singular;-;masculine;-;-;;lefff
+tel;163472;Déterminant;indéfini;;-;;;dela lefff;tel;1003972;singular;-;masculine;-;-;;dela lefff
+;;;;;;;;;telle;1003976;singular;-;feminine;-;-;;dela lefff
+;;;;;;;;;telles;1003978;plural;-;feminine;-;-;;dela lefff
+;;;;;;;;;tels;1004009;plural;-;masculine;-;-;;dela lefff
+tel et tel;172533;Déterminant;indéfini;;-;;;lefff;tel et tel;1050930;singular;-;masculine;-;-;;lefff
+;;;;;;;;;telle et telle;1050938;singular;-;feminine;-;-;;lefff
+;;;;;;;;;telles et telles;1050944;plural;-;feminine;-;-;;lefff
+;;;;;;;;;tels et tels;1050951;plural;-;masculine;-;-;;lefff
+tel ou tel;172535;Déterminant;indéfini;;-;;;lefff;tel ou tel;1050932;singular;-;masculine;-;-;;lefff
+;;;;;;;;;telle ou telle;1050940;singular;-;feminine;-;-;;lefff
+;;;;;;;;;telles ou telles;1050946;plural;-;feminine;-;-;;lefff
+;;;;;;;;;tels ou tels;1050953;plural;-;masculine;-;-;;lefff
+tout;101047;Déterminant;indéfini;;-;;;morphalou2 dela dicollecte lefff;toute;818590;singular;-;feminine;-;-;;dela dicollecte lefff
+;;;;;;;;;tout;818598;singular;-;masculine;-;-;;dela dicollecte lefff
+;;;;;;;;;tous;1006595;plural;-;masculine;-;-;;dela dicollecte lefff
+;;;;;;;;;toutes;1006604;plural;-;feminine;-;-;;dela dicollecte lefff
+un;63293;Déterminant;indéfini;;-;;9~;morphalou2 dela dicollecte lefff;un;491235;singular;-;masculine;-;-;9~;morphalou2 dela dicollecte lefff
+;;;;;;;;;unes;491237;plural;-;feminine;-;-;y n @;morphalou2 dela
+;;;;;;;;;uns;491238;plural;-;masculine;-;-;9~;morphalou2
+;;;;;;;;;une;818563;singular;-;feminine;-;-;y n @;dela dicollecte lefff
+;;;;;;;;;des;912900;plural;-;invariable;-;-;d e OU d E/ ;dela
+un drôle de;172656;Déterminant;indéfini;;-;;;lefff;un drôle de;1051705;singular;-;masculine;-;-;;lefff
+;;;;;;;;;une drôle de;1051716;singular;-;feminine;-;-;;lefff
+un peu de;172658;Déterminant;indéfini;;-;;;lefff;un peu de;1051707;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;un peu d';1051708;invariable;-;invariable;-;-;;lefff
+;;;;;;;;;un peu de la;1051709;plural;-;masculine;-;-;;lefff
+;;;;;;;;;un peu des;1051710;plural;-;invariable;-;-;;lefff
+;;;;;;;;;un peu du;1051711;singular;-;masculine;-;-;;lefff
+un tel;172660;Déterminant;indéfini;;-;;;lefff;un tel;1051713;singular;-;masculine;-;-;;lefff
+;;;;;;;;;une telle;1051719;singular;-;feminine;-;-;;lefff
+quel;51269;Déterminant;exclamatif;;-;;k E l;morphalou2 dela dicollecte lefff;quel;388619;singular;-;masculine;-;-;k E l;morphalou2 dela dicollecte lefff
+;;;;;;;;;quelle;388620;singular;-;feminine;-;-;k E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;quelles;388621;plural;-;feminine;-;-;k E l @;morphalou2 dela dicollecte lefff
+;;;;;;;;;quels;388622;plural;-;masculine;-;-;k E l;morphalou2 dela dicollecte lefff
+au;101034;Déterminant;défini;;-;;;dicollecte;au;818568;singular;-;masculine;-;-;;dicollecte
+dudit;101209;Déterminant;défini;;-;;;dicollecte;dudit;818998;singular;-;masculine;-;-;;dicollecte
+;;;;;;;;;desdits;819401;plural;-;masculine;-;-;;dicollecte
+;;;;;;;;;desdites;819852;plural;-;feminine;-;-;;dicollecte
+le;36640;Déterminant;défini;;-;;l @;morphalou2 dela dicollecte lglex lefff;au;296507;singular;-;masculine;-;-;o;morphalou2
+;;;;;;;;;aux;296508;plural;-;invariable;-;-;o;morphalou2 dicollecte lglex
+;;;;;;;;;l';296511;singular;-;invariable;-;-;l;morphalou2 dela dicollecte lglex lefff
+;;;;;;;;;le;296513;singular;-;masculine;-;-;l @;morphalou2 dela dicollecte lglex lefff
+;;;;;;;;;les;296514;plural;-;masculine;-;-;l e OU l E/ ;morphalou2 dela lefff
+;;;;;;;;;l;949513;singular;-;masculine;-;-;;dela dicollecte lglex
+;;;;;;;;;la;1045189;singular;-;feminine;-;-;;lefff
+ledit;101186;Déterminant;défini;;-;;;dicollecte lefff;ladite;818908;singular;-;feminine;-;-;;dicollecte lefff
+;;;;;;;;;ledit;818931;singular;-;masculine;-;-;;dicollecte lefff
+;;;;;;;;;lesdits;819228;plural;-;masculine;-;-;;dicollecte lefff
+;;;;;;;;;lesdites;819820;plural;-;feminine;-;-;;dicollecte lefff
+afin de;67724;Conjonction;subordination;;-;;a f e~ d @;morphalou2;afin de;1019389;-;-;-;-;-;a f e~ d @;
+afin que;67725;Conjonction;subordination;;-;;a f e~ k @;morphalou2 lefff;afin que;1019390;-;-;-;-;-;a f e~ k @;lefff
+;;;;;;;;;afin qu';1036576;-;-;-;-;-;;lefff
+ainsi;170512;Conjonction;subordination;;-;;;lefff;ainsi;1036594;-;-;-;-;-;;lefff
+ainsi que;170515;Conjonction;subordination;;-;;;lefff;ainsi que;1036598;-;-;-;-;-;;lefff
+;;;;;;;;;ainsi qu';1036599;-;-;-;-;-;;lefff
+alors même que;170527;Conjonction;subordination;;-;;;lefff;alors même que;1036675;-;-;-;-;-;;lefff
+;;;;;;;;;alors même qu';1036676;-;-;-;-;-;;lefff
+alors que;170528;Conjonction;subordination;;-;;;lefff;alors que;1036677;-;-;-;-;-;;lefff
+;;;;;;;;;alors qu';1036678;-;-;-;-;-;;lefff
+après que;170562;Conjonction;subordination;;-;;;lefff;après que;1036877;-;-;-;-;-;;lefff
+;;;;;;;;;après qu';1036878;-;-;-;-;-;;lefff
+attendu que;170593;Conjonction;subordination;;-;;;lefff;attendu que;1037054;-;-;-;-;-;;lefff
+;;;;;;;;;attendu qu';1037055;-;-;-;-;-;;lefff
+au cas où;170597;Conjonction;subordination;;-;;;lefff;au cas où;1037063;-;-;-;-;-;;lefff
+au fur et à mesure que;170614;Conjonction;subordination;;-;;;lefff;au fur et à mesure que;1037093;-;-;-;-;-;;lefff
+;;;;;;;;;au fur et à mesure qu';1037094;-;-;-;-;-;;lefff
+au moment où;170625;Conjonction;subordination;;-;;;lefff;au moment où;1037112;-;-;-;-;-;;lefff
+au même titre que;170628;Conjonction;subordination;;-;;;lefff;au même titre que;1037117;-;-;-;-;-;;lefff
+;;;;;;;;;au même titre qu';1037118;-;-;-;-;-;;lefff
+au point que;170635;Conjonction;subordination;;-;;;lefff;au point que;1037127;-;-;-;-;-;;lefff
+;;;;;;;;;au point qu';1037128;-;-;-;-;-;;lefff
+aussi;122957;Conjonction;subordination;;-;;;dela lefff;aussi;892282;-;-;-;-;-;;dela lefff
+aussi bien que;170661;Conjonction;subordination;;-;;;lefff;aussi bien que;1037186;-;-;-;-;-;;lefff
+;;;;;;;;;aussi bien qu';1037187;-;-;-;-;-;;lefff
+aussitôt que;170662;Conjonction;subordination;;-;;;lefff;aussitôt que;1037188;-;-;-;-;-;;lefff
+;;;;;;;;;aussitôt qu';1037189;-;-;-;-;-;;lefff
+autant dire que;170664;Conjonction;subordination;;-;;;lefff;autant dire que;1037194;-;-;-;-;-;;lefff
+;;;;;;;;;autant dire qu';1037195;-;-;-;-;-;;lefff
+autant que;170665;Conjonction;subordination;;-;;;lefff;autant que;1037197;-;-;-;-;-;;lefff
+;;;;;;;;;autant qu';1037198;-;-;-;-;-;;lefff
+avant même que;170702;Conjonction;subordination;;-;;;lefff;avant même que;1038197;-;-;-;-;-;;lefff
+;;;;;;;;;avant même qu';1038198;-;-;-;-;-;;lefff
+avant que;170703;Conjonction;subordination;;-;;;lefff;avant que;1038199;-;-;-;-;-;;lefff
+;;;;;;;;;avant qu';1038200;-;-;-;-;-;;lefff
+because;123955;Conjonction;subordination;;-;;;dela lefff;because;894780;-;-;-;-;-;;dela lefff
+bicause;124160;Conjonction;subordination;;-;;;dela lefff;bicause;895317;-;-;-;-;-;;dela lefff
+bien que;170766;Conjonction;subordination;;-;;;lefff;bien que;1038468;-;-;-;-;-;;lefff
+;;;;;;;;;bien qu';1038469;-;-;-;-;-;;lefff
+bref;170840;Conjonction;subordination;;-;;;lefff;bref;1038775;-;-;-;-;-;;lefff
+c'est pourquoi;170856;Conjonction;subordination;;-;;;lefff;c'est pourquoi;1038919;-;-;-;-;-;;lefff
+c'est à dire;170858;Conjonction;subordination;;-;;;lefff;c'est à dire;1038921;-;-;-;-;-;;lefff
+c'est à dire que;170859;Conjonction;subordination;;-;;;lefff;c'est à dire que;1038922;-;-;-;-;-;;lefff
+;;;;;;;;;c'est à dire qu';1038923;-;-;-;-;-;;lefff
+c'est-à-dire;170860;Conjonction;subordination;;-;;;lefff;c'est-à-dire;1038924;-;-;-;-;-;;lefff
+c'est-à-dire que;70036;Conjonction;subordination;;-;;s e t a d i R @ k @;morphalou2 lefff;c'est-à-dire que;1020950;-;-;-;-;-;s e t a d i R @ k @;lefff
+ce que;170902;Conjonction;subordination;;-;;;lefff;ce que;1039183;-;-;-;-;-;;lefff
+;;;;;;;;;ce qu';1039184;-;-;-;-;-;;lefff
+cependant;126712;Conjonction;subordination;;-;;;dela;cependant;901749;-;-;-;-;-;;dela
+cependant que;170905;Conjonction;subordination;;-;;;lefff;cependant que;1039190;-;-;-;-;-;;lefff
+;;;;;;;;;cependant qu';1039191;-;-;-;-;-;;lefff
+chaqu' fois que;170915;Conjonction;subordination;;-;;;lefff;chaqu' fois que;1039216;-;-;-;-;-;;lefff
+;;;;;;;;;chaqu' fois qu';1039217;-;-;-;-;-;;lefff
+chaque fois que;170917;Conjonction;subordination;;-;;;lefff;chaque fois que;1039219;-;-;-;-;-;;lefff
+;;;;;;;;;chaque fois qu';1039220;-;-;-;-;-;;lefff
+comme;16573;Conjonction;subordination;;-;;k O m @;morphalou2 dela dicollecte lefff;comme;116633;-;-;-;-;-;k O m @;morphalou2 dela dicollecte lefff
+comme si;170979;Conjonction;subordination;;-;;;lefff;comme si;1039688;-;-;-;-;-;;lefff
+comment;16585;Conjonction;subordination;;-;;k O m a~ OU k O/ m a~ ;morphalou2 dela dicollecte;comment;116709;-;-;-;-;-;k O m a~ OU k O/ m a~ ;morphalou2 dela dicollecte
+considérant que;170996;Conjonction;subordination;;-;;;lefff;considérant que;1039903;-;-;-;-;-;;lefff
+;;;;;;;;;considérant qu';1039904;-;-;-;-;-;;lefff
+considéré que;170997;Conjonction;subordination;;-;;;lefff;considéré que;1039905;-;-;-;-;-;;lefff
+;;;;;;;;;considéré qu';1039906;-;-;-;-;-;;lefff
+crainte de;171015;Conjonction;subordination;;-;;;lefff;crainte de;1040216;-;-;-;-;-;;lefff
+d'autant plus que;171033;Conjonction;subordination;;-;;;lefff;d'autant plus que;1040305;-;-;-;-;-;;lefff
+;;;;;;;;;d'autant plus qu';1040306;-;-;-;-;-;;lefff
+d'autant que;171034;Conjonction;subordination;;-;;;lefff;d'autant que;1040307;-;-;-;-;-;;lefff
+;;;;;;;;;d'autant qu';1040308;-;-;-;-;-;;lefff
+d'où;171045;Conjonction;subordination;;-;;;lefff;d'où;1040320;-;-;-;-;-;;lefff
+dans la mesure où;171053;Conjonction;subordination;;-;;;lefff;dans la mesure où;1040331;-;-;-;-;-;;lefff
+dans le but que;171054;Conjonction;subordination;;-;;;lefff;dans le but que;1040332;-;-;-;-;-;;lefff
+;;;;;;;;;dans le but qu';1040333;-;-;-;-;-;;lefff
+de ce que;171062;Conjonction;subordination;;-;;;lefff;de ce que;1040345;-;-;-;-;-;;lefff
+;;;;;;;;;de ce qu';1040346;-;-;-;-;-;;lefff
+de manière que;171080;Conjonction;subordination;;-;;;lefff;de manière que;1040365;-;-;-;-;-;;lefff
+;;;;;;;;;de manière qu';1040366;-;-;-;-;-;;lefff
+de manière à ce que;171082;Conjonction;subordination;;-;;;lefff;de manière à ce que;1040368;-;-;-;-;-;;lefff
+;;;;;;;;;de manière à ce qu';1040369;-;-;-;-;-;;lefff
+de même que;171087;Conjonction;subordination;;-;;;lefff;de même que;1040374;-;-;-;-;-;;lefff
+;;;;;;;;;de même qu';1040375;-;-;-;-;-;;lefff
+de parce que;171090;Conjonction;subordination;;-;;;lefff;de parce que;1040378;-;-;-;-;-;;lefff
+;;;;;;;;;de parce qu';1040379;-;-;-;-;-;;lefff
+de sorte que;171101;Conjonction;subordination;;-;;;lefff;de sorte que;1040391;-;-;-;-;-;;lefff
+;;;;;;;;;de sorte qu';1040392;-;-;-;-;-;;lefff
+de tel sorte que;171102;Conjonction;subordination;;-;;;lefff;de tel sorte que;1040393;-;-;-;-;-;;lefff
+;;;;;;;;;de telle sorte qu';1040394;-;-;-;-;-;;lefff
+;;;;;;;;;de telle sorte que;1040395;-;-;-;-;-;;lefff
+depuis que;171119;Conjonction;subordination;;-;;;lefff;depuis que;1040423;-;-;-;-;-;;lefff
+;;;;;;;;;depuis qu';1040424;-;-;-;-;-;;lefff
+des fois que;171125;Conjonction;subordination;;-;;;lefff;des fois que;1040437;-;-;-;-;-;;lefff
+;;;;;;;;;des fois qu';1040438;-;-;-;-;-;;lefff
+donc;171159;Conjonction;subordination;;-;;;lefff;donc;1040680;-;-;-;-;-;;lefff
+du fait que;171173;Conjonction;subordination;;-;;;lefff;du fait que;1040806;-;-;-;-;-;;lefff
+;;;;;;;;;du fait qu';1040807;-;-;-;-;-;;lefff
+du moment que;171175;Conjonction;subordination;;-;;;lefff;du moment que;1040809;-;-;-;-;-;;lefff
+;;;;;;;;;du moment qu';1040810;-;-;-;-;-;;lefff
+durant que;72003;Conjonction;subordination;;-;;d y R a~ k @;morphalou2;durant que;1022147;-;-;-;-;-;d y R a~ k @;
+dès lors que;171183;Conjonction;subordination;;-;;;lefff;dès lors que;1040822;-;-;-;-;-;;lefff
+;;;;;;;;;dès lors qu';1040823;-;-;-;-;-;;lefff
+dès que;171184;Conjonction;subordination;;-;;;lefff;dès que;1040824;-;-;-;-;-;;lefff
+;;;;;;;;;dès qu';1040825;-;-;-;-;-;;lefff
+en ce que;171275;Conjonction;subordination;;-;;;lefff;en ce que;1042635;-;-;-;-;-;;lefff
+;;;;;;;;;en ce qu';1042636;-;-;-;-;-;;lefff
+en ce sens que;171276;Conjonction;subordination;;-;;;lefff;en ce sens que;1042637;-;-;-;-;-;;lefff
+;;;;;;;;;en ce sens qu';1042638;-;-;-;-;-;;lefff
+en même temps que;171314;Conjonction;subordination;;-;;;lefff;en même temps que;1042696;-;-;-;-;-;;lefff
+;;;;;;;;;en même temps qu';1042697;-;-;-;-;-;;lefff
+en sorte que;171342;Conjonction;subordination;;-;;;lefff;en sorte que;1042734;-;-;-;-;-;;lefff
+;;;;;;;;;en sorte qu';1042735;-;-;-;-;-;;lefff
+en tant que;171345;Conjonction;subordination;;-;;;lefff;en tant que;1042738;-;-;-;-;-;;lefff
+;;;;;;;;;en tant qu';1042739;-;-;-;-;-;;lefff
+en vue de;171358;Conjonction;subordination;;-;;;lefff;en vue de;1042758;-;-;-;-;-;;lefff
+encore que;171363;Conjonction;subordination;;-;;;lefff;encore que;1042816;-;-;-;-;-;;lefff
+;;;;;;;;;encore qu';1042817;-;-;-;-;-;;lefff
+et même;171396;Conjonction;subordination;;-;;;lefff;et même;1043220;-;-;-;-;-;;lefff
+il est vrai que;171635;Conjonction;subordination;;-;;;lefff;il est vrai que;1044588;-;-;-;-;-;;lefff
+;;;;;;;;;il est vrai qu';1044589;-;-;-;-;-;;lefff
+il y a de fortes chances que;171637;Conjonction;subordination;;-;;;lefff;il y a de fortes chances que;1044591;-;-;-;-;-;;lefff
+;;;;;;;;;il y a de fortes chances qu';1044592;-;-;-;-;-;;lefff
+jusqu'à;144427;Conjonction;subordination;;-;;;dela;jusque-là;948689;-;-;-;-;-;;dela
+jusqu'à ce que;171710;Conjonction;subordination;;-;;;lefff;jusqu'à ce que;1045063;-;-;-;-;-;;lefff
+;;;;;;;;;jusqu'à ce qu';1045064;-;-;-;-;-;;lefff
+le moins que;171771;Conjonction;subordination;;-;;;lefff;le moins que;1045340;-;-;-;-;-;;lefff
+;;;;;;;;;le moins qu';1045341;-;-;-;-;-;;lefff
+le temps que;171774;Conjonction;subordination;;-;;;lefff;le temps que;1045345;-;-;-;-;-;;lefff
+;;;;;;;;;le temps qu';1045346;-;-;-;-;-;;lefff
+lorsque;37472;Conjonction;subordination;;-;;l O R s k @;morphalou2 dela dicollecte lefff;lorsqu';301014;-;-;-;-;-;l O R s k;morphalou2 lefff
+;;;;;;;;;lorsque;301015;-;-;-;-;-;l O R s k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;lorsqu;952740;-;-;-;-;-;;dela
+maintenant que;171826;Conjonction;subordination;;-;;;lefff;maintenant que;1045605;-;-;-;-;-;;lefff
+;;;;;;;;;maintenant qu';1045606;-;-;-;-;-;;lefff
+malgré que;171835;Conjonction;subordination;;-;;;lefff;malgré que;1045663;-;-;-;-;-;;lefff
+;;;;;;;;;malgré qu';1045664;-;-;-;-;-;;lefff
+moyennant que;80575;Conjonction;subordination;;-;;m w a j E n a~ k @ OU m w a j E/ n a~ k @ ;morphalou2;moyennant que;1026877;-;-;-;-;-;m w a j E n a~ k @ OU m w a j E/ n a~ k @ ;
+même si;171920;Conjonction;subordination;;-;;;lefff;même si;1046114;-;-;-;-;-;;lefff
+non plus que;171957;Conjonction;subordination;;-;;;lefff;non plus que;1046232;-;-;-;-;-;;lefff
+;;;;;;;;;non plus qu';1046233;-;-;-;-;-;;lefff
+non que;171958;Conjonction;subordination;;-;;;lefff;non que;1046234;-;-;-;-;-;;lefff
+;;;;;;;;;non qu';1046235;-;-;-;-;-;;lefff
+outre que;172022;Conjonction;subordination;;-;;;lefff;outre que;1046519;-;-;-;-;-;;lefff
+;;;;;;;;;outre qu';1046520;-;-;-;-;-;;lefff
+pac'que;172027;Conjonction;subordination;;-;;;lefff;pac'que;1046542;-;-;-;-;-;;lefff
+par le fait que;172048;Conjonction;subordination;;-;;;lefff;par le fait que;1046582;-;-;-;-;-;;lefff
+;;;;;;;;;par le fait qu';1046583;-;-;-;-;-;;lefff
+parc'que;172026;Conjonction;subordination;;-;"variante du lemme #83103 ""parce que""";;lefff;parc'que;1046540;-;-;-;-;-;;lefff
+;;;;;;;;;pac'qu';1046541;-;-;-;-;-;;lefff
+;;;;;;;;;parc'qu';1046608;-;-;-;-;-;;lefff
+parce que;83103;Conjonction;subordination;;-;;p a R s @ k @;morphalou2 lefff;parce que;1028276;-;-;-;-;-;p a R s @ k @;lefff
+;;;;;;;;;parce qu';1046609;-;-;-;-;-;;lefff
+partant;152840;Conjonction;subordination;;-;;;dela lefff;partant;973146;-;-;-;-;-;;dela lefff
+paske;172075;Conjonction;subordination;;-;"variante du lemme #83103 ""parce que""";;lefff;paske;1046639;-;-;-;-;-;;lefff
+;;;;;;;;;pask';1046640;-;-;-;-;-;;lefff
+pcq;172082;Conjonction;subordination;;-;;;lefff;pcq;1046703;-;-;-;-;-;;lefff
+pdt que;172084;Conjonction;subordination;;-;;;lefff;pdt que;1046706;-;-;-;-;-;;lefff
+pendant que;83495;Conjonction;subordination;;-;;p a~ d a~ k @;morphalou2 lefff;pendant que;1028513;-;-;-;-;-;p a~ d a~ k @;lefff
+;;;;;;;;;pendant qu';1046711;-;-;-;-;-;;lefff
+plus que;172127;Conjonction;subordination;;-;;;lefff;plus que;1046946;-;-;-;-;-;;lefff
+;;;;;;;;;plus qu';1046947;-;-;-;-;-;;lefff
+plutôt que;172129;Conjonction;subordination;;-;;;lefff;plutôt que;1046950;-;-;-;-;-;;lefff
+;;;;;;;;;plutôt qu';1046951;-;-;-;-;-;;lefff
+pour autant que;172153;Conjonction;subordination;;-;;;lefff;pour autant que;1047112;-;-;-;-;-;;lefff
+;;;;;;;;;pour autant qu';1047113;-;-;-;-;-;;lefff
+pour cette raison que;172155;Conjonction;subordination;;-;;;lefff;pour cette raison que;1047116;-;-;-;-;-;;lefff
+;;;;;;;;;pour cette raison qu';1047117;-;-;-;-;-;;lefff
+pour peu que;172160;Conjonction;subordination;;-;;;lefff;pour peu que;1047123;-;-;-;-;-;;lefff
+;;;;;;;;;pour peu qu';1047124;-;-;-;-;-;;lefff
+pour que;172161;Conjonction;subordination;;-;;;lefff;pour que;1047125;-;-;-;-;-;;lefff
+;;;;;;;;;pour qu';1047126;-;-;-;-;-;;lefff
+pour une fois que;172165;Conjonction;subordination;;-;;;lefff;pour une fois que;1047130;-;-;-;-;-;;lefff
+;;;;;;;;;pour une fois qu';1047131;-;-;-;-;-;;lefff
+pourquoi;48918;Conjonction;subordination;;-;;p u R k w a;morphalou2 dela dicollecte;pourquoi;373463;-;-;-;-;-;p u R k w a;morphalou2 dela dicollecte
+pourvu que;85433;Conjonction;subordination;;-;;p u R v y k @;morphalou2 lefff;pourvu que;1029529;-;-;-;-;-;p u R v y k @;lefff
+;;;;;;;;;pourvu qu';1047136;-;-;-;-;-;;lefff
+puis;172200;Conjonction;subordination;;-;;;lefff;puis;1047364;-;-;-;-;-;;lefff
+puisque;50428;Conjonction;subordination;;-;;p H i s k @;morphalou2 dela dicollecte lefff;puisqu';383825;-;-;-;-;-;p H i s k;morphalou2 lefff
+;;;;;;;;;puisque;383826;-;-;-;-;-;p H i s k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;puisqu;985091;-;-;-;-;-;;dela
+qd;172219;Conjonction;subordination;;-;;;lefff;qd;1047501;-;-;-;-;-;;lefff
+quand;51186;Conjonction;subordination;;-;;k a~;morphalou2 dela dicollecte lefff;quand;388239;-;-;-;-;-;k a~;morphalou2 dela dicollecte lefff
+quand bien même;172230;Conjonction;subordination;;-;;;lefff;quand bien même;1047523;-;-;-;-;-;;lefff
+que;51268;Conjonction;subordination;;-;;k @;morphalou2 dela dicollecte lefff;qu';388617;-;-;-;-;-;k;morphalou2 lefff
+;;;;;;;;;que;388618;-;-;-;-;-;k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;qu;987152;-;-;-;-;-;;dela
+quoi que;172243;Conjonction;subordination;;-;;;lefff;quoi que;1047548;-;-;-;-;-;;lefff
+;;;;;;;;;quoi qu';1047549;-;-;-;-;-;;lefff
+quoique;51393;Conjonction;subordination;;-;;k w a k @;morphalou2 dela dicollecte lefff;quoiqu';389292;-;-;-;-;-;k w a k;morphalou2 lefff
+;;;;;;;;;quoique;389293;-;-;-;-;-;k w a k @;morphalou2 dela dicollecte lefff
+;;;;;;;;;quoiqu;987706;-;-;-;-;-;;dela
+reste à savoir si;172296;Conjonction;subordination;;-;;;lefff;reste à savoir si;1048473;-;-;-;-;-;;lefff
+sans que;172374;Conjonction;subordination;;-;;;lefff;sans que;1049352;-;-;-;-;-;;lefff
+;;;;;;;;;sans qu';1049353;-;-;-;-;-;;lefff
+sauf que;172383;Conjonction;subordination;;-;;;lefff;sauf que;1049457;-;-;-;-;-;;lefff
+;;;;;;;;;sauf qu';1049458;-;-;-;-;-;;lefff
+selon que;172400;Conjonction;subordination;;-;;;lefff;selon que;1049545;-;-;-;-;-;;lefff
+;;;;;;;;;selon qu';1049546;-;-;-;-;-;;lefff
+si;160792;Conjonction;subordination;;-;;;dela lefff;si;995773;-;-;-;-;-;;dela lefff
+si bien que;172416;Conjonction;subordination;;-;;;lefff;si bien que;1049626;-;-;-;-;-;;lefff
+;;;;;;;;;si bien qu';1049627;-;-;-;-;-;;lefff
+si jamais;172417;Conjonction;subordination;;-;;;lefff;si jamais;1049628;-;-;-;-;-;;lefff
+si peu que;172420;Conjonction;subordination;;-;;;lefff;si peu que;1049631;-;-;-;-;-;;lefff
+;;;;;;;;;si peu qu';1049632;-;-;-;-;-;;lefff
+sinon;160987;Conjonction;subordination;;-;;;dela lefff;sinon;996317;-;-;-;-;-;;dela lefff
+sinon que;172431;Conjonction;subordination;;-;;;lefff;sinon que;1049651;-;-;-;-;-;;lefff
+;;;;;;;;;sinon qu';1049652;-;-;-;-;-;;lefff
+sitôt que;172435;Conjonction;subordination;;-;;;lefff;sitôt que;1049666;-;-;-;-;-;;lefff
+;;;;;;;;;sitôt qu';1049667;-;-;-;-;-;;lefff
+soit;57541;Conjonction;subordination;;-;;s w a;morphalou2 dela dicollecte lefff;soit;449666;-;-;-;-;-;s w a;morphalou2 dela dicollecte lefff
+sous prétexte que;172453;Conjonction;subordination;;-;;;lefff;sous prétexte que;1049766;-;-;-;-;-;;lefff
+;;;;;;;;;sous prétexte qu';1049767;-;-;-;-;-;;lefff
+sous réserve que;172454;Conjonction;subordination;;-;;;lefff;sous réserve que;1049768;-;-;-;-;-;;lefff
+;;;;;;;;;sous réserve qu';1049769;-;-;-;-;-;;lefff
+suivant que;172484;Conjonction;subordination;;-;;;lefff;suivant que;1050031;-;-;-;-;-;;lefff
+;;;;;;;;;suivant qu';1050032;-;-;-;-;-;;lefff
+tandis que;172520;Conjonction;subordination;;-;;;lefff;tandis que;1050855;-;-;-;-;-;;lefff
+;;;;;;;;;tandis qu';1050856;-;-;-;-;-;;lefff
+tant et si bien que;172522;Conjonction;subordination;;-;;;lefff;tant et si bien que;1050863;-;-;-;-;-;;lefff
+;;;;;;;;;tant et si bien qu';1050864;-;-;-;-;-;;lefff
+tant que;172523;Conjonction;subordination;;-;;;lefff;tant que;1050865;-;-;-;-;-;;lefff
+;;;;;;;;;tant qu';1050866;-;-;-;-;-;;lefff
+tel que;172537;Conjonction;subordination;;-;;;lefff;tel que;1050934;-;-;-;-;-;;lefff
+;;;;;;;;;tel qu';1050935;-;-;-;-;-;;lefff
+;;;;;;;;;telle qu';1050942;-;-;-;-;-;;lefff
+;;;;;;;;;telle que;1050943;-;-;-;-;-;;lefff
+;;;;;;;;;telles qu';1050948;-;-;-;-;-;;lefff
+;;;;;;;;;telles que;1050949;-;-;-;-;-;;lefff
+;;;;;;;;;tels qu';1050955;-;-;-;-;-;;lefff
+;;;;;;;;;tels que;1050956;-;-;-;-;-;;lefff
+une fois que;172662;Conjonction;subordination;;-;;;lefff;une fois que;1051717;-;-;-;-;-;;lefff
+;;;;;;;;;une fois qu';1051718;-;-;-;-;-;;lefff
+à chaque fois que;172771;Conjonction;subordination;;-;;;lefff;à chaque fois que;1052405;-;-;-;-;-;;lefff
+;;;;;;;;;à chaque fois qu';1052406;-;-;-;-;-;;lefff
+à condition que;172772;Conjonction;subordination;;-;;;lefff;à condition que;1052407;-;-;-;-;-;;lefff
+;;;;;;;;;à condition qu';1052408;-;-;-;-;-;;lefff
+à l'heure où;172792;Conjonction;subordination;;-;;;lefff;à l'heure où;1052435;-;-;-;-;-;;lefff
+à mesure que;172801;Conjonction;subordination;;-;;;lefff;à mesure que;1052447;-;-;-;-;-;;lefff
+;;;;;;;;;à mesure qu';1052448;-;-;-;-;-;;lefff
+à moins que;172804;Conjonction;subordination;;-;;;lefff;à moins que;1052452;-;-;-;-;-;;lefff
+;;;;;;;;;à moins qu';1052453;-;-;-;-;-;;lefff
+à partir du moment où;172813;Conjonction;subordination;;-;;;lefff;à partir du moment où;1052464;-;-;-;-;-;;lefff
+à présent que;172823;Conjonction;subordination;;-;;;lefff;à présent que;1052477;-;-;-;-;-;;lefff
+;;;;;;;;;à présent qu';1052478;-;-;-;-;-;;lefff
+à supposer que;172828;Conjonction;subordination;;-;;;lefff;à supposer que;1052484;-;-;-;-;-;;lefff
+;;;;;;;;;à supposer qu';1052485;-;-;-;-;-;;lefff
+à tel enseigne que;172830;Conjonction;subordination;;-;;;lefff;à tel enseigne que;1052488;-;-;-;-;-;;lefff
+;;;;;;;;;à telle enseigne qu';1052489;-;-;-;-;-;;lefff
+;;;;;;;;;à telle enseigne que;1052490;-;-;-;-;-;;lefff
+à tel point que;172829;Conjonction;subordination;;-;;;lefff;à tel point que;1052486;-;-;-;-;-;;lefff
+;;;;;;;;;à tel point qu';1052487;-;-;-;-;-;;lefff
+étant donné que;172867;Conjonction;subordination;;-;;;lefff;étant donné que;1052653;-;-;-;-;-;;lefff
+;;;;;;;;;étant donné qu';1052654;-;-;-;-;-;;lefff
+ains;67759;Conjonction;coordination;;-;;e~ s;morphalou2;ains;1019413;-;-;-;-;-;e~ s;
+ainsi que;170514;Conjonction;coordination;;-;;;lefff;ainsi que;1036596;-;-;-;-;-;;lefff
+;;;;;;;;;ainsi qu';1036597;-;-;-;-;-;;lefff
+alors;120218;Conjonction;coordination;;-;;;dela;alors;884402;-;-;-;-;-;;dela
+au même titre que;170627;Conjonction;coordination;;-;;;lefff;au même titre que;1037115;-;-;-;-;-;;lefff
+;;;;;;;;;au même titre qu';1037116;-;-;-;-;-;;lefff
+c'est pourquoi;170855;Conjonction;coordination;;-;;;lefff;c'est pourquoi;1038918;-;-;-;-;-;;lefff
+c'est à dire;170857;Conjonction;coordination;;-;;;lefff;c'est à dire;1038920;-;-;-;-;-;;lefff
+c'est-à-dire;70035;Conjonction;coordination;;-;;s e t a d i R @;morphalou2 dicollecte lefff;c'est-à-dire;867108;-;-;-;-;-;;dicollecte lefff
+;;;;;;;;;c-à-d;1038928;-;-;-;-;-;;lefff
+;;;;;;;;;c.-à.-d.;1038929;-;-;-;-;-;;lefff
+;;;;;;;;;càd;1040292;-;-;-;-;-;;lefff
+c.-à-d;115758;Conjonction;coordination;;-;"variante du lemme #70035 ""c'est-à-dire""";;dicollecte;c.-à-d;867109;-;-;-;-;-;;dicollecte
+car;13152;Conjonction;coordination;;-;;k a R;morphalou2 dela dicollecte lefff;car;93228;-;-;-;-;-;k a R;morphalou2 dela dicollecte lefff
+comme;170977;Conjonction;coordination;;-;;;lefff;comme;1039686;-;-;-;-;-;;lefff
+d'où;171044;Conjonction;coordination;;-;;;lefff;d'où;1040319;-;-;-;-;-;;lefff
+donc;21393;Conjonction;coordination;;-;;d o~ k;morphalou2 dela dicollecte lefff;donc;154301;-;-;-;-;-;d o~ k;morphalou2 dela dicollecte lefff
+ergo;25617;Conjonction;coordination;;-;;E R g o;morphalou2;ergo;219589;-;-;-;-;-;E R g o;morphalou2
+et;25948;Conjonction;coordination;;-;;e OU E/ ;morphalou2 dela dicollecte lefff;et;222997;-;-;-;-;-;e OU E/ ;morphalou2 dela dicollecte lefff
+et alors;171390;Conjonction;coordination;;-;;;lefff;et alors;1043214;-;-;-;-;-;;lefff
+et aussi;171391;Conjonction;coordination;;-;;;lefff;et aussi;1043215;-;-;-;-;-;;lefff
+et donc;171393;Conjonction;coordination;;-;;;lefff;et donc;1043217;-;-;-;-;-;;lefff
+et encore;171394;Conjonction;coordination;;-;;;lefff;et encore;1043218;-;-;-;-;-;;lefff
+et même;171395;Conjonction;coordination;;-;;;lefff;et même;1043219;-;-;-;-;-;;lefff
+et puis;171397;Conjonction;coordination;;-;;;lefff;et puis;1043221;-;-;-;-;-;;lefff
+et-ou;171398;Conjonction;coordination;;-;;;lefff;et-ou;1043222;-;-;-;-;-;;lefff
+;;;;;;;;;et/ou;1043223;-;-;-;-;-;;lefff
+;;;;;;;;;et|ou;1043232;-;-;-;-;-;;lefff
+;;;;;;;;;ou/et;1046507;-;-;-;-;-;;lefff
+mais;38272;Conjonction;coordination;;-;;m E OU m E/ ;morphalou2 dela dicollecte lefff;mais;305827;-;-;-;-;-;m E OU m E/ ;morphalou2 dela dicollecte lefff
+mais alors;171827;Conjonction;coordination;;-;;;lefff;mais alors;1045609;-;-;-;-;-;;lefff
+mais aussi;171828;Conjonction;coordination;;-;;;lefff;mais aussi;1045610;-;-;-;-;-;;lefff
+mais encore;171829;Conjonction;coordination;;-;;;lefff;mais encore;1045611;-;-;-;-;-;;lefff
+ni;42531;Conjonction;coordination;;-;;n i;morphalou2 dela dicollecte lefff;ni;333035;-;-;-;-;-;n i;morphalou2 dela dicollecte lefff
+or;44149;Conjonction;coordination;;-;;O R;morphalou2 dela dicollecte lefff;or;342509;-;-;-;-;-;O R;morphalou2 dela dicollecte lefff
+ore;151443;Conjonction;coordination;;-;;;dela;ore;969043;-;-;-;-;-;;dela
+ou;44543;Conjonction;coordination;;-;;u;morphalou2 dela dicollecte lefff;ou;344379;-;-;-;-;-;u;morphalou2 dela dicollecte lefff
+ou alors;172012;Conjonction;coordination;;-;;;lefff;ou alors;1046503;-;-;-;-;-;;lefff
+ou bien;172013;Conjonction;coordination;;-;;;lefff;ou bien;1046504;-;-;-;-;-;;lefff
+ou bien encore;172014;Conjonction;coordination;;-;;;lefff;ou bien encore;1046505;-;-;-;-;-;;lefff
+ou encore;172015;Conjonction;coordination;;-;;;lefff;ou encore;1046506;-;-;-;-;-;;lefff
+plus;172120;Conjonction;coordination;;-;;;lefff;plus;1046933;-;-;-;-;-;;lefff
+puis;50419;Conjonction;coordination;;-;;p H i;morphalou2 dela dicollecte lefff;puis;383759;-;-;-;-;-;p H i;morphalou2 dela dicollecte lefff
+sinon;172430;Conjonction;coordination;;-;;;lefff;sinon;1049650;-;-;-;-;-;;lefff
+tout comme;172580;Conjonction;coordination;;-;;;lefff;tout comme;1051104;-;-;-;-;-;;lefff
+voire;172717;Conjonction;coordination;;-;;;lefff;voire;1052196;-;-;-;-;-;;lefff
+voire même;172718;Conjonction;coordination;;-;;;lefff;voire même;1052197;-;-;-;-;-;;lefff
+à savoir;172827;Conjonction;coordination;;-;;;lefff;à savoir;1052483;-;-;-;-;-;;lefff
+cent;14005;Nombre;;;-;;s a~;morphalou2 dela dicollecte;cent;98363;invariable;-;invariable;-;-;s a~;morphalou2 dela dicollecte
+;;;;;;;;;cents;818837;-;-;-;-;-;;dicollecte
+cinq;15443;Nombre;;;-;;s e~ k;morphalou2 dela dicollecte;cinq;108735;invariable;-;invariable;-;-;s e~ k;morphalou2 dela dicollecte
+cinquante;15445;Nombre;;;-;;s e~ k a~ t @;morphalou2 dela dicollecte;cinquante;108738;invariable;-;invariable;-;-;s e~ k a~ t @;morphalou2 dela dicollecte
+cinquante-cinq;108274;Nombre;;;-;;;dela dicollecte;cinquante-cinq;841255;-;-;-;-;-;;dela dicollecte
+cinquante-deux;108392;Nombre;;;-;;;dela dicollecte;cinquante-deux;841610;-;-;-;-;-;;dela dicollecte
+cinquante-et-un;112569;Nombre;;;-;;;dicollecte;cinquante-et-un;856187;-;-;-;-;-;;dicollecte
+cinquante-huit;109782;Nombre;;;-;;;dela dicollecte;cinquante-huit;845921;-;-;-;-;-;;dela dicollecte
+cinquante-neuf;110395;Nombre;;;-;;;dela dicollecte;cinquante-neuf;848062;-;-;-;-;-;;dela dicollecte
+cinquante-quatre;109311;Nombre;;;-;;;dela dicollecte;cinquante-quatre;844451;-;-;-;-;-;;dela dicollecte
+cinquante-sept;109596;Nombre;;;-;;;dela dicollecte;cinquante-sept;845310;-;-;-;-;-;;dela dicollecte
+cinquante-six;109151;Nombre;;;-;;;dela dicollecte;cinquante-six;843950;-;-;-;-;-;;dela dicollecte
+cinquante-trois;109124;Nombre;;;-;;;dela dicollecte;cinquante-trois;843854;-;-;-;-;-;;dela dicollecte
+deux;20361;Nombre;;;-;;d 2;morphalou2 dela dicollecte;deux;146416;invariable;-;invariable;-;-;d 2;morphalou2 dela dicollecte
+dix;71895;Nombre;;;-;;d i s;morphalou2 dela dicollecte;dix;818639;invariable;-;invariable;-;-;;dela dicollecte
+dix-huit;103342;Nombre;;;-;;;dela dicollecte;dix-huit;825415;-;-;-;-;-;;dela dicollecte
+dix-neuf;104972;Nombre;;;-;;;dela dicollecte;dix-neuf;830471;-;-;-;-;-;;dela dicollecte
+dix-sept;103994;Nombre;;;-;;;dela dicollecte;dix-sept;827456;-;-;-;-;-;;dela dicollecte
+douze;71974;Nombre;;;-;;d u z @;morphalou2 dela dicollecte;douze;818740;invariable;-;invariable;-;-;;dela dicollecte
+huit;31816;Nombre;;;-;;H i t;morphalou2 dela dicollecte;huit;267065;invariable;-;invariable;-;-;H i t;morphalou2 dela dicollecte
+huitante;31819;Nombre;;;-;;H i t a~ t @;morphalou2 dela dicollecte;huitante;267070;invariable;-;invariable;-;-;H i t a~ t @;morphalou2 dela dicollecte
+huitante-cinq;114583;Nombre;;;-;;;dicollecte;huitante-cinq;861944;-;-;-;-;-;;dicollecte
+huitante-deux;115076;Nombre;;;-;;;dicollecte;huitante-deux;863616;-;-;-;-;-;;dicollecte
+huitante-et-un;115077;Nombre;;;-;;;dicollecte;huitante-et-un;863617;-;-;-;-;-;;dicollecte
+huitante-huit;114584;Nombre;;;-;;;dicollecte;huitante-huit;861945;-;-;-;-;-;;dicollecte
+huitante-neuf;114585;Nombre;;;-;;;dicollecte;huitante-neuf;861946;-;-;-;-;-;;dicollecte
+huitante-quatre;114586;Nombre;;;-;;;dicollecte;huitante-quatre;861947;-;-;-;-;-;;dicollecte
+huitante-sept;114587;Nombre;;;-;;;dicollecte;huitante-sept;861948;-;-;-;-;-;;dicollecte
+huitante-six;114588;Nombre;;;-;;;dicollecte;huitante-six;861949;-;-;-;-;-;;dicollecte
+huitante-trois;114589;Nombre;;;-;;;dicollecte;huitante-trois;861950;-;-;-;-;-;;dicollecte
+I;101058;Nombre;;;-;;;dicollecte;I;818623;-;-;-;-;-;;dicollecte
+II;101053;Nombre;;;-;;;dicollecte;II;818611;-;-;-;-;-;;dicollecte
+III;101067;Nombre;;;-;;;dicollecte;III;818651;-;-;-;-;-;;dicollecte
+IV;101084;Nombre;;;-;;;dicollecte;IV;818680;-;-;-;-;-;;dicollecte
+IX;101166;Nombre;;;-;;;dicollecte;IX;818871;-;-;-;-;-;;dicollecte
+mille;39861;Nombre;;;-;;m i l @;morphalou2 dela dicollecte;mille;315864;invariable;-;invariable;-;-;m i l @;morphalou2 dela dicollecte
+neuf;42458;Nombre;;;-;;n 9 f;morphalou2 dela dicollecte;neuf;332797;invariable;-;invariable;-;-;n 9 f;morphalou2 dela dicollecte
+nonante;42801;Nombre;;;-;;n O n a~ t @ OU n O/ n a~ t @ ;morphalou2 dela dicollecte;nonante;334926;invariable;-;invariable;-;-;n O n a~ t @ OU n O/ n a~ t @ ;morphalou2 dela dicollecte
+nonante-cinq;114122;Nombre;;;-;;;dicollecte;nonante-cinq;860522;-;-;-;-;-;;dicollecte
+nonante-deux;113825;Nombre;;;-;;;dicollecte;nonante-deux;859670;-;-;-;-;-;;dicollecte
+nonante-et-un;114352;Nombre;;;-;;;dicollecte;nonante-et-un;861202;-;-;-;-;-;;dicollecte
+nonante-huit;113943;Nombre;;;-;;;dicollecte;nonante-huit;860045;-;-;-;-;-;;dicollecte
+nonante-neuf;113944;Nombre;;;-;;;dicollecte;nonante-neuf;860046;-;-;-;-;-;;dicollecte
+nonante-quatre;114353;Nombre;;;-;;;dicollecte;nonante-quatre;861203;-;-;-;-;-;;dicollecte
+nonante-sept;114354;Nombre;;;-;;;dicollecte;nonante-sept;861204;-;-;-;-;-;;dicollecte
+nonante-six;114355;Nombre;;;-;;;dicollecte;nonante-six;861205;-;-;-;-;-;;dicollecte
+nonante-trois;114356;Nombre;;;-;;;dicollecte;nonante-trois;861206;-;-;-;-;-;;dicollecte
+octante;43575;Nombre;;;-;;O k t a~ t @ OU O/ k t a~ t @ ;morphalou2 dela dicollecte;octante;339478;invariable;-;invariable;-;-;O k t a~ t @ OU O/ k t a~ t @ ;morphalou2 dela dicollecte
+octante-cinq;115165;Nombre;;;-;;;dicollecte;octante-cinq;864000;-;-;-;-;-;;dicollecte
+octante-deux;115166;Nombre;;;-;;;dicollecte;octante-deux;864001;-;-;-;-;-;;dicollecte
+octante-et-un;115167;Nombre;;;-;;;dicollecte;octante-et-un;864002;-;-;-;-;-;;dicollecte
+octante-huit;115168;Nombre;;;-;;;dicollecte;octante-huit;864003;-;-;-;-;-;;dicollecte
+octante-neuf;115169;Nombre;;;-;;;dicollecte;octante-neuf;864004;-;-;-;-;-;;dicollecte
+octante-quatre;115170;Nombre;;;-;;;dicollecte;octante-quatre;864005;-;-;-;-;-;;dicollecte
+octante-sept;115171;Nombre;;;-;;;dicollecte;octante-sept;864006;-;-;-;-;-;;dicollecte
+octante-six;115172;Nombre;;;-;;;dicollecte;octante-six;864007;-;-;-;-;-;;dicollecte
+octante-trois;115173;Nombre;;;-;;;dicollecte;octante-trois;864008;-;-;-;-;-;;dicollecte
+onze;43992;Nombre;;;-;;o~ z @;morphalou2 dela dicollecte;onze;341520;invariable;-;invariable;-;-;o~ z @;morphalou2 dela dicollecte
+quarante;51202;Nombre;;;-;;k a R a~ t @;morphalou2 dela dicollecte;quarante;388324;invariable;-;invariable;-;-;k a R a~ t @;morphalou2 dela dicollecte
+quarante-cinq;106185;Nombre;;;-;;;dela dicollecte;quarante-cinq;834268;-;-;-;-;-;;dela dicollecte
+quarante-deux;107726;Nombre;;;-;;;dela dicollecte;quarante-deux;839349;-;-;-;-;-;;dela dicollecte
+quarante-et-un;111937;Nombre;;;-;;;dicollecte;quarante-et-un;853509;-;-;-;-;-;;dicollecte
+quarante-huit;106683;Nombre;;;-;;;dela dicollecte;quarante-huit;836007;-;-;-;-;-;;dela dicollecte
+quarante-neuf;109583;Nombre;;;-;;;dela dicollecte;quarante-neuf;845274;-;-;-;-;-;;dela dicollecte
+quarante-quatre;108295;Nombre;;;-;;;dela dicollecte;quarante-quatre;841309;-;-;-;-;-;;dela dicollecte
+quarante-sept;108655;Nombre;;;-;;;dela dicollecte;quarante-sept;842419;-;-;-;-;-;;dela dicollecte
+quarante-six;108781;Nombre;;;-;;;dela dicollecte;quarante-six;842798;-;-;-;-;-;;dela dicollecte
+quarante-trois;108839;Nombre;;;-;;;dela dicollecte;quarante-trois;842995;-;-;-;-;-;;dela dicollecte
+quatorze;51254;Nombre;;;-;;k a t O R z @;morphalou2 dela dicollecte;quatorze;388586;invariable;-;invariable;-;-;k a t O R z @;morphalou2 dela dicollecte
+quatre;51258;Nombre;;;-;;k a t R @;morphalou2 dela dicollecte;quatre;388595;invariable;-;invariable;-;-;k a t R @;morphalou2 dela dicollecte
+quatre-vingt;86949;Nombre;;;-;;k a t R @ v e~;morphalou2 dicollecte;quatre-vingts;830425;-;-;-;-;-;;dicollecte
+;;;;;;;;;quatre-vingt;832543;-;-;-;-;-;;dicollecte
+quatre-vingt-cinq;110653;Nombre;;;-;;;dela dicollecte;quatre-vingt-cinq;848885;-;-;-;-;-;;dela dicollecte
+quatre-vingt-deux;110883;Nombre;;;-;;;dela dicollecte;quatre-vingt-deux;849693;-;-;-;-;-;;dela dicollecte
+quatre-vingt-dix;86951;Nombre;;;-;;k a t R @ v e~ d i s;morphalou2 dela dicollecte;quatre-vingt-dix;837241;-;-;-;-;-;;dela dicollecte
+quatre-vingt-dix-huit;112021;Nombre;;;-;;;dicollecte;quatre-vingt-dix-huit;853838;-;-;-;-;-;;dicollecte
+quatre-vingt-dix-neuf;109887;Nombre;;;-;;;dela dicollecte;quatre-vingt-dix-neuf;846271;-;-;-;-;-;;dela dicollecte
+quatre-vingt-dix-sept;111454;Nombre;;;-;;;dela dicollecte;quatre-vingt-dix-sept;851764;-;-;-;-;-;;dela dicollecte
+quatre-vingt-douze;111052;Nombre;;;-;;;dela dicollecte;quatre-vingt-douze;850248;-;-;-;-;-;;dela dicollecte
+quatre-vingt-huit;111225;Nombre;;;-;;;dela dicollecte;quatre-vingt-huit;850956;-;-;-;-;-;;dela dicollecte
+quatre-vingt-neuf;112022;Nombre;;;-;;;dela dicollecte;quatre-vingt-neuf;853839;-;-;-;-;-;;dela dicollecte
+quatre-vingt-onze;112091;Nombre;;;-;;;dela dicollecte;quatre-vingt-onze;854144;-;-;-;-;-;;dela dicollecte
+quatre-vingt-quatorze;112317;Nombre;;;-;;;dela dicollecte;quatre-vingt-quatorze;855156;-;-;-;-;-;;dela dicollecte
+quatre-vingt-quatre;110630;Nombre;;;-;;;dela dicollecte;quatre-vingt-quatre;848811;-;-;-;-;-;;dela dicollecte
+quatre-vingt-quinze;111226;Nombre;;;-;;;dela dicollecte;quatre-vingt-quinze;850957;-;-;-;-;-;;dela dicollecte
+quatre-vingt-seize;111088;Nombre;;;-;;;dicollecte;quatre-vingt-seize;850386;-;-;-;-;-;;dicollecte
+quatre-vingt-sept;111497;Nombre;;;-;;;dela dicollecte;quatre-vingt-sept;851929;-;-;-;-;-;;dela dicollecte
+quatre-vingt-six;110667;Nombre;;;-;;;dela dicollecte;quatre-vingt-six;848927;-;-;-;-;-;;dela dicollecte
+quatre-vingt-treize;111737;Nombre;;;-;;;dela dicollecte;quatre-vingt-treize;852728;-;-;-;-;-;;dela dicollecte
+quatre-vingt-trois;110641;Nombre;;;-;;;dela dicollecte;quatre-vingt-trois;848852;-;-;-;-;-;;dela dicollecte
+quatre-vingt-un;111911;Nombre;;;-;;;dela dicollecte;quatre-vingt-un;853379;-;-;-;-;-;;dela dicollecte
+quatre-vingt-une;157768;Nombre;;;-;;;dela;quatre-vingt-une;987484;-;-;-;-;-;;dela
+quatre-vingts;86957;Nombre;;;-;;k a t R @ v e~;morphalou2 dela;Quatre-vingts;880448;-;-;-;-;-;;dela
+quinze;51369;Nombre;;;-;;k e~ z @;morphalou2 dela dicollecte;quinze;389136;invariable;-;invariable;-;-;k e~ z @;morphalou2 dela dicollecte
+seize;56658;Nombre;;;-;;s E z @;morphalou2 dela dicollecte;seize;444602;invariable;-;invariable;-;-;s E z @;morphalou2 dela dicollecte
+sept;56804;Nombre;;;-;;s E t;morphalou2 dela dicollecte;sept;445404;invariable;-;invariable;-;-;s E t;morphalou2 dela dicollecte
+septante;56808;Nombre;;;-;;s E p t a~ t @;morphalou2 dela dicollecte;septante;445413;invariable;-;invariable;-;-;s E p t a~ t @;morphalou2 dela dicollecte
+septante-cinq;113733;Nombre;;;-;;;dicollecte;septante-cinq;859439;-;-;-;-;-;;dicollecte
+septante-deux;115269;Nombre;;;-;;;dicollecte;septante-deux;864386;-;-;-;-;-;;dicollecte
+septante-et-un;116903;Nombre;;;-;;;dicollecte;septante-et-un;875400;-;-;-;-;-;;dicollecte
+septante-huit;115270;Nombre;;;-;;;dicollecte;septante-huit;864387;-;-;-;-;-;;dicollecte
+septante-neuf;114404;Nombre;;;-;;;dicollecte;septante-neuf;861349;-;-;-;-;-;;dicollecte
+septante-quatre;113552;Nombre;;;-;;;dicollecte;septante-quatre;858966;-;-;-;-;-;;dicollecte
+septante-sept;114154;Nombre;;;-;;;dicollecte;septante-sept;860610;-;-;-;-;-;;dicollecte
+septante-six;114405;Nombre;;;-;;;dicollecte;septante-six;861350;-;-;-;-;-;;dicollecte
+septante-trois;114678;Nombre;;;-;;;dicollecte;septante-trois;862323;-;-;-;-;-;;dicollecte
+six;57364;Nombre;;;-;;s i s;morphalou2 dela dicollecte;six;448713;invariable;-;invariable;-;-;s i s;morphalou2 dela dicollecte
+six-vingt;90066;Nombre;;;-;;s i s v e~;morphalou2;six-vingt;1032231;-;-;-;-;-;s i s v e~;
+six-vingts;90067;Nombre;;;-;;s i s v e~;morphalou2;six-vingts;1032232;-;-;-;-;-;s i s v e~;
+soixante;57543;Nombre;;;-;;s w a s a~ t @;morphalou2 dela dicollecte;soixante;449669;invariable;-;invariable;-;-;s w a s a~ t @;morphalou2 dela dicollecte
+soixante-cinq;108133;Nombre;;;-;;;dela dicollecte;soixante-cinq;840777;-;-;-;-;-;;dela dicollecte
+soixante-deux;109681;Nombre;;;-;;;dela dicollecte;soixante-deux;845593;-;-;-;-;-;;dela dicollecte
+soixante-dix;90176;Nombre;;;-;;s w a s a~ t @ d i s;morphalou2 dela dicollecte;soixante-dix;829987;-;-;-;-;-;;dela dicollecte
+soixante-dix-huit;111206;Nombre;;;-;;;dela dicollecte;soixante-dix-huit;850867;-;-;-;-;-;;dela dicollecte
+soixante-dix-neuf;111728;Nombre;;;-;;;dela dicollecte;soixante-dix-neuf;852693;-;-;-;-;-;;dela dicollecte
+soixante-dix-sept;110848;Nombre;;;-;;;dela dicollecte;soixante-dix-sept;849557;-;-;-;-;-;;dela dicollecte
+soixante-douze;108700;Nombre;;;-;;;dela dicollecte;soixante-douze;842558;-;-;-;-;-;;dela dicollecte
+soixante-et-onze;112681;Nombre;;;-;;;dicollecte;soixante-et-onze;856577;-;-;-;-;-;;dicollecte
+soixante-et-un;112741;Nombre;;;-;;;dicollecte;soixante-et-un;856766;-;-;-;-;-;;dicollecte
+soixante-huit;110266;Nombre;;;-;;;dela dicollecte;soixante-huit;847628;-;-;-;-;-;;dela dicollecte
+soixante-neuf;110612;Nombre;;;-;;;dela dicollecte;soixante-neuf;848741;-;-;-;-;-;;dela dicollecte
+soixante-quatorze;110528;Nombre;;;-;;;dela dicollecte;soixante-quatorze;848512;-;-;-;-;-;;dela dicollecte
+soixante-quatre;109110;Nombre;;;-;;;dela dicollecte;soixante-quatre;843812;-;-;-;-;-;;dela dicollecte
+soixante-quinze;107712;Nombre;;;-;;;dela dicollecte;soixante-quinze;839314;-;-;-;-;-;;dela dicollecte
+soixante-seize;110437;Nombre;;;-;;;dela dicollecte;soixante-seize;848212;-;-;-;-;-;;dela dicollecte
+soixante-sept;109998;Nombre;;;-;;;dela dicollecte;soixante-sept;846674;-;-;-;-;-;;dela dicollecte
+soixante-six;109825;Nombre;;;-;;;dela dicollecte;soixante-six;846079;-;-;-;-;-;;dela dicollecte
+soixante-treize;110464;Nombre;;;-;;;dela dicollecte;soixante-treize;848313;-;-;-;-;-;;dela dicollecte
+soixante-trois;109699;Nombre;;;-;;;dela dicollecte;soixante-trois;845651;-;-;-;-;-;;dela dicollecte
+treize;62171;Nombre;;;-;;t R E z @;morphalou2 dela dicollecte;treize;483843;invariable;-;invariable;-;-;t R E z @;morphalou2 dela dicollecte
+trente;62212;Nombre;;;-;;t R a~ t @;morphalou2 dela dicollecte;trente;484086;invariable;-;invariable;-;-;t R a~ t @;morphalou2 dela dicollecte
+trente-cinq;105493;Nombre;;;-;;;dela dicollecte;trente-cinq;832085;-;-;-;-;-;;dela dicollecte
+trente-deux;106131;Nombre;;;-;;;dela dicollecte;trente-deux;834096;-;-;-;-;-;;dela dicollecte
+trente-et-quarante;113086;Nombre;;;-;;;dicollecte;trente-et-quarante;857774;-;-;-;-;-;;dicollecte
+trente-et-un;111194;Nombre;;;-;;;dicollecte;trente-et-un;850829;-;-;-;-;-;;dicollecte
+trente-huit;107714;Nombre;;;-;;;dela dicollecte;trente-huit;839323;-;-;-;-;-;;dela dicollecte
+trente-neuf;108337;Nombre;;;-;;;dela dicollecte;trente-neuf;841451;-;-;-;-;-;;dela dicollecte
+trente-quatre;107702;Nombre;;;-;;;dela dicollecte;trente-quatre;839283;-;-;-;-;-;;dela dicollecte
+trente-sept;107330;Nombre;;;-;;;dela dicollecte;trente-sept;838131;-;-;-;-;-;;dela dicollecte
+trente-six;93738;Nombre;;;-;;t R a~ t @ s i s;morphalou2 dela dicollecte;trente-six;833632;-;-;-;-;-;;dela dicollecte
+trente-six mille;93741;Nombre;;;-;;t R a~ t @ s i m i l @;morphalou2;trente-six mille;1034155;-;-;-;-;-;t R a~ t @ s i m i l @;
+trente-trois;106879;Nombre;;;-;;;dela dicollecte;trente-trois;836622;-;-;-;-;-;;dela dicollecte
+trois;62512;Nombre;;;-;;t R w a;morphalou2 dela dicollecte;trois;486125;invariable;-;invariable;-;-;t R w a;morphalou2 dela dicollecte
+un;169629;Nombre;;;-;;9~;;un;1036187;singular;-;masculine;-;-;y n @;
+;;;;;;;;;une;1036189;singular;-;feminine;-;-;y n @;
+V;101101;Nombre;;;-;;;dicollecte;V;818715;-;-;-;-;-;;dicollecte
+VI;101112;Nombre;;;-;;;dicollecte;VI;818733;-;-;-;-;-;;dicollecte
+VII;101132;Nombre;;;-;;;dicollecte;VII;818784;-;-;-;-;-;;dicollecte
+VIII;101139;Nombre;;;-;;;dicollecte;VIII;818800;-;-;-;-;-;;dicollecte
+vingt;64420;Nombre;;;-;;v e~;morphalou2 dela dicollecte;vingt;498457;invariable;-;invariable;-;-;v e~;morphalou2 dela dicollecte
+;;;;;;;;;vingts;819311;-;-;-;-;-;;dicollecte
+vingt-cinq;103589;Nombre;;;-;;;dela dicollecte;vingt-cinq;826173;-;-;-;-;-;;dela dicollecte
+vingt-deux;104863;Nombre;;;-;;;dela dicollecte;vingt-deux;830136;-;-;-;-;-;;dela dicollecte
+vingt-et-un;108390;Nombre;;;-;;;dicollecte;vingt-et-un;841605;-;-;-;-;-;;dicollecte
+vingt-huit;106100;Nombre;;;-;;;dela dicollecte;vingt-huit;834010;-;-;-;-;-;;dela dicollecte
+vingt-neuf;107341;Nombre;;;-;;;dela dicollecte;vingt-neuf;838167;-;-;-;-;-;;dela dicollecte
+vingt-quatre;104015;Nombre;;;-;;;dela dicollecte;vingt-quatre;827501;-;-;-;-;-;;dela dicollecte
+vingt-sept;106052;Nombre;;;-;;;dela dicollecte;vingt-sept;833860;-;-;-;-;-;;dela dicollecte
+vingt-six;105988;Nombre;;;-;;;dela dicollecte;vingt-six;833652;-;-;-;-;-;;dela dicollecte
+vingt-trois;105495;Nombre;;;-;;;dela dicollecte;vingt-trois;832090;-;-;-;-;-;;dela dicollecte
+X;101128;Nombre;;;-;;;dicollecte;X;818776;-;-;-;-;-;;dicollecte
+XI;101176;Nombre;;;-;;;dicollecte;XI;818905;-;-;-;-;-;;dicollecte
+XII;101171;Nombre;;;-;;;dicollecte;XII;818885;-;-;-;-;-;;dicollecte
+XIII;101169;Nombre;;;-;;;dicollecte;XIII;818879;-;-;-;-;-;;dicollecte
+XIV;101138;Nombre;;;-;;;dicollecte;XIV;818799;-;-;-;-;-;;dicollecte
+XIX;101291;Nombre;;;-;;;dicollecte;XIX;819209;-;-;-;-;-;;dicollecte
+XL;101785;Nombre;;;-;;;dicollecte;XL;820588;-;-;-;-;-;;dicollecte
+XLI;102189;Nombre;;;-;;;dicollecte;XLI;821793;-;-;-;-;-;;dicollecte
+XLII;102201;Nombre;;;-;;;dicollecte;XLII;821822;-;-;-;-;-;;dicollecte
+XLIII;102236;Nombre;;;-;;;dicollecte;XLIII;821931;-;-;-;-;-;;dicollecte
+XLIV;102243;Nombre;;;-;;;dicollecte;XLIV;821948;-;-;-;-;-;;dicollecte
+XLIX;102412;Nombre;;;-;;;dicollecte;XLIX;822493;-;-;-;-;-;;dicollecte
+XLV;102348;Nombre;;;-;;;dicollecte;XLV;822274;-;-;-;-;-;;dicollecte
+XLVI;102389;Nombre;;;-;;;dicollecte;XLVI;822402;-;-;-;-;-;;dicollecte
+XLVII;102394;Nombre;;;-;;;dicollecte;XLVII;822436;-;-;-;-;-;;dicollecte
+XLVIII;102337;Nombre;;;-;;;dicollecte;XLVIII;822241;-;-;-;-;-;;dicollecte
+XV;101193;Nombre;;;-;;;dicollecte;XV;818950;-;-;-;-;-;;dicollecte
+XVI;101165;Nombre;;;-;;;dicollecte;XVI;818869;-;-;-;-;-;;dicollecte
+XVII;101254;Nombre;;;-;;;dicollecte;XVII;819116;-;-;-;-;-;;dicollecte
+XVIII;101200;Nombre;;;-;;;dicollecte;XVIII;818979;-;-;-;-;-;;dicollecte
+XX;101334;Nombre;;;-;;;dicollecte;XX;819338;-;-;-;-;-;;dicollecte
+XXI;101441;Nombre;;;-;;;dicollecte;XXI;819648;-;-;-;-;-;;dicollecte
+XXII;101409;Nombre;;;-;;;dicollecte;XXII;819548;-;-;-;-;-;;dicollecte
+XXIII;101424;Nombre;;;-;;;dicollecte;XXIII;819596;-;-;-;-;-;;dicollecte
+XXIV;101545;Nombre;;;-;;;dicollecte;XXIV;819906;-;-;-;-;-;;dicollecte
+XXIX;101718;Nombre;;;-;;;dicollecte;XXIX;820384;-;-;-;-;-;;dicollecte
+XXV;101620;Nombre;;;-;;;dicollecte;XXV;820101;-;-;-;-;-;;dicollecte
+XXVI;101584;Nombre;;;-;;;dicollecte;XXVI;819994;-;-;-;-;-;;dicollecte
+XXVII;101594;Nombre;;;-;;;dicollecte;XXVII;820033;-;-;-;-;-;;dicollecte
+XXVIII;101613;Nombre;;;-;;;dicollecte;XXVIII;820078;-;-;-;-;-;;dicollecte
+XXX;101642;Nombre;;;-;;;dicollecte;XXX;820174;-;-;-;-;-;;dicollecte
+XXXI;101740;Nombre;;;-;;;dicollecte;XXXI;820443;-;-;-;-;-;;dicollecte
+XXXII;101767;Nombre;;;-;;;dicollecte;XXXII;820527;-;-;-;-;-;;dicollecte
+XXXIII;101773;Nombre;;;-;;;dicollecte;XXXIII;820544;-;-;-;-;-;;dicollecte
+XXXIV;101846;Nombre;;;-;;;dicollecte;XXXIV;820770;-;-;-;-;-;;dicollecte
+XXXIX;101958;Nombre;;;-;;;dicollecte;XXXIX;821111;-;-;-;-;-;;dicollecte
+XXXV;101883;Nombre;;;-;;;dicollecte;XXXV;820883;-;-;-;-;-;;dicollecte
+XXXVI;101849;Nombre;;;-;;;dicollecte;XXXVI;820778;-;-;-;-;-;;dicollecte
+XXXVII;101852;Nombre;;;-;;;dicollecte;XXXVII;820783;-;-;-;-;-;;dicollecte
+XXXVIII;101876;Nombre;;;-;;;dicollecte;XXXVIII;820869;-;-;-;-;-;;dicollecte
+zéro;101414;Nombre;;;-;;;dela dicollecte;zéro;819559;invariable;-;invariable;-;-;;dela dicollecte
+zéroième;95668;Nombre;;;-;;z e R w a E m @ OU z E/ R w a E m @ ;morphalou2;zéroième;1035219;-;-;-;-;-;z e R w a E m @ OU z E/ R w a E m @ ;

@@ -45,6 +45,9 @@ $_SESSION['grid'] = uniqid('', true);
                     var HAUTGAUCHE = $(this).find('input[name=HAUTGAUCHE]').val();
                     var tailleGrilleX = $(this).find('textarea[name=tailleGrilleX]').val();
                     var tailleGrilleY = $(this).find('textarea[name=tailleGrilleY]').val();
+                    var auHasard = $(this).find('input[name=auHasard]').prop("checked");
+                    var nbMots = $(this).find('input[name=nbMots]').val();
+                    console.log(nbMots);
 
                     var grid = "<?php echo $_SESSION['grid']; ?>";
                     event.preventDefault();
@@ -66,7 +69,9 @@ $_SESSION['grid'] = uniqid('', true);
                             GAUCHE       : GAUCHE,
                             HAUTGAUCHE   : HAUTGAUCHE,
                             tailleGrilleX: tailleGrilleX,
-                            tailleGrilleY: tailleGrilleY
+                            tailleGrilleY: tailleGrilleY,
+                            auHasard     : auHasard,
+                            nbMots       : nbMots
                         }
                     }).done(function (data) {
 
@@ -80,8 +85,24 @@ $_SESSION['grid'] = uniqid('', true);
                                        $("div#spinner").hide();
                                        // montrer le success
                                        $("div#success").show();
-                                      $("div#success").fadeOut();
+                                       $("div#success").fadeOut('slow');
                                    });
+                }
+            });
+
+            $('form[name=generer] input[name=auHasard').on({
+                change: function (event) {
+                    if ($(this).prop("checked")) {
+                        // désactiver les champs de saisie "mots" et "motsSecrets"
+                        $('form[name=generer').find('#mots+textarea').prop("disabled", true);
+                        $('form[name=generer').find('#motsSecrets+textarea').prop("disabled", true);
+                        //activer nbMots
+                        $('form[name=generer').find('input[name=nbMots]').prop("disabled", false);
+                    } else {
+                        $('form[name=generer').find('#mots+textarea').prop("disabled", false);
+                        $('form[name=generer').find('#motsSecrets+textarea').prop("disabled", false);
+                        $('form[name=generer').find('input[name=nbMots]').prop("disabled", true);
+                    }
                 }
             });
 
@@ -230,9 +251,26 @@ $_SESSION['grid'] = uniqid('', true);
                 <textarea name="motsSecrets" class="form-control" placeholder="mot1,mot2,mot3,..." aria-label="mots"
                           aria-describedby="mots" rows="3"></textarea>
             </div>
-            <button class="btn btn-primary" type="submit">SCRAMBLE</button>
+            <div>
+                <div style="float:left" class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" name="auHasard" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Choisir des mots au hasard (Morphalou)
+                    </label>
+                </div>
+                <div style="" class="input-group">
+                    <span class="input-group-text" id="nbMots">nombre de mots au hasard</span>
+                    <input style="margin-top:4px" name="nbMots" class="form-control" aria-label="nbMots"
+                           aria-describedby="nbMots" value="10" rows="3" disabled>
+                </div>
+            </div>
+            <br>
+            <div style="clear:both">
+                <button class="btn btn-primary" type="submit">SCRAMBLE</button>
+            </div>
         </form>
     </div>
+    <br>
     <div class="conteneur">
     </div>
 </div>

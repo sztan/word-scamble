@@ -9,7 +9,7 @@ $_SESSION['grid'] = uniqid('', true);
 // sens d'écriture autorisés
 
 //remplacer les ; par des virgules
-$_POST['mots'] = str_replace(';',',', $_POST['mots']);
+$_POST['mots'] = str_replace(';', ',', $_POST['mots']);
 //remplacer les 'new line' par des virgules
 $_POST['mots'] = preg_replace("/\n/m", ",", $_POST['mots']);
 //remplacer les whitespaces par des virgules
@@ -18,7 +18,7 @@ $_POST['mots'] = preg_replace("/\s/m", ",", $_POST['mots']);
 $_POST['mots'] = preg_replace('/,+/', ',', $_POST['mots']);
 
 //remplacer les ; par des virgules
-$_POST['motsSecrets'] = str_replace(';',',', $_POST['motsSecrets']);
+$_POST['motsSecrets'] = str_replace(';', ',', $_POST['motsSecrets']);
 //remplacer les 'new line' par des virgules
 $_POST['motsSecrets'] = preg_replace("/\n/m", ",", $_POST['motsSecrets']);
 //remplacer les whitespaces par des virgules
@@ -26,6 +26,24 @@ $_POST['motsSecrets'] = preg_replace("/\s/m", ",", $_POST['motsSecrets']);
 // dé-x-blonner les ,
 $_POST['motsSecrets'] = preg_replace('/,+/', ',', $_POST['motsSecrets']);
 
+$motsAuHasard = [];
+if ($_POST['auHasard'] === "true") {
+    $csvMots = [];
+    $file = fopen('./Morphalou3.1_formatCSV/commonNoun_Morphalou3.1_CSV.csv', 'rb');
+    $i = 0;
+    while (($line = fgetcsv($file)) !== FALSE) {
+        if ($i++ < 16) {
+            continue;
+        }
+        $csvMots[] = explode(';', $line[0])[0];
+    }
+    fclose($file);
+    $csvMots = array_filter($csvMots);
+
+    for ($i = 0; $i < $_POST['nbMots']; $i++) {
+        $motsAuHasard[] = $csvMots[array_rand($csvMots)];
+    }
+}
 // caractères spéciaux
 
 $bilan = [];
@@ -59,7 +77,7 @@ a:
 //    "Salomé",
 //    "Noémie",
 //];
-$motsVisibles = array_unique(array_filter(array_map('trim', explode(',', $_POST['mots']))));
+$motsVisibles = empty($motsAuHasard) ? array_unique(array_filter(array_map('trim', explode(',', $_POST['mots'])))) : $motsAuHasard;
 $motsCaches = array_unique(array_filter(array_map('trim', explode(',', $_POST['motsSecrets']))));
 
 // in order to convert multibyte characters into html entities :
@@ -148,10 +166,16 @@ for ($i = 1; $i <= $tot; $i++) {
     $chercher = '';
     $choisir = '';
     unset($possibilites);
-    $mot = choisirMotAuHasard();
+    try {
+        $mot = choisirMotAuHasard();
+    } catch (Exception $e) {
+    }
     $chercher = chercherPlacesMot($mot);
 
-    $choisir = choisirPossibilite($mot);
+    try {
+        $choisir = choisirPossibilite($mot);
+    } catch (Exception $e) {
+    }
 
     if ($chercher === "mot trop long") {
         $bilan[$tries] .= 'Le mot <span style="color:crimson"><strong>';
@@ -437,7 +461,7 @@ try {
 
 ob_start();
 // dessin
-echo '<div style="position:relative; text-align:center"><table><tr><td><table style="border-collapse:collapse">';
+echo '<br><div style="position:relative; float: left; text-align:center"><table style="border-collapse:collapse">';
 for ($y = 1; $y <= $yGrille; $y++) {
     echo '<tr style="border:1px solid black">';
     for ($x = 1; $x <= $xGrille; $x++) {
@@ -447,7 +471,7 @@ for ($y = 1; $y <= $yGrille; $y++) {
     }
     echo '</tr>';
 }
-echo '</table><br/><br/>' . $meilleursBilans[$indexGrilleChoisie] . '</td><td style="padding-left:20px">';
+echo '</table><br/><p style="border:1px solid red; text-align:left">' . $meilleursBilans[$indexGrilleChoisie] . '</p></div><!--html2pdf page break--><div style="position:relative;text-align:center;margin-left:1%;float:left">';
 
 foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key => $value) {
     $mot = "";
@@ -460,19 +484,22 @@ foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key => $value) {
     }
 }
 echo "<b>Il y a " . count($motsCaches) . " mot(s) cache(s) dans la grille.</b>";
-echo '</td></tr></table></div>';
+echo '</div>';
 $retour = ob_get_clean();
 
 require __DIR__ . '/vendor/autoload.php';
 
 use Spipu\Html2Pdf\Html2Pdf;
 
-$html2pdf = new Html2Pdf('L');
+$html2pdf = new Html2Pdf();
 
-$html2pdf->writeHTML($retour);
+$pages = explode("<!--html2pdf page break-->", $retour);
+$html2pdf->writeHTML('<page>' . $pages[0] . '</page>');
+$html2pdf->writeHTML('<page>' . $pages[1] . '</page>');
+
 try {
     $html2pdf->output(__DIR__ . "/${_POST['grid']}.pdf", "F");
 } catch (\Spipu\Html2Pdf\Exception\Html2PdfException $e) {
     echo $e->getMessage();
 }
-echo $retour . "<br><div style=\"clear:both\"><a href=\"${_POST['grid']}.pdf\">grille à télécharger</a></div>";
+echo $retour . "<br><div style=\"clear:both\"><a href=\"${_POST['grid']}.pdf\">grille à télécharger</a></div><br>";
