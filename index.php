@@ -145,7 +145,7 @@ $_SESSION['grid'] = uniqid('', true);
 <!--// caractères spéciaux-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <p>WORD SCRAMBLE GENERATOR</p>
+        <p>WORD SCRAMBLE GENERATOR <span style="font-size:.8em; font-family: arial, cursive"><sub>by <a href="https://sztan.github.io/">sztan</a></sub></span></p>
     </div>
 </nav>
 <div class="container">
