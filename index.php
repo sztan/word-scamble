@@ -21,7 +21,6 @@ $_SESSION['grid'] = uniqid('', true);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -29,6 +28,9 @@ $_SESSION['grid'] = uniqid('', true);
 
     <script>
         $(function () {
+            // initialisation des tooltips bootstrap
+            $('[data-toggle="tooltip"]').tooltip();
+
             $('form[name=generer]').on({
                 submit: function (event) {
                     // activer le spinner
@@ -177,7 +179,7 @@ $_SESSION['grid'] = uniqid('', true);
 
             <!--sens d'écriture-->
             <div style="float:left; text-align:center; position: relative; margin:10px;">
-                <div>Directions d'écriture autorisées</div>
+                <div>Sens d'écriture autorisés</div>
                 <div id="arrow_selector">
                     <div style="clear:both; float:left">
                         <i data-color-inactive="bi-arrow-up-left-circle"
@@ -235,7 +237,9 @@ $_SESSION['grid'] = uniqid('', true);
 
             <div style="clear:both">
                 <label for="tousLesMots">Mettre ici tous les mots à placer dans la grille, les mots seront placés dans
-                    la grille et - par défaut - listés à côté.</label><br>
+                    la grille et - par défaut - listés à côté.<i style="font-size:1.5em; vertical-align:inherit" class="bi bi-question" data-toggle="tooltip"
+                                                                 data-placement="top"
+                                                                 title="Les séparateurs autorisés sont les espaces, virgules, points-virgules, ou 'new line'. Il est possible d'insérer des mots comprenant eux-mêmes des espaces en les remplaçant alors par un _ (underscore)."></i></label><br>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="mots">TOUS LES MOTS</span>
                     <textarea name="tousLesMots" class="form-control" placeholder="mot1,mot2,mot3,..." aria-label="mots"
@@ -254,7 +258,7 @@ $_SESSION['grid'] = uniqid('', true);
                 <div style="float:left" class="form-check">
                     <input class="form-check-input" type="checkbox" value="" name="auHasard" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
-                        Choisir des mots au hasard (Morphalou)
+                        Choisir des mots au hasard (<a href="https://repository.ortolang.fr/api/content/morphalou/latest/LISEZ-MOI.html">Morphalou</a>)
                     </label>
                 </div>
                 <div style="" class="input-group">

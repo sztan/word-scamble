@@ -32,10 +32,15 @@ if ($_POST['auHasard'] === "true") {
     $file = fopen('./Morphalou3.1_formatCSV/commonNoun_Morphalou3.1_CSV.csv', 'rb');
     $i = 0;
     while (($line = fgetcsv($file)) !== FALSE) {
-        if ($i++ < 16) {
+        if (
+            $i++ < 16 ||
+            explode(';', $line[0])[3] === 'abréviation' ||
+            strlen(explode(';', $line[0])[9]) > $_POST['tailleGrilleX'] ||
+            strlen(explode(';', $line[0])[9]) > $_POST['tailleGrilleY']
+        ) {
             continue;
         }
-        $csvMots[] = explode(';', $line[0])[0];
+        $csvMots[] = explode(';', $line[0])[9];
     }
     fclose($file);
     $csvMots = array_filter($csvMots);
@@ -53,31 +58,8 @@ mb_internal_encoding("UTF-8");  // you must ensure that the present file is enco
 
 // }:O
 a:
-//$motsVisibles = [
-//    "chat",
-//    "chien",
-//    "poule",
-//    "coq",
-//    "lapin",
-//    "cochon",
-//    "cheval",
-//    "vache",
-//    "oiseau",
-//    "hamster",
-//    "tortue",
-//    "mouton",
-//    "chèvre",
-//    "âne",
-//    "mûle",
-//    "chinchilla",
-//    "Cheyenne",
-//    "Maëline",
-//    "Iris",
-//    "Jade",
-//    "Salomé",
-//    "Noémie",
-//];
-$motsVisibles = empty($motsAuHasard) ? array_unique(array_filter(array_map('trim', explode(',', $_POST['mots'])))) : $motsAuHasard;
+
+$motsVisibles = empty($motsAuHasard) ? array_unique(array_filter(str_replace('_', ' ', array_map('trim', explode(',', $_POST['mots']))))) : $motsAuHasard;
 $motsCaches = array_unique(array_filter(array_map('trim', explode(',', $_POST['motsSecrets']))));
 
 // in order to convert multibyte characters into html entities :
@@ -124,7 +106,12 @@ $motsPlaces[$tries] = [];
 //$yGrille = 20;
 $xGrille = $_POST['tailleGrilleX'];
 $yGrille = $_POST['tailleGrilleY'];
-
+if ($xGrille < 1) {
+    $xGrille = 15;
+}
+if ($yGrille < 1) {
+    $yGrille = 15;
+}
 // setting writing directions :
 //$HAUT = false;
 //$HAUTDROITE = true;
