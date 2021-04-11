@@ -165,12 +165,12 @@ $_SESSION['grid'] = uniqid('', true);
                 </div>
                 <div style="float:left">
                     <label style="font-size:1.5em; display: block; text-align: center" for="tailleGrilleX">x</label>
-                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="1" rows="1"
+                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="2" rows="1"
                               name="tailleGrilleX">12</textarea>
                 </div>
                 <div style="float:left">
                     <label style="font-size:1.5em; display: block; text-align: center" for="tailleGrilleY">y</label>
-                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="1" rows="1"
+                    <textarea style="font-size:1.5em; width:auto" class="form-control" cols="2" rows="1"
                               name="tailleGrilleY">12</textarea>
                 </div>
             </div>
