@@ -47,7 +47,6 @@ $_SESSION['grid'] = uniqid('', true);
                     var tailleGrilleY = $(this).find('textarea[name=tailleGrilleY]').val();
                     var auHasard = $(this).find('input[name=auHasard]').prop("checked");
                     var nbMots = $(this).find('input[name=nbMots]').val();
-                    console.log(nbMots);
 
                     var grid = "<?php echo $_SESSION['grid']; ?>";
                     event.preventDefault();
