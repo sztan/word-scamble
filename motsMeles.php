@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SESSION['grid'] = uniqid('', true);
 // contrôle des données POST :
 // tous les mots
 // - mots à mettre dans la liste d'aide
@@ -29,25 +28,22 @@ $_POST['motsSecrets'] = preg_replace('/,+/', ',', $_POST['motsSecrets']);
 $motsAuHasard = [];
 if ($_POST['auHasard'] === "true") {
     $csvMots = [];
-    $file = fopen('./Morphalou3.1_formatCSV/commonNoun_Morphalou3.1_CSV.csv', 'rb');
+    $file = file(__DIR__ . '/Morphalou3.1_allWordsOnly.csv');
     $i = 0;
-    while (($line = fgetcsv($file)) !== FALSE) {
-        if (
-            $i++ < 16 ||
-            explode(';', $line[0])[3] === 'abréviation' ||
-            strlen(explode(';', $line[0])[9]) > $_POST['tailleGrilleX'] ||
-            strlen(explode(';', $line[0])[9]) > $_POST['tailleGrilleY']
-        ) {
-            continue;
-        }
-        $csvMots[] = explode(';', $line[0])[9];
-    }
-    fclose($file);
-    $csvMots = array_filter($csvMots);
 
-    for ($i = 0; $i < $_POST['nbMots']; $i++) {
-        $motsAuHasard[] = $csvMots[array_rand($csvMots)];
+    while (count($motsAuHasard) < $_POST['nbMots']) {
+        $motAuHasard = $file[array_rand($file)];
+        if (
+            !empty($motAuHasard) &&
+            (
+                trim(strlen($motAuHasard)) <= $_POST['tailleGrilleX'] ||
+                trim(strlen($motAuHasard)) <= $_POST['tailleGrilleY']
+            )
+        ) {
+            $motsAuHasard[] = trim($motAuHasard);
+        }
     }
+
 }
 // caractères spéciaux
 
