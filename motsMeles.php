@@ -120,7 +120,7 @@ if ($yGrille < 1) {
 $HAUT = (bool)$_POST['HAUT'];
 $HAUTDROITE = (bool)$_POST['HAUTDROITE'];
 $DROITE = (bool)$_POST['DROITE'];
-$BASDROITE = (bool)$_POST['BASDROITE '];
+$BASDROITE = (bool)$_POST['BASDROITE'];
 $BAS = (bool)$_POST['BAS'];
 $BASGAUCHE = (bool)$_POST['BASGAUCHE'];
 $GAUCHE = (bool)$_POST['GAUCHE'];
