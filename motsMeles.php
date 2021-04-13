@@ -64,9 +64,11 @@ $motsVisibles = array_map('htmlentities', $motsVisibles);
 
 // ajouter les mots secrets
 $mots=$motsVisibles;
+$nb_mots_caches=0;
 foreach($motsCaches as $m) {
     if(!in_array($m, $motsVisibles)) {
         $mots[]=$m;
+        $nb_mots_caches++;
     }
 }
 
@@ -472,7 +474,7 @@ foreach ($meilleursMotsPlaces[$indexGrilleChoisie] as $key => $value) {
         echo '<br>';
     }
 }
-echo "<b>Il y a " . count($motsCaches) . " mot(s) cache(s) dans la grille.</b>";
+echo "<b>Il y a $nb_mots_caches mot(s) cache(s) dans la grille.</b>";
 echo '</div>';
 $retour = ob_get_clean();
 
