@@ -189,14 +189,14 @@ $_SESSION['grid'] = uniqid('', true);
                     </div>
                     <div style="float:left">
                         &nbsp;<i data-color-inactive="bi-arrow-up-circle" data-color-active="bi-arrow-up-circle-fill"
-                                 class="bi bi-arrow-up-circle-fill"></i>
-                        <input type="hidden" name="HAUT" value="1">
+                                 class="bi bi-arrow-up-circle"></i>
+                        <input type="hidden" name="HAUT" value="0">
                     </div>
                     <div style="float:left">
                         &nbsp;<i data-color-inactive="bi-arrow-up-right-circle"
                                  data-color-active="bi-arrow-up-right-circle-fill"
-                                 class="bi bi-arrow-up-right-circle"></i>
-                        <input type="hidden" name="HAUTDROITE" value="0">
+                                 class="bi bi-arrow-up-right-circle-fill"></i>
+                        <input type="hidden" name="HAUTDROITE" value="1">
                     </div>
 
                     <div style="clear:both; float:left">
@@ -229,8 +229,8 @@ $_SESSION['grid'] = uniqid('', true);
                     <div style="float:left">
                         &nbsp;<i data-color-inactive="bi-arrow-down-right-circle"
                                  data-color-active="bi-arrow-down-right-circle-fill"
-                                 class="bi bi-arrow-down-right-circle"></i>
-                        <input type="hidden" name="BASDROITE" value="0">
+                                 class="bi bi-arrow-down-right-circle-fill"></i>
+                        <input type="hidden" name="BASDROITE" value="1">
                     </div>
                 </div>
             </div>

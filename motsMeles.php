@@ -55,14 +55,20 @@ mb_internal_encoding("UTF-8");  // you must ensure that the present file is enco
 // }:O
 a:
 
-$motsVisibles = empty($motsAuHasard) ? array_unique(array_filter(str_replace('_', ' ', array_map('trim', explode(',', $_POST['mots']))))) : $motsAuHasard;
-$motsCaches = array_unique(array_filter(array_map('trim', explode(',', $_POST['motsSecrets']))));
+$motsVisibles = empty($motsAuHasard) ? array_filter(str_replace('_', ' ', array_map('trim', explode(',', $_POST['mots'])))) : $motsAuHasard;
+$motsCaches = array_filter(array_map('trim', explode(',', $_POST['motsSecrets'])));
 
 // in order to convert multibyte characters into html entities :
 $motsCaches = array_map('htmlentities', $motsCaches);
 $motsVisibles = array_map('htmlentities', $motsVisibles);
 
-$mots = array_merge($motsCaches, $motsVisibles);
+// ajouter les mots secrets
+$mots=$motsVisibles;
+foreach($motsCaches as $m) {
+    if(!in_array($m, $motsVisibles)) {
+        $mots[]=$m;
+    }
+}
 
 /* then convert each word into an array, taking htmlentities into account */
 $mots = array_map('str_split', $mots);
