@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['grid'] = uniqid('', true);
+$_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
 ?>
 <!doctype html>
 <html lang="fr">
