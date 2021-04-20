@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
+$_SESSION['grid'] = str_replace('.', '_', (string)uniqid('', true));
 ?>
 <!doctype html>
 <html lang="fr">
@@ -25,6 +25,8 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- at the end of the body -->
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfVfrEaAAAAAIOzUw_Ou3InzsOBpM2VkC5o4OVh"></script>
 
     <script>
         $(function () {
@@ -33,7 +35,6 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
 
             $('form[name=generer]').on({
                 submit: function (event) {
-                    // activer le spinner
                     $("div#spinner").show();
                     var mots = $(this).find('#mots+textarea').val();
                     var motsSecrets = $(this).find('#motsSecrets+textarea').val();
@@ -49,45 +50,51 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
                     var tailleGrilleY = $(this).find('textarea[name=tailleGrilleY]').val();
                     var auHasard = $(this).find('input[name=auHasard]').prop("checked");
                     var nbMots = $(this).find('input[name=nbMots]').val();
-
                     var grid = "<?php echo $_SESSION['grid']; ?>";
                     event.preventDefault();
-                    // récupération des valeurs du formulaire :
+                    grecaptcha.ready(function() {
+                        grecaptcha.execute('6LfVfrEaAAAAAIOzUw_Ou3InzsOBpM2VkC5o4OVh', {action: 'submit'}).then(function(token) {
+                            // récupération des valeurs du formulaire :
+                            const jqxhr = $.ajax({
+                                method: "POST",
+                                url: "motsMeles.php",
+                                data: {
+                                    grecaptchaToken:token,
+                                    mots: mots,
+                                    motsSecrets: motsSecrets,
+                                    grid: grid,
+                                    HAUT: HAUT,
+                                    HAUTDROITE: HAUTDROITE,
+                                    DROITE: DROITE,
+                                    BASDROITE: BASDROITE,
+                                    BAS: BAS,
+                                    BASGAUCHE: BASGAUCHE,
+                                    GAUCHE: GAUCHE,
+                                    HAUTGAUCHE: HAUTGAUCHE,
+                                    tailleGrilleX: tailleGrilleX,
+                                    tailleGrilleY: tailleGrilleY,
+                                    auHasard: auHasard,
+                                    nbMots: nbMots
+                                }
+                            }).done(function (data) {
 
-                    const jqxhr = $.ajax({
-                        method: "POST",
-                        url   : "motsMeles.php",
-                        data  : {
-                            mots         : mots,
-                            motsSecrets  : motsSecrets,
-                            grid         : grid,
-                            HAUT         : HAUT,
-                            HAUTDROITE   : HAUTDROITE,
-                            DROITE       : DROITE,
-                            BASDROITE    : BASDROITE,
-                            BAS          : BAS,
-                            BASGAUCHE    : BASGAUCHE,
-                            GAUCHE       : GAUCHE,
-                            HAUTGAUCHE   : HAUTGAUCHE,
-                            tailleGrilleX: tailleGrilleX,
-                            tailleGrilleY: tailleGrilleY,
-                            auHasard     : auHasard,
-                            nbMots       : nbMots
-                        }
-                    }).done(function (data) {
+                                $("div.conteneur").html(data);
+                            })
+                                .fail(function () {
+                                    alert("error");
+                                })
+                                .always(function () {
+                                    // enlever le spinner
+                                    $("div#spinner").hide();
+                                    // montrer le success
+                                    $("div#success").show();
+                                    $("div#success").fadeOut('slow');
+                                });
+                        });
+                    });
 
-                        $("div.conteneur").html(data);
-                    })
-                                   .fail(function () {
-                                       alert("error");
-                                   })
-                                   .always(function () {
-                                       // enlever le spinner
-                                       $("div#spinner").hide();
-                                       // montrer le success
-                                       $("div#success").show();
-                                       $("div#success").fadeOut('slow');
-                                   });
+// activer le spinner
+
                 }
             });
 
@@ -145,7 +152,8 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
 <!--// caractères spéciaux-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <p>WORD SCRAMBLE GENERATOR <span style="font-size:.8em; font-family: arial, cursive"><sub>by <a href="https://sztan.github.io/">sztan</a></sub></span></p>
+        <p>WORD SCRAMBLE GENERATOR <span style="font-size:.8em; font-family: arial, cursive"><sub>by <a
+                            href="https://sztan.github.io/">sztan</a></sub></span></p>
     </div>
 </nav>
 <div class="container">
@@ -237,7 +245,8 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
 
             <div style="clear:both">
                 <label for="tousLesMots">Mettre ici tous les mots à placer dans la grille, les mots seront placés dans
-                    la grille et - par défaut - listés à côté.<i style="font-size:1.5em; vertical-align:inherit" class="bi bi-question" data-toggle="tooltip"
+                    la grille et - par défaut - listés à côté.<i style="font-size:1.5em; vertical-align:inherit"
+                                                                 class="bi bi-question" data-toggle="tooltip"
                                                                  data-placement="top"
                                                                  title="Les séparateurs autorisés sont les espaces, virgules, points-virgules, ou 'new line'. Il est possible d'insérer des mots comprenant eux-mêmes des espaces en les remplaçant alors par un _ (underscore)."></i></label><br>
                 <div class="input-group mb-3">
@@ -258,7 +267,8 @@ $_SESSION['grid'] = str_replace('.','_',(string)uniqid('', true));
                 <div style="float:left" class="form-check">
                     <input class="form-check-input" type="checkbox" value="" name="auHasard" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
-                        Choisir des mots au hasard (<a href="https://repository.ortolang.fr/api/content/morphalou/latest/LISEZ-MOI.html">Morphalou</a>)
+                        Choisir des mots au hasard (<a
+                                href="https://repository.ortolang.fr/api/content/morphalou/latest/LISEZ-MOI.html">Morphalou</a>)
                     </label>
                 </div>
                 <div style="" class="input-group">

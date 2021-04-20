@@ -1,12 +1,15 @@
 <?php
 session_start();
-// contrôle des données POST :
-// tous les mots
-// - mots à mettre dans la liste d'aide
-// - mots additionnels cachés
-// taille de la grille
-// sens d'écriture autorisés
+include('env.php');
+include('functions.php');
+// vérifications recaptcha
+$recaptchaSuccess=false;
+include('checkRecaptcha.php');
+if(!$recaptchaSuccess) {
+    return;
+}
 
+// traitement des données $_POST
 //remplacer les ; par des virgules
 $_POST['mots'] = str_replace(';', ',', $_POST['mots']);
 //remplacer les 'new line' par des virgules
@@ -51,6 +54,26 @@ $bilan = [];
 $tries = 0;                       // used to index the array of possible solutions
 $maxTries = 50;                   // the program makes several grid choices, and then picks one up among them
 mb_internal_encoding("UTF-8");  // you must ensure that the present file is encoded in UTF-8
+
+$possibilites=[];
+
+$xGrille = $_POST['tailleGrilleX'];
+$yGrille = $_POST['tailleGrilleY'];
+if ($xGrille < 1) {
+    $xGrille = 15;
+}
+if ($yGrille < 1) {
+    $yGrille = 15;
+}
+// setting writing directions :
+$HAUT = (bool)$_POST['HAUT'];
+$HAUTDROITE = (bool)$_POST['HAUTDROITE'];
+$DROITE = (bool)$_POST['DROITE'];
+$BASDROITE = (bool)$_POST['BASDROITE'];
+$BAS = (bool)$_POST['BAS'];
+$BASGAUCHE = (bool)$_POST['BASGAUCHE'];
+$GAUCHE = (bool)$_POST['GAUCHE'];
+$HAUTGAUCHE = (bool)$_POST['HAUTGAUCHE'];
 
 // }:O
 a:
@@ -105,34 +128,7 @@ shuffle($mots);
 $bilan[$tries] = '';
 $motsPlaces[$tries] = [];
 
-// grid size de la grille
-//$xGrille = 20;
-//$yGrille = 20;
-$xGrille = $_POST['tailleGrilleX'];
-$yGrille = $_POST['tailleGrilleY'];
-if ($xGrille < 1) {
-    $xGrille = 15;
-}
-if ($yGrille < 1) {
-    $yGrille = 15;
-}
-// setting writing directions :
-//$HAUT = false;
-//$HAUTDROITE = true;
-//$DROITE = true;
-//$BASDROITE = true;
-//$BAS = true;
-//$BASGAUCHE = false;
-//$GAUCHE = false;
-//$HAUTGAUCHE = false;
-$HAUT = (bool)$_POST['HAUT'];
-$HAUTDROITE = (bool)$_POST['HAUTDROITE'];
-$DROITE = (bool)$_POST['DROITE'];
-$BASDROITE = (bool)$_POST['BASDROITE'];
-$BAS = (bool)$_POST['BAS'];
-$BASGAUCHE = (bool)$_POST['BASGAUCHE'];
-$GAUCHE = (bool)$_POST['GAUCHE'];
-$HAUTGAUCHE = (bool)$_POST['HAUTGAUCHE'];
+
 
 $grille = [];
 // grid initialization
