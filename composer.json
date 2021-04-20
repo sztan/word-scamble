@@ -1,6 +1,10 @@
 {
   "require": {
     "spipu/html2pdf": "^5.2",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "ext-curl": "*",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^5.3"
   }
 }

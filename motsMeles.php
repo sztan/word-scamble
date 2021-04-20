@@ -1,7 +1,7 @@
 <?php
 session_start();
+require __DIR__ . '/vendor/autoload.php';
 include('env.php');
-include('functions.php');
 // vérifications recaptcha
 $recaptchaSuccess=false;
 include('checkRecaptcha.php');

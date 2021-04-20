@@ -1,10 +1,9 @@
 <?php
 $curl_body = array(
-    "secret" => my_get_env('RECAPTCHA_SECRET'),
+    "secret" => $_ENV['RECAPTCHA_SECRET'],
     "response" => $_POST['grecaptchaToken'],
 );
 $data_string = "secret=" . $curl_body['secret'] . "&response=" . $curl_body['response'];
-//die(var_dump($_POST));
 $url = "https://www.google.com/recaptcha/api/siteverify";
 $ch = curl_init();
 $a[] = curl_setopt($ch, CURLOPT_URL, $url);
