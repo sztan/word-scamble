@@ -13,6 +13,10 @@ $a[] = curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $result = json_decode(curl_exec($ch));
 
+// debug
+error_log($result);
+error_log($ch);
+
 $recaptchaLogMessage="validation recaptcha ...";
 if ($result->success) {
     $recaptchaSuccess=true;
